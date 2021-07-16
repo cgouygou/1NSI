@@ -1,8 +1,15 @@
-site_name: "petits tests préparatoires"
+site_name: "Cours de NSI - Première - Groupe de M. Gouygou"
 
 nav:
   - 'accueil' : 'index.md'
-  - 'cryptographie' : 'crypto.md'
+  - 'Thème 1: Bases de Python' : 
+    - 'Chap. 01 : Les variables' : 'theme1/01_variable.md'
+    - 'Chap. 02 : Instruction conditionnelle' : 'theme1/02_ifelse.md'
+  - 'Thème 2: Types construits' : 'theme2.md'
+  - 'Thème 3: Représentation des données' : 'theme3.md'
+  - 'Thème 4: Architecture matérielle' : 'theme4.md'
+
+  # - 'cryptographie' : 'crypto.md'
 
 
 theme:

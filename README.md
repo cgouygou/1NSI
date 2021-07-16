@@ -1,4 +1,4 @@
 # 1NSI
-Cours de 1ere NSI au lycée Marguerite de Valois
+Cours de 1ere NSI - C. Gouygou
+Lycée Marguerite de Valois - Angoulême
 
-Ceci est un plagiat éhonté du cours de M. Lassus

@@ -5,7 +5,6 @@
 Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
 
-## Quelques liens utiles
-
-- [Lycée Connecté](https://lyceeconnecte.fr)
-- Le site d'[Interstices](https://interstices.info/)
+!!! note "Quelques liens utiles"
+    - [Lycée Connecté](https://lyceeconnecte.fr)
+    - Le site d'[Interstices](https://interstices.info/)

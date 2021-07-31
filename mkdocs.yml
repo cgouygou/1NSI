@@ -18,6 +18,10 @@ theme:
   custom_dir: my_theme_customizations/
   font: false
   language: fr
+
+  icon:
+    logo: fontawesome/solid/laptop-code
+
   features:
     - navigation.instant
     - navigation.tabs
@@ -30,8 +34,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: youtube
+      accent: youtube
       toggle:
         icon: material/toggle-switch-off-outline
         name: Mode sombre
@@ -39,8 +43,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: youtube
+      accent: youtube
       toggle:
         icon: material/toggle-switch
         name: Mode clair
@@ -85,8 +89,16 @@ plugins:
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:mon_prénom.mon_nom@chez.moi
+      link: mailto:cedric.gouygou@ac-poitiers.fr
       name: Écrire à l'auteur
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/cgouygou/1NSI
+      name: Dépôt git
+
+    - icon: fontawesome/solid/university
+      link: https://lyceevalois.com
+      name: Lycée Marguerite de Valois - Angoulême (16)
 
 extra_javascript:
   - xtra/javascripts/interpreter.js
@@ -95,5 +107,11 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
 
 extra_css:
+  - xtra/stylesheets/pyoditeur.extra_css
   - stylesheets/extra.css
-  - xtra/stylesheets/pyoditeur.css
+  
+
+copyright:  CC BY-SA / C. Gouygou
+
+
+

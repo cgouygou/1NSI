@@ -21,6 +21,7 @@ theme:
 
   icon:
     logo: fontawesome/solid/laptop-code
+    repo : fontawesome/brands/github
 
   features:
     - navigation.instant
@@ -113,5 +114,6 @@ extra_css:
 
 copyright:  CC BY-SA / C. Gouygou
 
-
+repo_url: https://github.com/cgouygou/1NSI
+repo_name: cgouygou/1NSI
 

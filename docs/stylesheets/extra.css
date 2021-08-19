@@ -10,6 +10,14 @@
     font-size: 0.8rem;
 }
 
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.w640 {
+    width: 640px;
+}
 /* :root {
     --md-primary-fg-color:        #EE0F0F;
     --md-primary-fg-color--light: #ECB7B7;

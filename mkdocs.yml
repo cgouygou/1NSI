@@ -1,13 +1,14 @@
 site_name: "Cours de NSI - Première - Groupe de M. Gouygou"
+site_url: "https://cgouygou.github.io/1NSI/"
 
-nav:
-  - 'accueil' : 'index.md'
-  - 'Thème 1: Bases de Python' : 
-    - 'Chap. 01 : Les variables' : 'theme1/01_variable.md'
-    - 'Chap. 02 : Instruction conditionnelle' : 'theme1/02_ifelse.md'
-  - 'Thème 2: Types construits' : 'theme2.md'
-  - 'Thème 3: Représentation des données' : 'theme3.md'
-  - 'Thème 4: Architecture matérielle' : 'theme4.md'
+# nav:
+#   - 'accueil' : 'index.md'
+#   - 'Thème 1: Bases de Python' : 
+#     - 'Chap. 01 : Les variables' : 'theme1/01_variable.md'
+#     - 'Chap. 02 : Instruction conditionnelle' : 'theme1/02_ifelse.md'
+#   - 'Thème 2: Types construits' : 'theme2.md'
+#   - 'Thème 3: Représentation des données' : 'theme3.md'
+#   - 'Thème 4: Architecture matérielle' : 'theme4.md'
 
   # - 'cryptographie' : 'crypto.md'
 
@@ -23,6 +24,7 @@ theme:
     logo: fontawesome/solid/laptop-code
     repo : fontawesome/brands/github
 
+  
   features:
     - navigation.instant
     - navigation.tabs
@@ -35,19 +37,19 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: youtube
-      accent: youtube
+      primary: indigo
+      accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb-outline
         name: Mode sombre
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: youtube
-      accent: youtube
+      primary: blue
+      accent: blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb
         name: Mode clair
 
 
@@ -67,6 +69,7 @@ markdown_extensions:
       linenums: true
   - pymdownx.tasklist:
       custom_checkbox: false
+      clickable_checkbox: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.keys
@@ -86,6 +89,8 @@ markdown_extensions:
 plugins:
   - search
   - macros
+  - awesome-pages:
+      collapse_single_pages: true
 
 extra:
   social:
@@ -108,9 +113,8 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
 
 extra_css:
-  - xtra/stylesheets/pyoditeur.extra_css
   - stylesheets/extra.css
-  
+  - xtra/stylesheets/pyoditeur.css
 
 copyright:  CC BY-SA / C. Gouygou
 

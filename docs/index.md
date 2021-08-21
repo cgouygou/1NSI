@@ -6,7 +6,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
 <br>
 
-## Programme
+## Programme et progression
 
 !!! abstract "Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes"
     === "Thème 1"
@@ -87,6 +87,40 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
         7.4 Recherche dichotomique dans un tableau trié
 
         7.5 Algorithmes gloutons
+
+!!! abstract "Progression"
+    Cette progression est découpée selon les 5 périodes entre les vacances.
+
+    === "Période 1"
+
+        1. tata
+        2. toto
+        3. tutu
+    
+    === "Période 2"
+
+        1. tata
+        2. toto
+        3. tutu
+    
+    === "Période 3"
+
+        1. tata
+        2. toto
+        3. tutu
+    
+    === "Période 4"
+
+        1. tata
+        2. toto
+        3. tutu
+    
+    === "Période 5"
+
+        1. tata
+        2. toto
+        3. tutu
+    
 
 
 ## Sources

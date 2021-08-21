@@ -1,7 +1,7 @@
 # Cours de NSI - Première - Groupe de M. Gouygou
 
 
-![mdv](images/logo_MdV_site.png){width=25% align=right}
+![mdv](images/logo_MdV_site.png){width=33% align=right}
 Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
 <br>
@@ -148,7 +148,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     ![](images/progression1NSI.png){: .center} 
 
-    
+    https://cgouygou.github.io/1NSI/index.html
 
 
 ## Sources

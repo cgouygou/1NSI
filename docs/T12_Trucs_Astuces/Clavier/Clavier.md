@@ -2,6 +2,7 @@
 
 Utiliser le clavier est souvent bien plus pratique et surtout plus rapide qu'utiliser la souris. Encore faut-il apprendre à l'apprivoiser...
 
+![](../../images/bruce-almighty-keyboard-clavier.gif){: .center} 
 !!! tip "La sélection au clavier"
     Outre les touches `DEBUT` et `FIN` qui permettent d'atteindre rapidement le début ou la fin d'une ligne, les flèches directionelles servent évidemment à se déplacer dans du texte. Mais combinées:
 

@@ -17,7 +17,7 @@ Cela permet donc de suivre des indications et de coder dans la même fenêtre. C
 
 ??? video "Vidéo"
     <p align="center">
-    <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Og847HVwRSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/7JSVkgl2Cgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
 
 ## En ligne
@@ -26,5 +26,5 @@ Un service Jupyter est intégré à l'ENT. Il suffit pour cela de lancer l'appli
 
 ??? video "Vidéo"
     <p align="center">
-    <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Og847HVwRSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/B8TS9RRpAsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>

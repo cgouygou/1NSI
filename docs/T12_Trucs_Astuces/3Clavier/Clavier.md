@@ -20,9 +20,22 @@ Utiliser le clavier est souvent bien plus pratique et surtout plus rapide qu'uti
     === "Les universels"
         - La triplette magique `CTRL+X`, `CTRL+C`, `CTRL+V` pour couper, copier, coller;
         - `CTRL+O` pour ouvrir un fichier
+        - `CTRL+N` pour créer un nouveau document;
         - `CTRL+S` pour sauvegarder le document en cours;
         - `CTRL+MAJ+S` pour sauvegarder en précisant le nom du fichier;
         - `CTRL+Z` pour annuler la dernière action, `CTRL+Y` ou `CTRL+MAJ+Z` pour la rétablir;
         - `CTRL+W` pour fermer un onglet;
         - `CTRL+Q` ou `ALT+F4` pour fermer le logiciel;
         - `CTRL+A` pour sélectionner tout (All).
+    
+    === "IDE"
+        À chercher de suite lorsqu'on utilise un nouvel IDE, les raccourcis pour les actions suivantes (entre parenthèses ceux de Thonny):
+
+        - exécuter le code (`F5`)
+        - commenter/décommenter une ligne (`CTRL+M`)
+
+    === "Navigateur Web"
+        - `CTRL+T` pour ouvrir un nouvel onglet;
+        - `CTRL+H` pour ouvrir l'historique;
+        - combiner `CTRL` + clic pour forcer l'ouverture d'un lien dans un nouvel onglet;
+        - combiner `MAJ` + clic pour forcer l'ouverture d'un lien dans une nouvelle fenêtre;

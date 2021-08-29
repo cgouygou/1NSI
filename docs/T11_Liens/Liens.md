@@ -12,6 +12,18 @@
 
 ## À propos de l'orientation
 
+- [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 
+- Une [brochure](../data/Infographie_TN.pdf){:target="_blank"} intéressante.
+
+
+## Pour se creuser la tête
+
+Quelques sites de challenges/énigmes/défis de programmation:
+
+- [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"} 
+- [Advent of Code](https://adventofcode.com/){:target="_blank"} 
+- [MicroContest](http://www.microcontest.com/){:target="_blank"} 
+- [Hackinscience](https://www.hackinscience.org/){:target="_blank"} 
 
 ## Pour se former en autonomie
 
@@ -21,11 +33,5 @@ Au cas où vous vous ennuieriez...
 - [CheckIO](https://checkio.org/){:target="_blank"} 
 - [CodinGame](https://www.codingame.com/start){:target="_blank"} 
 
-## Pour se challenger
 
-Quelques sites de challenges/énigmes/défis de programmation:
-
-- [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"} 
-- [Advent of Code](https://adventofcode.com/){:target="_blank"} 
-- [MicroContest](http://www.microcontest.com/){:target="_blank"} 
 

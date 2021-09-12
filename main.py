@@ -13,6 +13,10 @@ def define_env(env):
         env.variables['compteur_exo'] += 1
         return f"Exercice  { env.variables['compteur_exo']}"
 
+    @env.macro
+    def initexo(n):
+        env.variables['compteur_exo'] = n
+        return ""
 #---------------- </exo perso>-------------------- 
 
 

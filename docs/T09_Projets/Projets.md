@@ -1,3 +1,3 @@
 # Projets
 
-Bientôt des idées de projets, plus ou moins longs...
+![](../images/projet.jpeg){: .center width=640px} 

@@ -1,3 +1,3 @@
 # Projets
 
-![](../images/projet.jpeg){: .center width=640px} 
+![](images/projet.jpeg){: .center width=640px} 

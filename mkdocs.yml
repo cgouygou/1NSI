@@ -54,7 +54,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.highlight:
-      linenums: true
+      linenums: None
   - pymdownx.tasklist:
       custom_checkbox: false
       clickable_checkbox: true

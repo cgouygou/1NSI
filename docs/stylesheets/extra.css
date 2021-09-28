@@ -85,7 +85,24 @@ history.svg : <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path 
             mask-image: var(--md-admonition-icon--capytale);
   }
 
-  
+  :root {
+    --md-admonition-icon--lien: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 80v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48zm-88 16H248.029c-21.313 0-32.08 25.861-16.971 40.971l31.984 31.987L67.515 364.485c-4.686 4.686-4.686 12.284 0 16.971l31.029 31.029c4.687 4.686 12.285 4.686 16.971 0l195.526-195.526 31.988 31.991C358.058 263.977 384 253.425 384 231.979V120c0-13.255-10.745-24-24-24z"/></svg>')
+  }
+  .md-typeset .admonition.lien,
+  .md-typeset details.lien {
+    border-color: rgb(106, 38, 122);
+  }
+  .md-typeset .lien > .admonition-title,
+  .md-typeset .lien > summary {
+    background-color: rgba(106, 38, 122, 0.1);
+    border-color: rgb(106, 38, 122);
+  }
+  .md-typeset .lien > .admonition-title::before,
+  .md-typeset .rappel > summary::before {
+    background-color: rgb(106, 38, 122);
+    -webkit-mask-image: var(--md-admonition-icon--lien);
+            mask-image: var(--md-admonition-icon--lien);
+  }
 /* :root {
     --md-primary-fg-color:        #EE0F0F;
     --md-primary-fg-color--light: #ECB7B7;

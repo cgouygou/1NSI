@@ -12,7 +12,14 @@ Utiliser le clavier est souvent bien plus pratique et surtout plus rapide qu'uti
 
     De même, en se plaçant en début d'une ligne et en combinant la touche `MAJ` et `FIN`, on sélectionne la ligne entière.
 
+!!! tip "La touche `TAB`"
+    ![](../images/touchetab.png){: .center} 
 
+    Outre le marquage d'un taquet de tabulation dans un traitement de texte, la touche `TAB` sert à :
+
+    - passer d'un champ de formulaire à un autre dans une page Web. Par exemple lorsque vous vous identifiez à un compte, après avoir tapé votre login, plutôt que d'utiliser la souris pour aller dans le champ "Mot de passe", appuyez sur `TAB` pour y accéder directement.
+    - insérer un nombre d'espaces fixes : on sert sert pour **indenter** le code;
+    - compléter des commandes enregistrées dans un IDE ou un terminal. Par exemple, si vous avez nommé une variable `mon_nom_de_variable_tres_tres_long`, plus tard dans le code, vous pouvez taper `mon` + `TAB` et l'IDE doit vous proposer l'auto-complétion du nom.
 
 !!! tip "Les raccourcis clavier"
     Il existe de très nombreux raccourcis clavier qui permettent d'exécuter des tâches courantes sans passer par les menus du logiciel. Certains sont (quasi-)universels, c'est-à-dire que ce sont les mêmes sur tous les logiciels, d'autres sont spécifiques à chaque logiciel. Il est important d'en connaître quelques-uns pour être plus efficace.

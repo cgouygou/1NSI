@@ -34,3 +34,15 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
 
 !!! lien "Lien Capytale : [69bf-74184](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/69bf-74184){target="_blank"}"
     Utiliser la «brute-force» !
+
+## Le message pour Queulorior
+
+!!! lien "Lien Capytale : [2549-94446](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/2549-94446){:target="_blank"} 
+    En utilisant Processing.
+    
+    Ou bien le module `turtle`.
+
+## Cerbère
+
+!!! lien "Lien Capytale : [0d75-95569](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/0d75-95569){:target="_blank"} 
+    Brute-forcez: tester toutes les longueurs entières possibles...

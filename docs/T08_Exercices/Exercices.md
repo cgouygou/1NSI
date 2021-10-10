@@ -46,3 +46,7 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
 
 !!! lien "Lien Capytale : [0d75-95569](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/0d75-95569){:target="_blank"}"
     Brute-forcez: tester toutes les longueurs entières possibles...
+
+## SW I: à l'assaut de Gunray
+!!! lien "Lien Capytale : [a5b7-101013](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/a5b7-101013){:target="_blank"} "
+    Utilisez une variable accumulateur.

@@ -1,4 +1,4 @@
-# Cours de NSI - Première - Groupe de M. Gouygou
+# Cours de Première NSI - Groupe 1 - M. Gouygou
 
 
 ![mdv](images/logo_MdV_site.png){width=33% align=right}
@@ -6,9 +6,9 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
 <br>
 
-## Programme et progression
+## Programme
 
-!!! abstract "Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes"
+??? abstract "Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes"
     Nous traiterons les différentes entrées du programme dans les chapitres suivants:
 
     === "Thème 1"
@@ -83,7 +83,9 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
         7.5 Algorithme des $k$ plus proches voisins
 
-!!! abstract "Progression"
+## Progression
+
+???+ abstract "Progression"
     Cette progression est découpée selon les 5 périodes entre les vacances.
 
     === "Période 1"
@@ -148,10 +150,17 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     ![](images/progression1NSI.png){: .center} 
 
-    https://cgouygou.github.io/1NSI/index.html
+    <!-- https://cgouygou.github.io/1NSI/index.html -->
 
 
 ## Sources
 
 ??? abstract "Bibliographie et Sitographie"
     L'essentiel des sources des contenus de ce site:
+
+    - L'excellentissime site de Gilles Lassus : [https://glassus.github.io/premiere_nsi/](https://glassus.github.io/premiere_nsi/){:target="_blank"} 
+    - *Prépabac NSI, 1re générale*, C. Adobet, G. Connan, G. Rozsavolgyi, L. Signac, Hatier
+    - *NSI 1re, 30 leçons avec exercices corrigés*, T. Balabonski, S. Conchon, J-C. Filiâtre, K. Nguyen, Ellipses
+    - *Informatique et Sciences du Numérique*, G. Dowek, Eyrolles
+    - Les ressources disponibles sur [https://gitlab.com/eskool/profs-info](https://gitlab.com/eskool/profs-info){:target="_blank"} et sur le [forum NSI - INRIA](https://mooc-forums.inria.fr/moocnsi/){:target="_blank"}
+

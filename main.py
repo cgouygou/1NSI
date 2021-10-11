@@ -17,6 +17,13 @@ def define_env(env):
     def initexo(n):
         env.variables['compteur_exo'] = n
         return ""
+
+    @env.macro
+    def correction(booleen, texte):
+        if booleen == False:
+            return ""
+        else:
+            return texte
 #---------------- </exo perso>-------------------- 
 
 

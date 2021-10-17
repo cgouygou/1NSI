@@ -8,7 +8,7 @@
 
     **On n'utilisera bien entendu pas les fonctions natives de Python pour effectuer ces conversions**.
 
-    Il faudra écrire des fonctions qui effectuent ces conversions.
+    Il faudra écrire des **fonctions** qui effectuent ces conversions.
 
     === "Décimal → Binaire"
         - la fonction prendra en paramètre un nombre entier (type `int`);

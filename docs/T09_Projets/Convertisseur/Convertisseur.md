@@ -8,23 +8,25 @@
 
     **On n'utilisera bien entendu pas les fonctions natives de Python pour effectuer ces conversions**.
 
+    Il faudra écrire des fonctions qui effectuent ces conversions.
+
     === "Décimal → Binaire"
-        - le programme prendra en entrée un nombre entier (type `int`) donné par l'utilisateur;
-        - le programme donnera sa conversion en binaire sous forme d'une chaîne de caractères (type `str`).
+        - la fonction prendra en paramètre un nombre entier (type `int`);
+        - la fonction renverra sa conversion en binaire sous forme d'une chaîne de caractères (type `str`).
 
         Pour cela:
 
-        - on utilisera l'algorithme des divisions successives;
-        - on stockera les restes dans une chaîne de caractères (attention à l'ordre)
+        - utiliser l'algorithme des divisions successives;
+        - stocker les restes dans une chaîne de caractères (attention à l'ordre)
 
     === "Binaire → Décimal"
-        - le programme prendra en entrée un nombre binaire sous forme d'une chaîne de caractères (type `str`) donné par l'utilisateur;
-        - le programme donnera sa conversion en décimal sous forme d'un nombre entier (type `int`)
+        - la fonction prendra en entrée un nombre binaire sous forme d'une chaîne de caractères (type `str`);
+        - la fonction renverra sa conversion en décimal sous forme d'un nombre entier (type `int`).
 
         Pour cela:
 
-        - on parcourra les caractères du nombre binaire;
-        - on incrémentera de la bonne puissance de deux un `int` selon les valeurs des caractères (convertis en `int`).
+        - parcourir les caractères du nombre binaire;
+        - incrémenter de la bonne puissance de deux un `int` selon les valeurs des caractères (convertis en `int`).
 
 !!! note "Ouverture"
     Réaliser de même un convertisseur hexadécimal / décimal.

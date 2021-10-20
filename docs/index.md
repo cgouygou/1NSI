@@ -102,9 +102,9 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     
     === "Période 2"
 
-        6.3 Spécification
-
         6.4 Jeux de tests
+
+        6.3 Spécification
 
         2.1 Tableaux et listes
 

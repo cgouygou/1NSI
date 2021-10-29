@@ -14,7 +14,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     === "Thème 1"
         **Thème 1: Représentation des données, types et valeurs de base**
 
-        1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
+        1.1 [Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.1_Bases/T1.1_Bases/)
         
         1.2 Valeurs et expressions booléennes
 
@@ -90,21 +90,21 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     === "Période 1"
 
-        6.1 Prise en main de Python
+        6.1 [Prise en main de Python](https://cgouygou.github.io/1NSI/T06_Python/T6.1_Python/T6.1_0_Python/)
 
-        1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
+        1.1 [Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.1_Bases/T1.1_Bases/)
         
-        6.2 Utilisation de bibliothèques
+        6.2 [Utilisation de bibliothèques](https://cgouygou.github.io/1NSI/T06_Python/T6.2_Bibliotheques/T6.2_Bibliotheques/)
 
-        1.2 Valeurs et expressions booléennes
+        1.2 [Valeurs et expressions booléennes](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.2_Booleens/T1.2_Booleens/)
 
-        1.3 Représentation binaire d'un entier relatif
+        1.3 [Représentation binaire d'un entier relatif](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.3_Relatifs/T1.3_Relatifs/)
     
     === "Période 2"
 
-        6.4 Jeux de tests
+        6.4 [Jeux de tests](https://cgouygou.github.io/1NSI/T06_Python/T6.4_Tests/T6.4_Tests/)
 
-        6.3 Spécification
+        6.3 [Spécification]()
 
         2.1 Tableaux et listes
 

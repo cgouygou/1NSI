@@ -102,9 +102,9 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     
     === "Période 2"
 
-        6.4 [Jeux de tests](https://cgouygou.github.io/1NSI/T06_Python/T6.4_Tests/T6.4_Tests/)
+        6.3 [Jeux de tests](https://cgouygou.github.io/1NSI/T06_Python/T6.3_Tests/T6.3_Tests/)
 
-        6.3 [Spécification]()
+        6.4 [Spécification]()
 
         2.1 Tableaux et listes
 

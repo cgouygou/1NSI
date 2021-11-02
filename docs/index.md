@@ -104,7 +104,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
         6.3 [Jeux de tests](https://cgouygou.github.io/1NSI/T06_Python/T6.3_Tests/T6.3_Tests/)
 
-        6.4 [Spécification]()
+        6.4 [Spécification](https://cgouygou.github.io/1NSI/T06_Python/T6.4_Specification/T6.4_Specification/)
 
         2.1 Tableaux et listes
 

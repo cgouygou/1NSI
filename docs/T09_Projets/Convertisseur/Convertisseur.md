@@ -30,3 +30,40 @@
 
 !!! note "Ouverture"
     Réaliser de même un convertisseur hexadécimal / décimal.
+
+
+!!! check "Proposition de correction"
+
+    === "Décimal → Binaire"
+
+        ```python linenums='1'
+        def decimal_vers_binaire(n: int) -> str:
+            '''
+            Renvoie la conversion de l'entier n en mot binaire,
+            en utilisant l'algorithme des divisions successives.
+            - précondition: n doit être un entier positif.
+            '''
+            assert n >= 0
+            mot = ''
+            while n != 0:
+                mot = str(n%2) + mot
+                n = n // 2
+            return mot 
+        ```
+    
+    === "Binaire → Décimal"
+
+        ```python linenums='1'
+        def binaire_vers_decimal(b: str) -> int:
+            '''
+            Renvoie l'écriture décimale d'un nombre donné par son mot binaire,
+            en utilisant la définition de la base 2.
+            '''
+            exposant = len(b) - 1 
+            decimal = 0
+            for bit in b:
+                decimal = decimal + int(bit)*2**exposant
+                exposant -= 1
+            return decimal
+        ```
+        

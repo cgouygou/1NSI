@@ -45,3 +45,47 @@
     - la méthode du masque jetable;
 
 
+!!! check "Proposition de correction"
+    1.
+    ```python linenums='1'
+    def decale_lettre(lettre: str) -> str:
+        '''
+        Renvoie la lettre située 3 places plus loin dans l'alphabet, 
+        en revenant éventuellement au début.
+        '''
+        rang = ord(lettre) + 3
+        if rang > ord('A') + 25:
+            rang = rang - 26
+        return chr(rang)
+    ```
+
+    2.
+    ```python linenums='1'
+    def decale_lettre(lettre: str, n: int) -> str:
+        '''
+        Renvoie la lettre située n places plus loin dans l'alphabet, 
+        en revenant éventuellement au début.
+        '''
+        rang = ord(lettre) + n
+        if rang > ord('A') + 25:
+            rang = rang - 26
+        return chr(rang)
+    ```
+
+    3.
+    ```python linenums='1'
+    def decale_phrase(p: str, n: int) -> str:
+        '''
+        Renvoie la chaine des caractères de p tous décalés de n places
+        '''
+        phrase_decalee = ''
+        for lettre in p:
+            phrase_decalee += decale_lettre(lettre, n)
+        return phrase_decalee
+        
+    ```
+    
+
+    
+    
+    

@@ -114,4 +114,23 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
 
 ## SW I: à l'assaut de Gunray
 !!! lien "Lien Capytale : [a5b7-101013](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/a5b7-101013){:target="_blank"} "
-    Utilisez une variable accumulateur.
+    Utilisez des accumulateurs.
+
+    ??? check "Correction"
+
+    ```python linenums='1'
+    epaisseur_totale = 0
+    volume = 0
+    temps = 0
+    moitie = 0
+    while epaisseur_totale < 70:
+        epaisseur = 3 - 0.005*volume
+        volume += 8*epaisseur
+        epaisseur_totale += epaisseur
+        temps += 1
+        if epaisseur_totale > 35 and moitie == 0:
+            moitie = temps
+    print(moitie, temps)
+    
+    ```
+    

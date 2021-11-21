@@ -14,6 +14,7 @@ Ce test comporte 12 questions. Vous pouvez n'en traiter que 10. Une seule répon
 
 Combien de bits sont nécessaires pour écrire en binaire le nombre 33 ?
 
+
 |[ ] 5 |  [ ] 2 | [ x ] 6 | [ ] 4 |
 |:-:|:-:|:-:|:-:|
 

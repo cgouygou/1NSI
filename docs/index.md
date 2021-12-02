@@ -106,7 +106,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
         6.4 [Spécification](https://cgouygou.github.io/1NSI/T06_Python/T6.4_Specification/T6.4_Specification/)
 
-        2.1 Tableaux et listes
+        2.1 [Tableaux et listes](https://cgouygou.github.io/1NSI/T02_TypesConstruits/T2.2_Listes/T2.2_Listes1/)
 
         7.1 Parcours séquentiel d'un tableau
 

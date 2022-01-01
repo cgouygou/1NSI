@@ -1,4 +1,4 @@
-# DS 0011 - Corrigé
+# DS 0011 - Corrigé
 
 ## Partie 1
 

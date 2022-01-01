@@ -1,4 +1,4 @@
-# DS 0010 - Corrigé
+# DS 0010 - Corrigé
 
 <!-- # Première NSI - Groupe 1 - DS 0010 - Corrigé -->
 

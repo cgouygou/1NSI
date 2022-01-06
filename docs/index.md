@@ -159,6 +159,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     L'essentiel des sources des contenus de ce site:
 
     - L'excellentissime site de Gilles Lassus : [https://glassus.github.io/premiere_nsi/](https://glassus.github.io/premiere_nsi/){:target="_blank"} 
+    - Le site de David Roche, [https://pixees.fr/informatiquelycee](https://pixees.fr/informatiquelycee){:target="_blank"} 
     - *Prépabac NSI, 1re générale*, C. Adobet, G. Connan, G. Rozsavolgyi, L. Signac, Hatier
     - *NSI 1re, 30 leçons avec exercices corrigés*, T. Balabonski, S. Conchon, J-C. Filiâtre, K. Nguyen, Ellipses
     - *Informatique et Sciences du Numérique*, G. Dowek, Eyrolles

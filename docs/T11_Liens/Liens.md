@@ -10,6 +10,10 @@
 
 - [Inria](https://www.inria.fr/fr){:target="_blank"} 
 
+## À propos de Python
+
+- Une [interview](https://www.lemonde.fr/pixels/article/2018/07/25/je-n-imaginais-pas-que-python-connaitrait-un-tel-succes_5335917_4408996.html){:target="_blank"} de [Guido van Rossum](https://fr.wikipedia.org/wiki/Guido_van_Rossum){:target="_blank"} , le créateur de Python
+
 ## À propos de l'orientation
 
 - [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 

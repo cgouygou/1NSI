@@ -17,7 +17,9 @@
 ## À propos de l'orientation
 
 - [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 
-- Une [brochure](../data/Infographie_TN.pdf){:target="_blank"} intéressante.
+- Une [brochure](../data/Infographie_TN.pdf){:target="_blank"} intéressante sur les métiers du numérique.
+- Un [podcast](https://pixees.fr/podcast/pod-nsi-orientation-post-bac/){:target="_blank"} sur les poursuites d'études (CPGE MPI, IUT, Université) après avoir choisi NSI comme spécialité au lycée.
+- [Zoom sur les métiers des mathématiques et de l'informatique](../data/Zoom_metiers_maths.pdf){:target="_blank"} 
 
 
 ## Pour se creuser la tête

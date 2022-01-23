@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>File:Selection-Sort-Animation.gif — Wikimedia Commons</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":true,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"86bc9565-a4e8-488a-8420-0a950cf39c80","wgCSPNonce":false,"wgCanonicalNamespace":"File","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":6,"wgPageName":"File:Selection-Sort-Animation.gif","wgTitle":"Selection-Sort-Animation.gif","wgCurRevisionId":473600578,"wgRevisionId":473600578,"wgArticleId":3330231,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CC-BY-SA-3.0-migrated","License migration completed","GFDL","Self-published work","User-created GFDL images","Animated GIF files","Selection sort","Animations of sort algorithms"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext",
+"wgRelevantPageName":"File:Selection-Sort-Animation.gif","wgRelevantArticleId":3330231,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRestrictionUpload":[],"skin":"vector","wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":400,"wgNoticeProject":"commons","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgULSCurrentAutonym":"français","wbCopyright":{"version":"wikibase-1","messageHtml":
+"En cliquant sur «\u0026#160;publier\u0026#160;», vous acceptez les \u003Ca href=\"/wiki/Commons:Copyrights\" class=\"mw-redirect\" title=\"Commons:Copyrights\"\u003Econditions d’utilisation\u003C/a\u003E et acceptez de placer irrévocablement votre contribution sous la \u003Ca rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/publicdomain/zero/1.0/\"\u003ECreative Commons CC0 License\u003C/a\u003E."},"wbBadgeItems":[],"wbMultiLingualStringLimit":250,"wbTaintedReferencesEnabled":false,"wbEntityId":"M3330231","wgEditSubmitButtonLabelPublish":true,"wbUserSpecifiedLanguages":["en"],"wbmiDefaultProperties":["P180"],"wbmiPropertyTitles":{"P180":"Éléments décrits dans ce fichier"},"wbmiPropertyTypes":{"P180":"wikibase-item","P571":"time","P275":"wikibase-item","P6216":"wikibase-item"},"wbmiRepoApiUrl":"/w/api.php","wbmiHelpUrls":{"P180":"https://commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Depicts"},"wbmiExternalEntitySearchBaseUri":
+"https://www.wikidata.org/w/api.php","wbmiSupportedDataTypes":["wikibase-item","string","quantity","time","monolingualtext","external-id","globe-coordinate","url"],"wbmiEnableReferences":true,"wbCurrentRevision":473600578,"wbEntity":{"type":"mediainfo","id":"M3330231","labels":[],"descriptions":[],"statements":{"P571":[{"mainsnak":{"snaktype":"value","property":"P571","hash":"f7294e36ffdf2b37239610c0342996a5e38c8863","datavalue":{"value":{"time":"+2007-12-05T00:00:00Z","timezone":0,"before":0,"after":0,"precision":11,"calendarmodel":"http://www.wikidata.org/entity/Q1985727"},"type":"time"}},"type":"statement","id":"M3330231$3B9F9235-95CF-489E-9515-7227257B0686","rank":"normal"}],"P275":[{"mainsnak":{"snaktype":"value","property":"P275","hash":"4315b8c41a664bcb36dc3783262461e54b0ddf16","datavalue":{"value":{"entity-type":"item","numeric-id":50829104,"id":"Q50829104"},"type":"wikibase-entityid"}},"type":"statement","id":"M3330231$D8E75528-0FFB-4448-8A5C-DBE47B2DD98E","rank":"normal"},{
+"mainsnak":{"snaktype":"value","property":"P275","hash":"a35b4558d66c92eacbe2f569697ffb1934e0316e","datavalue":{"value":{"entity-type":"item","numeric-id":14946043,"id":"Q14946043"},"type":"wikibase-entityid"}},"type":"statement","id":"M3330231$48F2DD0F-196B-4DF0-89C8-1EF20CF1D013","rank":"normal"}],"P6216":[{"mainsnak":{"snaktype":"value","property":"P6216","hash":"5570347fdc76d2a80732f51ea10ee4b144a084e0","datavalue":{"value":{"entity-type":"item","numeric-id":50423863,"id":"Q50423863"},"type":"wikibase-entityid"}},"type":"statement","id":"M3330231$DCEC2D1B-9133-46E1-B52C-616B23CF6090","rank":"normal"}]}},"wbmiMinCaptionLength":5,"wbmiMaxCaptionLength":250,"wbmiParsedMessageAnonEditWarning":
+"\u003Cp\u003EVous n'êtes pas \u003Cspan class=\"plainlinks\"\u003E\u003Ca class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special:Userlogin\u0026amp;uselang=fr\"\u003Econnecté\u003C/a\u003E\u003C/span\u003E. Votre \u003Ca href=\"https://fr.wikipedia.org/wiki/Adresse_IP\" class=\"extiw\" title=\"fr:Adresse IP\"\u003Eadresse IP\u003C/a\u003E sera archivée publiquement dans l'historique de cette page.\n\u003C/p\u003E","wbmiProtectionMsg":null,"wgCentralAuthMobileDomain":false,"wgULSPosition":"personal","wgULSisCompactLinksEnabled":true};RLSTATE={"ext.gadget.Long-Image-Names-in-Categories":"ready","ext.gadget.uploadWizardMobile":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","wikibase.common":"ready","jquery.wikibase.toolbar.styles":"ready","mediawiki.interface.helpers.styles":"ready","filepage":"ready","mediawiki.action.view.filepage":"ready"
+,"skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","wikibase.mediainfo.filepage.styles":"ready","wikibase.mediainfo.statements.styles":"ready","ext.wikimediaBadges":"ready","ext.uls.pt":"ready"};RLPAGEMODULES=["wikibase.entityPage.entityLoaded","wikibase.ui.entityViewInit","site","mediawiki.page.ready","skins.vector.legacy.js","ext.gadget.Slideshow","ext.gadget.ZoomViewer","ext.gadget.CollapsibleTemplates","ext.gadget.fastcci","ext.gadget.Stockphoto","ext.gadget.WatchlistNotice","ext.gadget.AjaxQuickDelete","ext.gadget.WikiMiniAtlas","ext.gadget.LanguageSelect","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.wikimediaEvents.wikibase","ext.navigationTiming","wikibase.mediainfo.filePageDisplay","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.centralauth.centralautologin","ext.uls.compactlinks","ext.uls.interface"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1i9g4",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=ext.uls.pt%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cfilepage%7Cjquery.wikibase.toolbar.styles%7Cmediawiki.action.view.filepage%7Cmediawiki.interface.helpers.styles%7Cskins.vector.styles.legacy%7Cwikibase.common%7Cwikibase.mediainfo.filepage.styles%7Cwikibase.mediainfo.statements.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=ext.gadget.Long-Image-Names-in-Categories%2CuploadWizardMobile&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.38.0-wmf.18"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="4452"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="2968"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="2374"/>
+<meta property="og:title" content="File:Selection-Sort-Animation.gif — Wikimedia Commons"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.json" type="application/json"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.php" type="application/vnd.php.serialized"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.n3" type="text/n3"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.ttl" type="text/turtle"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.nt" type="application/n-triples"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.rdf" type="application/rdf+xml"/>
+<link rel="alternate" href="https://commons.wikimedia.org/wiki/Special:EntityData/M3330231.jsonld" type="application/ld+json"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//commons.m.wikimedia.org/wiki/File:Selection-Sort-Animation.gif"/>
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=File:Selection-Sort-Animation.gif&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/commons.png"/>
+<link rel="shortcut icon" href="/static/favicon/commons.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikimedia Commons"/>
+<link rel="EditURI" type="application/rsd+xml" href="//commons.wikimedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://commons.wikimedia.org/wiki/File:Selection-Sort-Animation.gif"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-6 ns-subject mw-editable page-File_Selection-Sort-Animation_gif rootpage-File_Selection-Sort-Animation_gif skin-vector action-view skin-vector-legacy wb-entitypage wb-mediainfopage wb-mediainfopage-M3330231"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading" lang="fr" dir="ltr">File:Selection-Sort-Animation.gif</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">Une page de Wikimedia Commons, la médiathèque libre.</div>
+		<div id="contentSub" lang="fr" dir="ltr"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Aller à la navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Aller à la recherche</a>
+		<div id="mw-content-text" class="mw-body-content"><ul id="filetoc"><li><a href="#file">Fichier</a></li>
+<li><a href="#filehistory">Historique du fichier</a></li>
+<li><a href="#filelinks">Utilisations locales du fichier</a></li>
+<li><a href="#globalusage">Utilisations du fichier sur d’autres wikis</a></li></ul><div class="fullImageLink" id="file"><a href="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif"><img alt="File:Selection-Sort-Animation.gif" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif" decoding="async" width="100" height="371" data-file-width="100" data-file-height="371" /></a><div class="mw-filepage-resolutioninfo">Pas de plus haute résolution disponible.</div></div>
+<div class="fullMedia"><p><a href="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif" class="internal" title="Selection-Sort-Animation.gif">Selection-Sort-Animation.gif</a> &#8206;<span class="fileInfo">(100 × 371&#160;pixels, taille du fichier : 41 Kio, type MIME : <span class="mime-type">image/gif</span>, en boucle, 76 trames, 16&#160;s)</span>
+</p></div><div class='wbmi-tabs-container oo-ui-layout oo-ui-panelLayout'><div id='ooui-php-1' class='wbmi-tabs oo-ui-layout oo-ui-menuLayout oo-ui-menuLayout-static oo-ui-menuLayout-top oo-ui-menuLayout-showMenu oo-ui-indexLayout' data-ooui='{"_":"OO.ui.IndexLayout","classes":["wbmi-tabs"],"expanded":false,"menuPanel":{"tag":"ooui-php-2"},"contentPanel":{"tag":"ooui-php-3"},"autoFocus":false,"tabPanels":{"wikiTextPlusCaptions":{"tag":"ooui-php-4"},"statements":{"tag":"ooui-php-5"}},"tabSelectWidget":{"tag":"ooui-php-6"}}'><div aria-hidden='false' class='oo-ui-menuLayout-menu'><div id='ooui-php-2' class='oo-ui-layout oo-ui-panelLayout oo-ui-indexLayout-tabPanel' data-ooui='{"_":"OO.ui.PanelLayout","preserveContent":false,"expanded":false}'><div role='tablist' aria-multiselectable='false' tabindex='0' id='ooui-php-6' class='oo-ui-selectWidget oo-ui-selectWidget-unpressed oo-ui-widget oo-ui-widget-enabled oo-ui-tabSelectWidget oo-ui-tabSelectWidget-frameless' data-ooui='{"_":"OO.ui.TabSelectWidget","framed":false,"items":[{"tag":"ooui-php-7"},{"tag":"ooui-php-8"}]}'><div aria-selected='true' role='tab' id='ooui-php-7' class='oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget oo-ui-optionWidget-selected' data-ooui='{"_":"OO.ui.TabOptionWidget","selected":true,"label":"Informations sur le fichier","data":"wikiTextPlusCaptions"}'><span class='oo-ui-labelElement-label'>Informations sur le fichier</span></div><div aria-selected='false' role='tab' id='ooui-php-8' class='oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement oo-ui-optionWidget oo-ui-tabOptionWidget' data-ooui='{"_":"OO.ui.TabOptionWidget","label":"Donn\u00e9es structur\u00e9es","data":"statements"}'><span class='oo-ui-labelElement-label'>Données structurées</span></div></div></div></div><div class='oo-ui-menuLayout-content'><div id='ooui-php-3' class='oo-ui-layout oo-ui-panelLayout oo-ui-stackLayout oo-ui-indexLayout-stackLayout' data-ooui='{"_":"OO.ui.StackLayout","preserveContent":false,"expanded":false,"items":[{"tag":"ooui-php-4"},{"tag":"ooui-php-5"}]}'><div role='tabpanel' id='ooui-php-4' class='wbmi-tab oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-scrollable oo-ui-tabPanelLayout' data-ooui='{"_":"OO.ui.TabPanelLayout","name":"wikiTextPlusCaptions","label":"Informations sur le fichier","scrollable":true,"expanded":false,"classes":["wbmi-tab"]}'><div class='wbmi-entityview-captionsPanel oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><h3 class='wbmi-entityview-captions-header'>Légendes</h3><div class='wbmi-entityview-caption oo-ui-layout oo-ui-horizontalLayout'><label aria-disabled='false' class='wbmi-language-label oo-ui-widget oo-ui-widget-enabled oo-ui-labelElement-label oo-ui-labelElement oo-ui-labelWidget'>français</label><div lang='fr' dir='ltr' class='wbmi-caption-value wbmi-entityview-emptyCaption'>Ajoutez en une ligne la description de ce que représente ce fichier</div></div></div><h2 class="wbmi-captions-header">Légendes</h2><div id="mw-imagepage-content" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="hproduct commons-file-information-table">
+<table class="fileinfotpl-type-information toccolours vevent mw-content-ltr" style="width: 100%; direction: ltr;" cellpadding="4">
+
+<tbody><tr style="vertical-align: top">
+<td id="fileinfotpl_desc" class="fileinfo-paramfield" lang="fr">Description<span class="summary fn" style="display:none">Selection-Sort-Animation.gif</span></td>
+<td class="description">
+An animation of the Selection Sort algorithm using digits 0-9 arranged in random order.</td>
+</tr>
+
+<tr style="vertical-align: top">
+<td id="fileinfotpl_date" class="fileinfo-paramfield" lang="fr">Date</td>
+<td lang="fr">
+5 décembre 2007</td>
+</tr>
+
+<tr style="vertical-align: top">
+<td id="fileinfotpl_src" class="fileinfo-paramfield" lang="fr">Source</td>
+<td>
+<a class="external free" href="https://en.wikipedia.org/wiki/Image:Selection-Sort-Animation.gif">http://en.wikipedia.org/wiki/Image:Selection-Sort-Animation.gif</a></td>
+</tr>
+
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield" lang="fr">Auteur</td>
+<td>
+<a href="https://en.wikipedia.org/wiki/Joestape89" class="extiw" title="en:Joestape89">en:Joestape89</a></td>
+</tr>
+
+
+</tbody></table>
+</div>
+<h2><span id="Conditions_d.E2.80.99utilisation"></span><span class="mw-headline" id="Conditions_d’utilisation">Conditions d’utilisation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=File:Selection-Sort-Animation.gif&amp;action=edit&amp;section=1" title="Modifier la section : Conditions d’utilisation">modifier</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div style="clear:both; margin:0.5em auto; background-color:#eee; border:2px solid #ddd; padding:8px; direction: ltr;" class="licensetpl_wrapper">
+<div class="center" style="font-weight:bold;"><div lang="fr" dir="ltr" class="description fr" style="display:inline;"><span class="licensetpl_aut"><a href="https://en.wikipedia.org/wiki/User:Joestape89" class="extiw" title="en:User:Joestape89">Joestape89</a>&#32;de <a href="https://en.wikipedia.org/wiki/" class="extiw" title="w:">en.wikipedia.org</a></span>, le détenteur des droits sur cette œuvre, la publie sous la licence suivante&#160;:</div></div>
+<table cellspacing="8" cellpadding="0" style="width:100%; clear:both; margin:0.5em auto; background-color:#f9f9f9; border:2px solid #e0e0e0; direction: ltr;" lang="fr" class="layouttemplate licensetpl">
+<tbody><tr>
+<td><img alt="GNU head" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/64px-Heckert_GNU_white.svg.png" decoding="async" title="GNU head" width="64" height="63" class="noviewer" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/96px-Heckert_GNU_white.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/128px-Heckert_GNU_white.svg.png 2x" data-file-width="535" data-file-height="523" />
+</td>
+<td>Vous avez la permission de copier, distribuer et modifier ce document selon les termes de la <b><a href="https://en.wikipedia.org/wiki/fr:Licence_de_documentation_libre_GNU" class="extiw" title="w:fr:Licence de documentation libre GNU">GNU Free Documentation License</a></b> version 1.2 ou toute version ultérieure publiée par la <a href="https://en.wikipedia.org/wiki/fr:Free_Software_Foundation" class="extiw" title="w:fr:Free Software Foundation">Free Software Foundation</a>, sans sections inaltérables, sans texte de première page de couverture et sans texte de dernière page de couverture. Un exemplaire de la licence est inclus dans la section intitulée <i><a href="/wiki/Commons:GNU_Free_Documentation_License,_version_1.2" title="Commons:GNU Free Documentation License, version 1.2">GNU Free Documentation License</a></i>.<span class="licensetpl_link" style="display:none;">http://www.gnu.org/copyleft/fdl.html</span><span class="licensetpl_short" style="display:none;">GFDL</span><span class="licensetpl_long" style="display:none;">GNU Free Documentation License</span><span class="licensetpl_link_req" style="display:none;">true</span><span class="licensetpl_attr_req" style="display:none;">true</span>
+</td></tr></tbody></table>
+<table style="width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:#f9f9f9; border:2px solid #e0e0e0; padding: 0; border-spacing: 8px;" class="layouttemplate licensetpl mw-content-ltr" lang="fr">
+<tbody><tr>
+<td style="width:90px;" rowspan="4"><img alt="w:fr:Creative Commons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/90px-CC_some_rights_reserved.svg.png" decoding="async" title="w:fr:Creative Commons" width="90" height="36" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/135px-CC_some_rights_reserved.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/180px-CC_some_rights_reserved.svg.png 2x" data-file-width="744" data-file-height="300" /><br /><img alt="paternité" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/24px-Cc-by_new_white.svg.png" decoding="async" title="paternité" width="24" height="24" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/36px-Cc-by_new_white.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/48px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64" /> <img alt="partage à l’identique" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/24px-Cc-sa.svg.png" decoding="async" title="partage à l’identique" width="24" height="24" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/36px-Cc-sa.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/48px-Cc-sa.svg.png 2x" data-file-width="64" data-file-height="64" />
+</td>
+<td>Ce fichier est disponible selon les termes de la licence <a href="https://en.wikipedia.org/wiki/fr:Creative_Commons" class="extiw" title="w:fr:Creative Commons">Creative Commons</a> <a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Attribution – Partage dans les Mêmes Conditions 3.0 (non transposée)</a>.
+</td>
+<td style="width:90px;" rowspan="4">
+</td></tr>
+<tr style="text-align:center;">
+<td><b>Attribution: <span style="font-size: larger;" class="licensetpl_attr"><a href="https://en.wikipedia.org/wiki/User:Joestape89" class="extiw" title="en:User:Joestape89">Joestape89</a></span></b>
+</td></tr>
+<tr style="text-align:left;">
+<td>
+<dl><dd>Vous êtes libre&#160;:
+<ul><li><b>de partager</b> – de copier, distribuer et transmettre cette œuvre</li>
+<li><b>d’adapter</b> – de modifier cette œuvre</li></ul></dd>
+<dd>Sous les conditions suivantes :
+<ul><li><b>paternité</b> – Vous devez donner les informations appropriées concernant l'auteur, fournir un lien vers la licence et indiquer si des modifications ont été faites. Vous pouvez faire cela par tout moyen raisonnable, mais en aucune façon suggérant que l’auteur vous soutient ou approuve l’utilisation que vous en faites.</li>
+<li><b>partage à l’identique</b> – Si vous modifiez, transformez, ou vous basez sur cette œuvre, vous devez distribuer votre contribution sous <a rel="nofollow" class="external text" href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">la même licence ou une licence compatible</a> avec celle de l’original.</li></ul></dd></dl>
+</td></tr>
+<tr style="text-align:center;">
+<td><span style="font-size:90%;">Ce bandeau de relicenciement a été ajouté à ce fichier dans le cadre de la <a href="https://meta.wikimedia.org/wiki/Licensing_update/fr" class="extiw" title="meta:Licensing update/fr">procédure de relicenciement</a> des images sous GFDL.</span><span class="licensetpl_link" style="display:none;">http://creativecommons.org/licenses/by-sa/3.0/</span><span class="licensetpl_short" style="display:none;">CC-BY-SA-3.0</span><span class="licensetpl_long" style="display:none;">Creative Commons Attribution-Share Alike 3.0</span><span class="licensetpl_link_req" style="display:none;">true</span><span class="licensetpl_attr_req" style="display:none;">true</span>
+</td></tr></tbody></table>
+</div>
+<!-- 
+NewPP limit report
+Parsed by mw1420
+Cached time: 20220103083717
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.088 seconds
+Real time usage: 0.122 seconds
+Preprocessor visited node count: 958/1000000
+Post‐expand include size: 34962/2097152 bytes
+Template argument size: 1105/2097152 bytes
+Highest expansion depth: 19/40
+Expensive parser function count: 2/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 14/5000000 bytes
+Lua time usage: 0.021/10.000 seconds
+Lua memory usage: 924976/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  107.399      1 -total
+ 56.61%   60.798      1 Template:GFDL-user
+ 54.53%   58.568      1 Template:Self
+ 43.13%   46.320      1 Template:Information
+ 26.56%   28.523      1 Template:GFDL
+ 18.10%   19.435      1 Template:License_migration
+ 16.70%   17.941      1 Template:Lang
+ 14.10%   15.148      1 Template:License_migration_complete
+ 13.82%   14.838      1 Template:GFDL-user/en
+ 12.15%   13.048      1 Template:Cc-by-sa-3.0-migrated
+-->
+
+<!-- Saved in parser cache with key commonswiki:pcache:idhash:3330231-0!userlang=fr!wb=3 and timestamp 20220103083717 and revision id 473600578. Serialized with JSON.
+ -->
+</div></div><h2 id="filehistory">Historique du fichier</h2>
+<div id="mw-imagepage-section-filehistory">
+<p>Cliquer sur une date et heure pour voir le fichier tel qu'il était à ce moment-là.
+</p>
+<table class="wikitable filehistory">
+<tr><th></th><th>Date et heure</th><th>Vignette</th><th>Dimensions</th><th>Utilisateur</th><th>Commentaire</th></tr>
+<tr><td>actuel</td><td class="filehistory-selected" style="white-space: nowrap;"><a href="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif">3 janvier 2008 à 12:10</a></td><td><a href="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif"><img alt="Vignette pour la version du 3 janvier 2008 à 12:10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Selection-Sort-Animation.gif/32px-Selection-Sort-Animation.gif" decoding="async" width="32" height="120" data-file-width="100" data-file-height="371" /></a></td><td>100 × 371 <span style="white-space: nowrap;">(41 Kio)</span></td><td><a href="/wiki/User:German" class="mw-userlink" title="User:German"><bdi>German</bdi></a><span style="white-space: nowrap;"> <span class="mw-usertoollinks">(<a href="/wiki/User_talk:German" class="mw-usertoollinks-talk" title="User talk:German">d</a> | <a href="/wiki/Special:Contributions/German" class="mw-usertoollinks-contribs" title="Special:Contributions/German">contributions</a>)</span></span></td><td dir="ltr">{{Information |Description= An animation of the Selection Sort algorithm using digits 0-9 arranged in random order. |Source= http://en.wikipedia.org/wiki/Selection_sort |Date= 2007-12-05 |Author= <a href="https://en.wikipedia.org/wiki/Joestape89" class="extiw" title="en:Joestape89">en:Joestape89</a> |other_versions= }}</td></tr>
+</table>
+
+</div>
+<div class="mw-imagepage-upload-links"><p id="mw-imagepage-upload-disallowed">Vous ne pouvez pas remplacer ce fichier.</p></div><h2 id="filelinks">Utilisations locales du fichier</h2>
+<div id="mw-imagepage-nolinkstoimage">
+<p>Aucune page n’utilise ce fichier.
+</p>
+</div><h2 id="globalusage">Utilisations du fichier sur d’autres wikis</h2>
+<div id="mw-imagepage-section-globalusage"><p>Les autres wikis suivants utilisent ce fichier :
+</p><ul>
+<li class='mw-gu-onwiki-ar_wikipedia_org'>Utilisation sur ar.wikipedia.org
+<ul>	<li><a class="external" href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8_%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%A6%D9%8A">ترتيب انتقائي</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ca_wikipedia_org'>Utilisation sur ca.wikipedia.org
+<ul>	<li><a class="external" href="https://ca.wikipedia.org/wiki/Algorisme">Algorisme</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-cs_wikipedia_org'>Utilisation sur cs.wikipedia.org
+<ul>	<li><a class="external" href="https://cs.wikipedia.org/wiki/%C5%98azen%C3%AD_v%C3%BDb%C4%9Brem">Řazení výběrem</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-el_wikipedia_org'>Utilisation sur el.wikipedia.org
+<ul>	<li><a class="external" href="https://el.wikipedia.org/wiki/%CE%A4%CE%B1%CE%BE%CE%B9%CE%BD%CF%8C%CE%BC%CE%B7%CF%83%CE%B7_%CE%BC%CE%B5_%CE%B5%CF%80%CE%B9%CE%BB%CE%BF%CE%B3%CE%AE">Ταξινόμηση με επιλογή</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-en_wikipedia_org'>Utilisation sur en.wikipedia.org
+<ul>	<li><a class="external" href="https://en.wikipedia.org/wiki/Selection_sort">Selection sort</a></li>
+	<li><a class="external" href="https://en.wikipedia.org/wiki/Wikipedia:Reference_desk/Archives/Computing/2007_December_14">Wikipedia:Reference desk/Archives/Computing/2007 December 14</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-es_wikipedia_org'>Utilisation sur es.wikipedia.org
+<ul>	<li><a class="external" href="https://es.wikipedia.org/wiki/Algoritmo">Algoritmo</a></li>
+	<li><a class="external" href="https://es.wikipedia.org/wiki/Ordenamiento_por_selecci%C3%B3n">Ordenamiento por selección</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-et_wikipedia_org'>Utilisation sur et.wikipedia.org
+<ul>	<li><a class="external" href="https://et.wikipedia.org/wiki/Valiksortimine">Valiksortimine</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fa_wikipedia_org'>Utilisation sur fa.wikipedia.org
+<ul>	<li><a class="external" href="https://fa.wikipedia.org/wiki/%D9%85%D8%B1%D8%AA%D8%A8%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%DB%8C">مرتب‌سازی انتخابی</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fi_wikipedia_org'>Utilisation sur fi.wikipedia.org
+<ul>	<li><a class="external" href="https://fi.wikipedia.org/wiki/Valintalajittelu">Valintalajittelu</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fr_wikipedia_org'>Utilisation sur fr.wikipedia.org
+<ul>	<li><a class="external" href="https://fr.wikipedia.org/wiki/Tri_par_s%C3%A9lection">Tri par sélection</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-he_wikipedia_org'>Utilisation sur he.wikipedia.org
+<ul>	<li><a class="external" href="https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%9F_%D7%91%D7%97%D7%99%D7%A8%D7%94">מיון בחירה</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-he_wikibooks_org'>Utilisation sur he.wikibooks.org
+<ul>	<li><a class="external" href="https://he.wikibooks.org/wiki/%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F_%D7%92%D7%A8%D7%A1%D7%94_3/%D7%9E%D7%99%D7%95%D7%9F_%D7%91%D7%97%D7%99%D7%A8%D7%94">פייתון/פייתון גרסה 3/מיון בחירה</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-hy_wikipedia_org'>Utilisation sur hy.wikipedia.org
+<ul>	<li><a class="external" href="https://hy.wikipedia.org/wiki/%D4%BF%D5%A1%D5%B2%D5%A1%D5%BA%D5%A1%D6%80:I">Կաղապար:I</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-it_wikipedia_org'>Utilisation sur it.wikipedia.org
+<ul>	<li><a class="external" href="https://it.wikipedia.org/wiki/Selection_sort">Selection sort</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-it_wikiversity_org'>Utilisation sur it.wikiversity.org
+<ul>	<li><a class="external" href="https://it.wikiversity.org/wiki/Ordinamento_(programmazione_in_C)">Ordinamento (programmazione in C)</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ja_wikipedia_org'>Utilisation sur ja.wikipedia.org
+<ul>	<li><a class="external" href="https://ja.wikipedia.org/wiki/%E9%81%B8%E6%8A%9E%E3%82%BD%E3%83%BC%E3%83%88">選択ソート</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ka_wikipedia_org'>Utilisation sur ka.wikipedia.org
+<ul>	<li><a class="external" href="https://ka.wikipedia.org/wiki/%E1%83%A8%E1%83%94%E1%83%A0%E1%83%A9%E1%83%94%E1%83%95%E1%83%98%E1%83%97%E1%83%98_%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%A2%E1%83%98%E1%83%A0%E1%83%94%E1%83%91%E1%83%90">შერჩევითი სორტირება</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-kk_wikipedia_org'>Utilisation sur kk.wikipedia.org
+<ul>	<li><a class="external" href="https://kk.wikipedia.org/wiki/%D0%A2%D0%B0%D2%A3%D0%B4%D0%B0%D1%83_%D0%B0%D1%80%D2%9B%D1%8B%D0%BB%D1%8B_%D1%81%D2%B1%D1%80%D1%8B%D0%BF%D1%82%D0%B0%D1%83">Таңдау арқылы сұрыптау</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ko_wikipedia_org'>Utilisation sur ko.wikipedia.org
+<ul>	<li><a class="external" href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC">선택 정렬</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-lt_wikipedia_org'>Utilisation sur lt.wikipedia.org
+<ul>	<li><a class="external" href="https://lt.wikipedia.org/wiki/I%C5%A1rinkimo_rikiavimo_algoritmas">Išrinkimo rikiavimo algoritmas</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-nl_wikipedia_org'>Utilisation sur nl.wikipedia.org
+<ul>	<li><a class="external" href="https://nl.wikipedia.org/wiki/Selection_sort">Selection sort</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-pt_wikipedia_org'>Utilisation sur pt.wikipedia.org
+<ul>	<li><a class="external" href="https://pt.wikipedia.org/wiki/Selection_sort">Selection sort</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-ru_wikipedia_org'>Utilisation sur ru.wikipedia.org
+<ul>	<li><a class="external" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BE%D0%BC">Сортировка выбором</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-simple_wikipedia_org'>Utilisation sur simple.wikipedia.org
+<ul>	<li><a class="external" href="https://simple.wikipedia.org/wiki/Selection_sort">Selection sort</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-sk_wikipedia_org'>Utilisation sur sk.wikipedia.org
+<ul>	<li><a class="external" href="https://sk.wikipedia.org/wiki/Triediaci_algoritmus">Triediaci algoritmus</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-sl_wikipedia_org'>Utilisation sur sl.wikipedia.org
+<ul>	<li><a class="external" href="https://sl.wikipedia.org/wiki/Urejanje_z_navadnim_izbiranjem">Urejanje z navadnim izbiranjem</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-sv_wikipedia_org'>Utilisation sur sv.wikipedia.org
+<ul>	<li><a class="external" href="https://sv.wikipedia.org/wiki/Urvalssortering">Urvalssortering</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-th_wikipedia_org'>Utilisation sur th.wikipedia.org
+<ul>	<li><a class="external" href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A5%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81">การเรียงลำดับแบบเลือก</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-tr_wikipedia_org'>Utilisation sur tr.wikipedia.org
+<ul>	<li><a class="external" href="https://tr.wikipedia.org/wiki/Se%C3%A7meli_s%C4%B1ralama">Seçmeli sıralama</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-uk_wikipedia_org'>Utilisation sur uk.wikipedia.org
+<ul>	<li><a class="external" href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B2%D0%B8%D0%B1%D0%BE%D1%80%D0%BE%D0%BC">Сортування вибором</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-vi_wikipedia_org'>Utilisation sur vi.wikipedia.org
+<ul>	<li><a class="external" href="https://vi.wikipedia.org/wiki/S%E1%BA%AFp_x%E1%BA%BFp_ch%E1%BB%8Dn">Sắp xếp chọn</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-zh_wikipedia_org'>Utilisation sur zh.wikipedia.org
+<ul>	<li><a class="external" href="https://zh.wikipedia.org/wiki/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F">选择排序</a></li>
+</ul></li>
+</ul>
+</div></div><div role='tabpanel' id='ooui-php-5' class='wbmi-tab oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-scrollable oo-ui-tabPanelLayout' data-ooui='{"_":"OO.ui.TabPanelLayout","name":"statements","label":"Donn\u00e9es structur\u00e9es","scrollable":true,"expanded":false,"classes":["wbmi-tab"]}'><h2 class="wbmi-structured-data-header">Données structurées</h2><div id='P180' data-property='P180' data-statements='[]' data-formatvalue='[]' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P180 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h3 class='wbmi-statements-title'>Éléments décrits dans ce fichier</h3><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P180" href="https://www.wikidata.org/wiki/Special:EntityPage/P180">dépeint</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'></div></div></div><div id='P6216' data-property='P6216' data-statements='[{"mainsnak":{"snaktype":"value","property":"P6216","hash":"5570347fdc76d2a80732f51ea10ee4b144a084e0","datavalue":{"value":{"entity-type":"item","numeric-id":50423863,"id":"Q50423863"},"type":"wikibase-entityid"}},"type":"statement","id":"M3330231$DCEC2D1B-9133-46E1-B52C-616B23CF6090","rank":"normal"}]' data-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":6216,\"id\":\"P6216\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"fr":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P6216\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P6216\"&gt;statut des droits d&#039;auteur&lt;\/a&gt;"}},"text\/plain":{"fr":{"":"statut des droits d&#039;auteur"}}},"{\"value\":{\"entity-type\":\"item\",\"numeric-id\":50423863,\"id\":\"Q50423863\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"fr":{"P6216":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/Q50423863\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q50423863\"&gt;sous copyright&lt;\/a&gt;"}},"text\/plain":{"fr":{"P6216":"sous copyright"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P6216 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P6216" href="https://www.wikidata.org/wiki/Special:EntityPage/P6216">statut des droits d'auteur</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div data-guid='M3330231$DCEC2D1B-9133-46E1-B52C-616B23CF6090' class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/Q50423863" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50423863">sous copyright</a></bdi></h4></div></div></div></div></div></div></div></div><div id='P275' data-property='P275' data-statements='[{"mainsnak":{"snaktype":"value","property":"P275","hash":"4315b8c41a664bcb36dc3783262461e54b0ddf16","datavalue":{"value":{"entity-type":"item","numeric-id":50829104,"id":"Q50829104"},"type":"wikibase-entityid"}},"type":"statement","id":"M3330231$D8E75528-0FFB-4448-8A5C-DBE47B2DD98E","rank":"normal"},{"mainsnak":{"snaktype":"value","property":"P275","hash":"a35b4558d66c92eacbe2f569697ffb1934e0316e","datavalue":{"value":{"entity-type":"item","numeric-id":14946043,"id":"Q14946043"},"type":"wikibase-entityid"}},"type":"statement","id":"M3330231$48F2DD0F-196B-4DF0-89C8-1EF20CF1D013","rank":"normal"}]' data-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":275,\"id\":\"P275\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"fr":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P275\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P275\"&gt;licence&lt;\/a&gt;"}},"text\/plain":{"fr":{"":"licence"}}},"{\"value\":{\"entity-type\":\"item\",\"numeric-id\":50829104,\"id\":\"Q50829104\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"fr":{"P275":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/Q50829104\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q50829104\" lang=\"en\"&gt;GNU Free Documentation License, version 1.2 or later&lt;\/a&gt;&amp;nbsp;&lt;sup class=\"wb-language-fallback-indicator\"&gt;anglais&lt;\/sup&gt;"}},"text\/plain":{"fr":{"P275":"GNU Free Documentation License, version 1.2 or later"}}},"{\"value\":{\"entity-type\":\"item\",\"numeric-id\":14946043,\"id\":\"Q14946043\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"fr":{"P275":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/Q14946043\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/Q14946043\"&gt;Creative Commons Attribution \u2013 Partage dans les M\u00eames Conditions 3.0 non transpos\u00e9&lt;\/a&gt;"}},"text\/plain":{"fr":{"P275":"Creative Commons Attribution \u2013 Partage dans les M\u00eames Conditions 3.0 non transpos\u00e9"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P275 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P275" href="https://www.wikidata.org/wiki/Special:EntityPage/P275">licence</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div data-guid='M3330231$D8E75528-0FFB-4448-8A5C-DBE47B2DD98E' class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/Q50829104" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50829104" lang="en">GNU Free Documentation License, version 1.2 or later</a>&nbsp;<sup class="wb-language-fallback-indicator">anglais</sup></bdi></h4></div></div></div></div></div><div class='wbmi-item wbmi-item-read'><div data-guid='M3330231$48F2DD0F-196B-4DF0-89C8-1EF20CF1D013' class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/Q14946043" href="https://www.wikidata.org/wiki/Special:EntityPage/Q14946043">Creative Commons Attribution – Partage dans les Mêmes Conditions 3.0 non transposé</a></bdi></h4></div></div></div></div></div></div></div></div><div id='P571' data-property='P571' data-statements='[{"mainsnak":{"snaktype":"value","property":"P571","hash":"f7294e36ffdf2b37239610c0342996a5e38c8863","datavalue":{"value":{"time":"+2007-12-05T00:00:00Z","timezone":0,"before":0,"after":0,"precision":11,"calendarmodel":"http:\/\/www.wikidata.org\/entity\/Q1985727"},"type":"time"}},"type":"statement","id":"M3330231$3B9F9235-95CF-489E-9515-7227257B0686","rank":"normal"}]' data-formatvalue='{"{\"value\":{\"entity-type\":\"property\",\"numeric-id\":571,\"id\":\"P571\"},\"type\":\"wikibase-entityid\"}":{"text\/html":{"fr":{"":"&lt;a target=\"_blank\" title=\"d:Special:EntityPage\/P571\" href=\"https:\/\/www.wikidata.org\/wiki\/Special:EntityPage\/P571\"&gt;date de fondation ou de cr\u00e9ation&lt;\/a&gt;"}},"text\/plain":{"fr":{"":"date de fondation ou de cr\u00e9ation"}}},"{\"value\":{\"time\":\"+2007-12-05T00:00:00Z\",\"timezone\":0,\"before\":0,\"after\":0,\"precision\":11,\"calendarmodel\":\"http:\\\/\\\/www.wikidata.org\\\/entity\\\/Q1985727\"},\"type\":\"time\"}":{"text\/html":{"fr":{"P571":"5 d\u00e9cembre 2007"}},"text\/plain":{"fr":{"P571":"5 d\u00e9cembre 2007"}}}}' class='wbmi-entityview-statementsGroup wbmi-entityview-statementsGroup-P571 oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-framed'><div class='wbmi-statements-widget'><div class='wbmi-statement-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi><a target="_blank" title="d:Special:EntityPage/P571" href="https://www.wikidata.org/wiki/Special:EntityPage/P571">date de fondation ou de création</a></bdi></h4></div></div></div><div class='wbmi-content-items-group'><div class='wbmi-item wbmi-item-read'><div data-guid='M3330231$3B9F9235-95CF-489E-9515-7227257B0686' class='wbmi-item-container'><div class='wbmi-entity-header'><div class='wbmi-entity-data'><div class='wbmi-entity-title'><h4 class='wbmi-entity-label'><bdi>5 décembre 2007</bdi></h4></div></div></div></div></div></div></div></div></div></div></div></div></div><noscript><img src="//commons.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Récupérée de «&#160;<a dir="ltr" href="https://commons.wikimedia.org/w/index.php?title=File:Selection-Sort-Animation.gif&amp;oldid=473600578">https://commons.wikimedia.org/w/index.php?title=File:Selection-Sort-Animation.gif&amp;oldid=473600578</a>&#160;»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Catégories</a> : <ul><li><a href="/wiki/Category:Selection_sort" title="Category:Selection sort">Selection sort</a></li><li><a href="/wiki/Category:Animations_of_sort_algorithms" title="Category:Animations of sort algorithms">Animations of sort algorithms</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-user-shown">Catégories cachées : <ul><li><a href="/wiki/Category:CC-BY-SA-3.0-migrated" title="Category:CC-BY-SA-3.0-migrated">CC-BY-SA-3.0-migrated</a></li><li><a href="/wiki/Category:License_migration_completed" title="Category:License migration completed">License migration completed</a></li><li><a href="/wiki/Category:GFDL" title="Category:GFDL">GFDL</a></li><li><a href="/wiki/Category:Self-published_work" title="Category:Self-published work">Self-published work</a></li><li><a href="/wiki/Category:User-created_GFDL_images" title="Category:User-created GFDL images">User-created GFDL images</a></li><li><a href="/wiki/Category:Animated_GIF_files" title="Category:Animated GIF files">Animated GIF files</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menu de navigation</h2>
+	<div id="mw-head">
+		<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-personal-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Outils personnels</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-uls" class="mw-list-item active"><a class="uls-trigger" href="#"><span>français</span></a></li><li id="pt-anonuserpage" class="mw-list-item"><span>Non connecté</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=File%3ASelection-Sort-Animation.gif&amp;returntoquery=uselang%3Dfr" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=File%3ASelection-Sort-Animation.gif&amp;returntoquery=uselang%3Dfr" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span>Se connecter</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu vector-menu-tabs" aria-labelledby="p-namespaces-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-namespaces-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Espaces de noms</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-image" class="selected mw-list-item"><a href="/wiki/File:Selection-Sort-Animation.gif" title="Voir la page du fichier [c]" accesskey="c"><span>Fichier</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/File_talk:Selection-Sort-Animation.gif" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t"><span>Discussion</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label" aria-label="Modifier la variante de langue" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Variantes</span>
+			<span class="vector-menu-checkbox-expanded">développé</span>
+			<span class="vector-menu-checkbox-collapsed">replié</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu vector-menu-tabs" aria-labelledby="p-views-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-views-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Affichages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/File:Selection-Sort-Animation.gif"><span>Lire</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=File:Selection-Sort-Animation.gif&amp;action=edit" title="Modifier le wikicode [e]" accesskey="e"><span>Modifier</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=File:Selection-Sort-Animation.gif&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Plus d’options"
+	  lang="fr" dir="ltr">
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Plus</span>
+			<span class="vector-menu-checkbox-expanded">développé</span>
+			<span class="vector-menu-checkbox-collapsed">replié</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			<div id="p-search" role="search" class=" vector-search-box">
+	<div>
+			<h3  lang="fr" dir="ltr">
+				<label for="searchInput">Rechercher</label>
+			</h3>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Rechercher dans Wikimedia Commons" aria-label="Rechercher dans Wikimedia Commons" autocapitalize="sentences" title="Rechercher dans Wikimedia Commons [f]" accesskey="f" id="searchInput"
+				/>
+				<input type="hidden" name="title" value="Special:MediaSearch"/>
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Rechercher les pages comportant ce texte." value="Rechercher" />
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Accédez à une page du même nom si elle existe" value="Lire" />
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Accueil"
+			title="Visiter la page d’accueil"></a>
+	</div>
+	<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-navigation-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Accueil" title="Accueil général [z]" accesskey="z"><span>Accueil</span></a></li><li id="n-welcome" class="mw-list-item"><a href="/wiki/Commons:Bienvenue"><span>Bienvenue</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Commons:Portail_communautaire" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-village-pump" class="mw-list-item"><a href="/wiki/Commons:Bistro"><span>Bistro</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Special:MyLanguage/Help:Contents" title="Accès à l’aide"><span>Aide</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	<nav id="p-participate" class="mw-portlet mw-portlet-participate vector-menu vector-menu-portal portal" aria-labelledby="p-participate-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-participate-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Participer</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-uploadbtn" class="mw-list-item"><a href="/wiki/Special:UploadWizard"><span>Importer un fichier</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-latestfiles" class="mw-list-item"><a href="/wiki/Special:NewFiles"><span>Nouveaux fichiers</span></a></li><li id="n-randomimage" class="mw-list-item"><a href="/wiki/Special:Random/File" title="Load a random file [x]" accesskey="x"><span>Un fichier au hasard</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Commons:Pour_nous_contacter"><span>Contactez-nous</span></a></li></ul>
+		
+	</div>
+</nav>
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-tb-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Outils</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/File:Selection-Sort-Animation.gif" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/File:Selection-Sort-Animation.gif" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=File:Selection-Sort-Animation.gif&amp;oldid=473600578" title="Adresse permanente de cette version de la page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=File:Selection-Sort-Animation.gif&amp;action=info" title="Plus d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-wb-concept-uri" class="mw-list-item"><a href="https://commons.wikimedia.org/entity/M3330231" title="URI qui identifie le concept décrit par cet élément"><span>URI du concept</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=File%3ASelection-Sort-Animation.gif&amp;id=473600578&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li></ul>
+		
+	</div>
+</nav>
+<nav id="p-electronpdfservice-sidebar-portlet-heading" class="mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu vector-menu-portal portal" aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" role="navigation" 
+	  lang="fr" dir="ltr">
+	<h3 id="p-electronpdfservice-sidebar-portlet-heading-label" aria-label="" class="vector-menu-heading">
+		<span class="vector-menu-heading-label">Imprimer / exporter</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="electron-print_pdf" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=File%3ASelection-Sort-Animation.gif&amp;action=show-download-screen"><span>Télécharger en PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+<footer id="footer" class="mw-footer" role="contentinfo"  lang="fr" dir="ltr">
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 27 septembre 2020 à 21:18.</li>
+	<li id="footer-info-copyright">Les fichiers sont disponibles sous les licences spécifiées dans leur page de description. Toutes les données structurées de l'espace de noms « File: » sont disponibles sous la <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.fr" title="Définition de la licence Creative Commons CC0">licence Creative Commons CC0</a> ; tout le texte non structuré est disponible sous la <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" title="Définition de la licence Creative Commons Attribution/Share-Alike">licence Creative Commons Attribution-ShareAlike</a> ;
+des conditions supplémentaires peuvent s’appliquer.
+En utilisant ce site, vous acceptez les <a href="//foundation.wikimedia.org/wiki/Terms_of_Use" title="Conditions d’utilisation de la Fondation Wikimedia">conditions d’utilisation</a> et la <a href="//foundation.wikimedia.org/wiki/Privacy_policy" title="Politique de confidentialité de la Fondation Wikimedia">politique de confidentialité</a>.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Commons:Bienvenue" title="Commons:Bienvenue">À propos de Wikimedia Commons</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Commons:Avertissements_g%C3%A9n%C3%A9raux" class="mw-redirect" title="Commons:Avertissements généraux">Avertissements</a></li>
+	<li id="footer-places-mobileview"><a href="//commons.m.wikimedia.org/w/index.php?title=File:Selection-Sort-Animation.gif&amp;uselang=fr&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+	<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/commons.wikimedia.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.001","walltime":"0.001","ppvisitednodes":{"value":3,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":1,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw1393","timestamp":"20220123205603","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"ImageObject","contentUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/94\/Selection-Sort-Animation.gif","license":"http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/","acquireLicensePage":"\/\/commons.wikimedia.org\/wiki\/File:Selection-Sort-Animation.gif","uploadDate":"2008-01-03 12:10:10"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":217,"wgHostname":"mw1393"});});</script>
+</body>
+</html>

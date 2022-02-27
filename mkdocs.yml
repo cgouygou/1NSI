@@ -78,9 +78,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - macros
   - awesome-pages:
       collapse_single_pages: true
+  - macros
 
 extra:
   social:

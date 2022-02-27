@@ -47,7 +47,7 @@ Lien vers Capytale : [https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/we
         
         Maintenant qu'on dispose d'une fonction `somme`, il ne reste plus qu'à déterminer les nombres demandés en parcourant tous les nombres positifs inférieurs à 1000. Avec une liste en compréhension c'est très rapide:
 
-        ```python linenums='1'
+        ```python 
         preferes = [k for k in range(1000) if k%7 == 0 and somme(k) == 11]
         ```
         
@@ -98,7 +98,7 @@ Lien vers Capytale : [https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/we
         "
         L'image fournie est en niveaux de gris, c'est-à-dire que chaque pixel est codé sur un seul octet: c'est un entier et non une liste de 3 entiers. On peut le voir ainsi:
 
-        ```python linenums='1'
+        ```python 
         >>> import imageio
         >>> img = imageio.imread('lake.png')
         >>> img[0][0]

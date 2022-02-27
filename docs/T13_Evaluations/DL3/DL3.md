@@ -225,9 +225,11 @@ Lien vers Capytale : [https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/we
 
         for l in range(img.shape[0]):
             for c in range(img.shape[1]):
+                # on récupère les 3 composantes du pixel img[l][c] qu'on convertit en binaire sur 8 bits
                 r = decimal_vers_binaire(img[l][c][0])
                 g = decimal_vers_binaire(img[l][c][1])
                 b = decimal_vers_binaire(img[l][c][2])
+                # on remplace le pixel par les conversions en décimal des écriture binaires inversées des 3 composantes
                 img[l][c]=[int(inversion(r), 2), int(inversion(g), 2), int(inversion(b), 2)]
 
         imageio.imsave('portrait_decrypte.png', img)

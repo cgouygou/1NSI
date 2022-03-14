@@ -19,5 +19,5 @@
 ## Lecture d'un son numérique
 
 
-## Calcul de l'intensité moyenne
+## Calcul du volume
 

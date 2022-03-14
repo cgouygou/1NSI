@@ -32,16 +32,17 @@
     - Le filtre coloré dépend de la couleur dominante de la vidéo (à chaque 1/25e du temps).
 
     === "Couleur dominante"
-        ![](images/couleur.png){: .center} 
+        ![](images/couleur.png){: .center width=75%} 
 
         Après avoir divisé la durée de la vidéo par 25, on extrait une image de la vidéo, puis on extrait la couleur dominante au format HSL (H → teinte, S → saturation, L → luminosité). On passe la saturation à 100 pour obtenir la couleur du filtre, ici pour la 20e image du GIF.
-    === "Enregistrements sonores"
-        ![](images/son.png){: .center} 
 
-        De la même façon, on récupère un **intervalle** de l'enregistrement sonore de 1/25e de sa durée, dont on calcule l'intensité moyenne $I_s$. On extrait l'audio de la vidéo et on fait la même chose pour obtenir l'intensité $I_v$.
+    === "Enregistrements sonores"
+        ![](images/son.png){: .center width=75%} 
+
+        De la même façon, on récupère un **intervalle** de l'enregistrement sonore de 1/25e de sa durée, dont on calcule le volume minimum (en dbA), noté $V_{son}$. On extrait l'audio de la vidéo et on fait la même chose pour obtenir  $V_{video}$.
 
     === "Zone à extraire"
-        ![](images/zone.png){: .center} 
+        ![](images/zone.png){: .center width=50%} 
 
         - La largeur **W** de la zone à extraire dépend de la saturation **S** de la couleur dominante.
-        - Les coordonnées **x** et **y** du coin haut-gauche de la zone à extraire dépendent des intensités $I_s$ et $I_v$.
+        - Les coordonnées **x** et **y** du coin haut-gauche de la zone à extraire dépendent des volumes $V_{son}$ et $V_{video}$.

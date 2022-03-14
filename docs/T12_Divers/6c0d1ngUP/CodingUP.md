@@ -2,6 +2,7 @@
 
 ![](../images/codingup_banner.webp){: .center} 
 
+Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toutes les infos.
 
 !!! info "Lecture d'un fichier texte"
     Voici deux principales méthodes pour lire un fichier texte à l'aide de la fonction `open` (aucun module requis, elle fait partie des [fonctions natives de Python](https://docs.python.org/fr/3/library/functions.html){:target="_blank"} :

@@ -14,7 +14,7 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
         data = open('input.txt').read().splitlines()
         ```
     === "Méthode 2: avec traitement"
-        On peut donc également parcourir ligne par ligne le fichier ainsi:
+        On peut également parcourir ligne par ligne le fichier ainsi:
 
         ```python 
         data = []
@@ -35,7 +35,7 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
 
 
 !!! info "Défi par requête web"
-    Ce genre de défi donne deux url: l'une pour récupérer les données (méthode get), l'autre pour envoyer votre réponse (méthode POST). On va effectuer des requêtes à ces url via le module `requests`.
+    Ce genre de défi donne deux url: l'une pour récupérer les données (méthode GET), l'autre pour envoyer votre réponse (méthode POST). On va effectuer des requêtes à ces url via le module `requests`.
 
     ![](../images/urls.png){: .center width=35%} 
 
@@ -68,12 +68,13 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
     [https://pydefis.callicode.fr/defis/BaladeEchiquier/txt](https://pydefis.callicode.fr/defis/BaladeEchiquier/txt){:target="_blank"} 
 
 !!! info "Les sets"
-    Un objet *set* est une collection d'éléments comme les listes ou les tuples, à la différence qu'ils ne sont pas triés ni ordonnées, et donc on ne peut avoir accès à leurs éléments par indexation.
+    Un objet *set* est une collection d'éléments comme les listes ou les tuples, à la différence qu'ils ne sont pas triés ni ordonnés, et donc on ne peut avoir accès à leurs éléments par indexation.
 
     De plus, un set ne peut pas contenir plusieurs éléments identiques. Il ressemble ainsi à un «ensemble d'éléments» en mathématiques, et se note comme lui entre accolades.
 
     On peut néanmoins lui ajouter/supprimer des éléments, tester l'appartenance, le parcourir, créer l'intersection ou la réunion de plusieurs sets, etc.
 
+    Une utilisation des sets permet donc **d'éliminer les doublons**.
     **Exemples:**
 
     ```python
@@ -112,3 +113,41 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
     **Pour s'entraîner:**
 
     [https://pydefis.callicode.fr/defis/Herculito09Ceinture/txt](https://pydefis.callicode.fr/defis/Herculito09Ceinture/txt){:target="_blank"} 
+
+!!! note "Slicing"
+    Lorsqu'on travaille sur une liste, il peut être nécessaire (ou pratique) d'extraire une **tranche** (slice) de cette liste, c'est-à-dire une succession d'éléments consécutifs.
+
+    Par exemple, si on dispose d'une liste `[4, 2, 1, 3, 6, 0, 8]`, on peut extraire la tranche `[2, 1, 3, 6]` en précisant les indices de début et de fin (non inclus, comme dans `range`). Si on ne précise pas l'indice de début (respectivement l'indice de fin), on «slice» depuis le premier élément (resp. jusqu'au dernier):
+
+    ```python
+    >>> lst = [4, 2, 1, 3, 6, 0, 8]
+    >>> lst[1:5]
+    [2, 1, 3, 6]
+    >>> lst[1:]
+    [2, 1, 3, 6, 0, 8]
+    >>> lst[:4]
+    [4, 2, 1, 3]
+    ```
+    On peut également préciser un pas :
+    ```python
+    >>> lst[1:5:2]
+    [2, 3]
+    >>> lst[::2]
+    [4, 1, 6, 8]
+    ```
+
+    Cela peut donc être utile pour découper une liste en tranches de longueur donnée, ici 8 par exemple:
+
+    ```python
+    >>> test = list(range(64))
+    >>> test[0:8]
+    [0, 1, 2, 3, 4, 5, 6, 7]
+    >>> test[8:16]
+    [8, 9, 10, 11, 12, 13, 14, 15]
+    >>> tranches = [test[8*k:8*(k+1)] for k in range(len(test)//8)]
+    >>> tranches
+    [[0, 1, 2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13, 14, 15], [16, 17, 18, 19, 20, 
+    21, 22, 23], [24, 25, 26, 27, 28, 29, 30, 31], [32, 33, 34, 35, 36, 37, 38, 39],
+    [40, 41, 42, 43, 44, 45, 46, 47], [48, 49, 50, 51, 52, 53, 54, 55], [56, 57, 58
+    , 59, 60, 61, 62, 63]]
+    ```

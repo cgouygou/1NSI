@@ -25,6 +25,10 @@
     ```
     Dans le code précédent, l'image n°472 est extraite dans la variable `frame`. On peut ensuite la manipuler ou la sauvegarder. Pour connaître le nombre de frames dans la variable `video`, on utilise `video.count_frames()`.
 
+!!! info "Test de la fonction"
+    Sur l'image ci-dessous, vous devriez obtenir une couleur dominante de `(61, 134, 210)` en RGB soit `(210, 62, 53)` en HSL.
+
+    ![](../images/capturevideo.png){: .center} 
     
 ## Extraction de la zone
 !!! info "Extraction de la zone"
@@ -35,7 +39,13 @@
     I'm sorry, but I didn't succeed to find a french source for this.
     
     So you will have to translate [this page](https://en.wikipedia.org/wiki/Blend_modes){:target="_blank"} to find how to apply a colored filter to a picture.
-     
+
+!!! info "Testing your function"
+    Apply an overlay filter with HSL color `(210, 53, 58)` on the first image below should give the second one.
+
+    ![](../images/img_test.png){: .center} ![](../images/img_test_filtre.png){: .center}
+
+    
 ## Réalisation du GIF
 
 !!! info "RTFM"

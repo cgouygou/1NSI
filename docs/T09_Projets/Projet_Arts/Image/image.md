@@ -13,11 +13,30 @@
 
 ## Recherche de la couleur dominante
 
-!!! info ""
+!!! info "Extraction d'une frame de la vidéo"
+    Une image est composée de *frames*, c'est-à-dire d'images qui défilent à une certaine fréquence (FPS), en général 24 images par seconde.
+
+    Pour extraire une image d'une vidéo, on utilise le module `imageio`.
+
+    ```python
+    import imageio
+    video = imageio.get_reader('video.mp4') 
+    frame = video.get_data(472) 
+    ```
+    Dans le code précédent, l'image n°472 est extraite dans la variable `frame`. On peut ensuite la manipuler ou la sauvegarder. Pour connaître le nombre de frames dans la variable `video`, on utilise `video.count_frames()`.
+
     
 ## Extraction de la zone
+!!! info "Extraction de la zone"
+    Il faudra créer une image vide aux bonnes dimensions, puis affecter pixel par pixel ceux de la zone de l'image initiale définie par les valeurs de **x**, **y** et **W**.
 
 ## Application du filtre
-
+!!! info "Overlay blending mode"
+    I'm sorry, but I didn't succeed to find a french source for this.
+    
+    So you will have to translate [this page](https://en.wikipedia.org/wiki/Blend_modes){:target="_blank"} to find how to apply a colored filter to a picture.
+     
 ## Réalisation du GIF
 
+!!! info "RTFM"
+    [https://imageio.readthedocs.io/en/stable/examples.html#optimizing-a-gif-using-pygifsicle](https://imageio.readthedocs.io/en/stable/examples.html#optimizing-a-gif-using-pygifsicle){:target="_blank"} 

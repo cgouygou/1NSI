@@ -78,7 +78,7 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
     **Exemples:**
 
     ```python
-    >>> s1 = {'a', 'e', 'i', 'o', 'u', 'y'}
+    >>> s1 = {'a', 'e', 'i', 'o', 'u'}
     >>> s2 = set('jack sparrow')
     >>> s2
     {'c', ' ', 'p', 's', 'a', 'k', 'j', 'r', 'w', 'o'}
@@ -93,6 +93,9 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
     >>> s2.remove(' ')
     >>> s2
     {'c', 'p', 's', 'a', 'k', 'j', 'r', 'w', 'o'}
+    >>> s1.add('y')
+    >>> s1
+    {'y', 'u', 'a', 'e', 'o', 'i'}
     >>> s1 & s2
     {'o', 'a'}
     >>> s1 | s2
@@ -151,3 +154,7 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
     [40, 41, 42, 43, 44, 45, 46, 47], [48, 49, 50, 51, 52, 53, 54, 55], [56, 57, 58
     , 59, 60, 61, 62, 63]]
     ```
+
+    **Pour s'entraîner:**
+
+    [https://pydefis.callicode.fr/defis/Fourchelangue/txt](https://pydefis.callicode.fr/defis/Fourchelangue/txt){:target="_blank"} 

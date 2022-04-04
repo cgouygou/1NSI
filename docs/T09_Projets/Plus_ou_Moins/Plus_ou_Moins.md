@@ -28,7 +28,7 @@ Alice: « Bravo! Tu as deviné! »
 
     === "Version de base"
         - Dans un premier temps, le nombre à deviner est fixé. 
-        - On saisira les propositions de l'utilisateur (Bob) avec la fonction `input`.
+        - On saisira les propositions de l'utilisateur (Bob) avec la fonction `input` (voir [ici](https://cgouygou.github.io/1NSI/T12_Divers/5Trucs/Trucs/#1-recuperer-une-entree-clavier-dans-un-programme){:target="_blank"} ).
         - Le programme s'arrête quand l'utilisateur donne la bonne réponse, et sinon affiche « C'est plus! » ou « C'est moins! » selon les cas.
 
     === "Améliorations possibles"

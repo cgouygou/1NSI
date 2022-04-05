@@ -2,7 +2,7 @@
 
 ## Le module
 
-```python linenums='1'
+```python linenums='1' title='moduleprojet.py'
 ################################################################################
 # Module contenant les fonctions nécessaires au traitement de l'image et du son#
 ################################################################################

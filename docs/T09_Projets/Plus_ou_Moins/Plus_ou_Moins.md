@@ -32,7 +32,7 @@ Alice: « Bravo! Tu as deviné! »
         - Le programme s'arrête quand l'utilisateur donne la bonne réponse, et sinon affiche « C'est plus! » ou « C'est moins! » selon les cas.
 
     === "Améliorations possibles"
-        - Le nombre à deviner est choisi de façon aléatoire. Voir T6.2 Bibliothèques.
+        - Le nombre à deviner est choisi de façon aléatoire. Voir T6.2 Bibliothèques pour la fonction `randint` du module `random`.
         - Le programme affiche le nombre de tentatives pour trouver.
         - Le programme joue seul, de façon *intelligente*.
 

@@ -1,5 +1,16 @@
 # Code final du projet
 
+
+## Correction du «bug audio»
+
+Une erreur que beaucoup d'entre vous ont rnecontré, c'est que pour certaines vidéos, le son est en mono alors que la fonction `extraction_volumes` était conçue pour un son en stéréo (pas bien, mauvaise conception).
+
+L'explication du patch à appliquer pour corriger le bug en vidéo:
+
+<p align="center">
+<iframe title="1NSI_Bug_audio" src="https://peertube.lyceeconnecte.fr/videos/embed/f9c09e31-6dd4-482f-9e9c-d9067233bb7e" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
+</p>
+
 ## Le module
 
 ```python linenums='1' title='moduleprojet.py'

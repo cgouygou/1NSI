@@ -3,7 +3,7 @@
 
 ## Correction du «bug audio»
 
-Une erreur que beaucoup d'entre vous ont rnecontré, c'est que pour certaines vidéos, le son est en mono alors que la fonction `extraction_volumes` était conçue pour un son en stéréo (pas bien, mauvaise conception).
+Une erreur que beaucoup d'entre vous ont rencontré, c'est que pour certaines vidéos, le son est en mono alors que la fonction `extraction_volumes` était conçue pour un son en stéréo (pas bien, mauvaise conception).
 
 L'explication du patch à appliquer pour corriger le bug en vidéo:
 
@@ -44,9 +44,10 @@ def hsl(pix: tuple) -> tuple:
 
     M, m = max(r, g, b), min(r, g, b)
     C = M - m
-
+    print(C)
     if C == 0:
         h = 0
+        print('h=0')
     elif M == r:
         h = ((g - b)/C ) % 6
     elif M == g:
@@ -55,7 +56,7 @@ def hsl(pix: tuple) -> tuple:
         h = ((r - g)/C + 4) % 6
     h = 60 * h
     l = 0.5 * (M+m)
-    if l == 1:
+    if l == 1 or l == 0:
         s = 0
     else:
         s = C / (1- abs(2*l-1))
@@ -122,7 +123,7 @@ def extraction_couleur(im: list) -> tuple:
 # Extraction de la zone de l'image
 
 def extraction_zone(im: list, sat: int, V_son: float, V_video: float) -> list:
-    w = int(500 * sat / 100)
+    w = max(10, int(500 * sat / 100))
     x = int((500-w) * V_son)
     y = int((500-w) * V_video)
     zone = numpy.zeros((w, w, im.shape[2]), dtype=numpy.uint8)
@@ -177,8 +178,6 @@ def spectre(data: list, rate: int, debut: float, duree: float) -> list:
     s = s / s.max()
     return [math.log10(i) for i in s if i != 0]
 
-# Extraction des volumes min
-
 def extraction_volumes(filename: str) -> list:
     '''
     Découpe un fichier son en 25 intervalles, récupère le volume minimal (en dbA)
@@ -186,7 +185,10 @@ def extraction_volumes(filename: str) -> list:
     plage [vmin, vmax].
     '''
     rate, echantillon = wave.read(filename)
-    data = [e[0] for e in echantillon] # on choisit un seul canal, ici le gauche
+    if type(echantillon[0]) is numpy.ndarray:
+        data = [e[0] for e in echantillon] # on choisit un seul canal, ici le gauche
+    else:
+        data = echantillon
     duree = len(data) / rate
     volumes = []
     for k in range(25):
@@ -197,8 +199,8 @@ def extraction_volumes(filename: str) -> list:
     return pourcentages
 
 
-```
 
+```
 ## Le programme principal
 
 ```python linenums='1' title='main.py'
@@ -207,9 +209,9 @@ import imageio
 import os
 
 # Chargement des fichiers de données
-video = 'data/video_station1_groupe5.mp4'
-son = 'son_station1_groupe5.wav'
-image = imageio.imread('images/Gr5_Sp1_Florette2.jpg')
+video = 'videos/video_gr4_st2.mp4'
+son = 'sons/son_gr4_st2.wav'
+image = imageio.imread('images/image_gr4_el1.jpg')
 audio = 'audio.wav'
 
 # Extraction du son de la video
@@ -241,13 +243,12 @@ for k in range(25):
     # enregistrement de l'image
     imageio.imsave(f'images/image_gif{k}.png', zone_filtree)
     
+    # redimensionnement des images
+    os.system(f'mogrify -resize 500x images/image_gif{k}.png')  
     
 # Création du GIF
 with imageio.get_writer('GIF_ultime.gif', mode='I') as writer:
     for k in range(25):
-        os.system(f'mogrify -resize 500x images/image_gif{k}.png')
         image = imageio.imread(f'images/image_gif{k}.png')
         writer.append_data(image)
-        
-
 ```

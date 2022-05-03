@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      html, body{
+        width:100vw;
+        height:100vh;
+        margin: 0;
+        overflow-x:hidden;
+        overflow-y:auto;
+        font-family: "Iosevka Web", "Courier New", monospace !important;
+        background-color:black;
+        text-transform: uppercase;
+      }
+      *{
+        overflow: hidden !important;
+      }
+      div {
+        width:100vh;
+        height:50vh;
+        margin:0 0 0 calc(50vw - 50vh);
+        padding:0;
+      }
+      img{
+        width:50vh;
+        height:50vh;
+      }
+    </style>
+    <title>GIFS NSI</title>
+    </head>
+    <body>
+      <div>
+        <img id="image0" src="gifs/0.gif" /><img id="image2" src="gifs/1.gif" />
+      </div>
+      <div>
+        <img id="image1" src="gifs/2.gif" /><img id="image3" src="gifs/3.gif" />
+      </div>
+      <script src="js/jquery.js"></script>
+      <script>
+      let nbGroup = 0;
+      setInterval(function(){
+        nbGroup++;
+        if(nbGroup > 2){
+          nbGroup = 0;
+        }
+        console.log(nbGroup);
+        for(var i = 0; i < 4; i++){
+          var x = document.getElementById("image"+parseFloat(i));
+          x.setAttribute("src", "gifs/" + parseFloat(i + (nbGroup*4)) + ".gif");
+          // $("img").eq(i).src = "gifs/" + parseFloat(i + (nbGroup*4)) + ".gif";
+          // console.log("image"+parseFloat(i));
+          // console.log("gifs/" + parseFloat(i + (nbGroup*4)) + ".gif")
+        }
+      }, 6000);
+      </script>
+    </body>
+</html>

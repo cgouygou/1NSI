@@ -11,4 +11,8 @@
 
 Tout comme les plus grands chefs conçoivent leurs recettes à partir de recettes de base classiques, on retrouve dans les algorithmes les plus complexes des résolutions de problèmes simples et récurrents: parcourir une liste, trier...
 
-![](../images/AnimeHanoiNB.gif){: .center} 
+![](../images/AnimeHanoiNB.gif){: .center width=640} 
+
+<p align="center">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/AgtOCNCejQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>

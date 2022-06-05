@@ -7,8 +7,13 @@
     <body>
         <p>
             <?php
-                $mdp = $_GET['pass'];
-                if ($mdp == 'toto') {
+                if (isset($_GET['pass'])) {
+                    $mdp = $_GET['pass'];
+                }
+                if (isset($_POST['pass'])) {
+                    $mdp = $_POST['pass'];
+                }
+                if ($mdp == 'penguin') {
                     echo "Bien vu !";
                 }
                 else {

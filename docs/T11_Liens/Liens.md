@@ -3,6 +3,7 @@
 ## À propos de la spécialité NSI
 
 - [Le site Eduscol](https://eduscol.education.fr/2068/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g){:target="_blank"} 
+- [Les trophées NSI](https://trophees-nsi.fr/){:target="_blank"} 
 
 ## À propos de la culture des sciences de l'informatique
 
@@ -20,6 +21,7 @@
 - Une [brochure](../data/Infographie_TN.pdf){:target="_blank"} intéressante sur les métiers du numérique.
 - Un [podcast](https://pixees.fr/podcast/pod-nsi-orientation-post-bac/){:target="_blank"} sur les poursuites d'études (CPGE MPI, IUT, Université) après avoir choisi NSI comme spécialité au lycée.
 - [Zoom sur les métiers des mathématiques et de l'informatique](../data/Zoom_metiers_maths.pdf){:target="_blank"} 
+- [Onisep](https://www.onisep.fr/Decouvrir-les-metiers/Actus-2022/Journee-nationale-NSI-numerique-et-sciences-informatiques){:target="_blank"} 
 
 
 ## Pour se creuser la tête

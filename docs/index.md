@@ -1,14 +1,15 @@
 # Cours de Première NSI - Groupe 1 - M. Gouygou
 
 
-![mdv](images/logo_MdV_site.png){width=33% align=right}
+![mdv](images/logo_MdV_site.png){: .center} 
+
 Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
 <br>
 
-## Programme
+=== "Programme"
+    Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes.
 
-??? abstract "Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes"
     Nous traiterons les différentes entrées du programme dans les chapitres suivants:
 
     === "Thème 1"
@@ -83,9 +84,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
         7.5 Algorithme des $k$ plus proches voisins
 
-## Progression
-
-???+ abstract "Progression"
+=== "Progression"
     Cette progression est découpée selon les 5 périodes entre les vacances.
 
     === "Période 1"
@@ -153,9 +152,50 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     <!-- https://cgouygou.github.io/1NSI/index.html -->
 
 
-## Sources
+=== "Liens utiles"
 
-??? abstract "Bibliographie et Sitographie"
+    **À propos de la spécialité NSI**
+
+    - [Le site Eduscol](https://eduscol.education.fr/2068/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g){:target="_blank"} 
+    - [Les trophées NSI](https://trophees-nsi.fr/){:target="_blank"} 
+
+    **À propos de la culture des sciences de l'informatique**
+
+    - [Interstices](https://interstices.info/){:target="_blank"} 
+
+    - [Inria](https://www.inria.fr/fr){:target="_blank"} 
+
+    **À propos de Python**
+
+    - Une [interview](https://www.lemonde.fr/pixels/article/2018/07/25/je-n-imaginais-pas-que-python-connaitrait-un-tel-succes_5335917_4408996.html){:target="_blank"} de [Guido van Rossum](https://fr.wikipedia.org/wiki/Guido_van_Rossum){:target="_blank"} , le créateur de Python
+
+    **À propos de l'orientation**
+
+    - [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 
+    - Une [brochure](data/Infographie_TN.pdf){:target="_blank"} intéressante sur les métiers du numérique.
+    - Un [podcast](https://pixees.fr/podcast/pod-nsi-orientation-post-bac/){:target="_blank"} sur les poursuites d'études (CPGE MPI, IUT, Université) après avoir choisi NSI comme spécialité au lycée.
+    - [Zoom sur les métiers des mathématiques et de l'informatique](data/Zoom_metiers_maths.pdf){:target="_blank"} 
+    - [Onisep](https://www.onisep.fr/Decouvrir-les-metiers/Actus-2022/Journee-nationale-NSI-numerique-et-sciences-informatiques){:target="_blank"} 
+
+
+    **Pour se creuser la tête**
+
+    Quelques sites de challenges/énigmes/défis de programmation:
+
+    - [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"} 
+    - [Advent of Code](https://adventofcode.com/){:target="_blank"} 
+    - [MicroContest](http://www.microcontest.com/){:target="_blank"} 
+    - [Hackinscience](https://www.hackinscience.org/){:target="_blank"} 
+
+    **Pour se former en autonomie**
+
+    Au cas où vous vous ennuieriez...
+
+    - [France-IOI](http://www.france-ioi.org/){:target="_blank"} 
+    - [CheckIO](https://checkio.org/){:target="_blank"} 
+    - [CodinGame](https://www.codingame.com/start){:target="_blank"} 
+
+=== "Sources"
     L'essentiel des sources des contenus de ce site:
 
     - L'excellentissime site de Gilles Lassus : [https://glassus.github.io/premiere_nsi/](https://glassus.github.io/premiere_nsi/){:target="_blank"} 
@@ -164,4 +204,5 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     - *NSI 1re, 30 leçons avec exercices corrigés*, T. Balabonski, S. Conchon, J-C. Filiâtre, K. Nguyen, Ellipses
     - *Informatique et Sciences du Numérique*, G. Dowek, Eyrolles
     - Les ressources disponibles sur [https://gitlab.com/eskool/profs-info](https://gitlab.com/eskool/profs-info){:target="_blank"} et sur le [forum NSI - INRIA](https://mooc-forums.inria.fr/moocnsi/){:target="_blank"}
+
 

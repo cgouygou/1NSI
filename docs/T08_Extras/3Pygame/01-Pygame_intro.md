@@ -1,10 +1,11 @@
 # Introduction à Pygame
 
-![](../images/800px-Pygame_(2019)_Logo.png){.center}
+!!! info "Ressources"
 
-**Pygame** est un package de Python facilitant la création de jeux basés une interface graphique.
+    La documentation officielle de Pygame : [https://www.pygame.org/docs/](https://www.pygame.org/docs/){:target="_blank"} 
 
-## Lancement de Pygame et création de fenêtre
+
+**Lancement de Pygame et création de fenêtre**
 
 ```python linenums='1'
 import pygame
@@ -20,8 +21,8 @@ pygame.display.flip()
 # Boucle des événements
 continuer = True
 while continuer:
-    for event in pygame.event.get():    #Attente des événements
-        if event.type == QUIT:
+    for evenement in pygame.event.get():    #Attente des événements
+        if evenement.type == QUIT:
             continuer = False
 
 # Sortie
@@ -46,3 +47,5 @@ pygame.quit()
         
     === "Ligne 19"
         On ferme tout proprement.
+
+**Remarque:** on peut préciser le titre de la fenêtre avec `pygame.display.set_caption("Mon super programme")`.

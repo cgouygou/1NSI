@@ -13,9 +13,9 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     Nous traiterons les différentes entrées du programme dans les chapitres suivants:
 
     === "Thème 1"
-        **Thème 1: Représentation des données, types et valeurs de base**
+        **[Thème 1: Représentation des données, types et valeurs de base](https://cgouygou.github.io/1NSI/T01_TypesBase/accueil/)**
 
-        1.1 [Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.1_Bases/T1.1_Bases/)
+        1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
         
         1.2 Valeurs et expressions booléennes
 
@@ -27,21 +27,21 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     
     === "Thème 2"
-        **Thème 2:  Représentation des données, types construits**
+        **[Thème 2:  Représentation des données, types construits](https://cgouygou.github.io/1NSI/T02_TypesConstruits/accueil/)**
 
         2.1 Tableaux et listes
 
         2.2 Dictionnaires
 
     === "Thème 3"
-        **Thème 3: Traitement de données en tables**
+        **[Thème 3: Traitement de données en tables](https://cgouygou.github.io/1NSI/T03_TraitementDonnees/accueil/)**
 
         3.1 Manipulation, recherche et tri de tables
 
         3.2 Fusion et jointure de tables
 
     === "Thème 4"
-        **Thème 4: Interaction entre l'homme et la machine (IHM) sur le Web**
+        **[Thème 4: Interaction entre l'homme et la machine (IHM) sur le Web](https://cgouygou.github.io/1NSI/T04_IHMWeb/accueil/)**
 
         4.1 Pages Web et interactions
 
@@ -50,7 +50,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
         4.3 Requêtes GET/POST et formulaires d'une page Web
 
     === "Thème 5"
-        **Thème 5: Architectures matérielles et systèmes d'exploitation**
+        **[Thème 5: Architectures matérielles et systèmes d'exploitation](https://cgouygou.github.io/1NSI/T05_Architectures/accueil/)**
 
         5.1 Modèle de Von Neumann
 
@@ -61,7 +61,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
         5.4 IHM, capteurs (Microbit)
 
     === "Thème 6"
-        **Thème 6: Langages et programmation**
+        **[Thème 6: Langages et programmation](https://cgouygou.github.io/1NSI/T06_Python/accueil/)**
 
         6.1 Prise en main de Python
 
@@ -72,7 +72,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
         6.4 Jeux de tests
 
     === "Thème 7"
-        **Thème 7: Algorithmique**
+        **[Thème 7: Algorithmique](https://cgouygou.github.io/1NSI/T07_Algorithmes/accueil/)**
         
         7.1 Parcours séquentiel d'un tableau
 
@@ -89,23 +89,23 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     === "Période 1"
 
-        6.1 [Prise en main de Python](https://cgouygou.github.io/1NSI/T06_Python/T6.1_Python/T6.1_0_Python/)
+        6.1 Prise en main de Python
 
-        1.1 [Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.1_Bases/T1.1_Bases/)
+        1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
         
-        6.2 [Utilisation de bibliothèques](https://cgouygou.github.io/1NSI/T06_Python/T6.2_Bibliotheques/T6.2_Bibliotheques/)
+        6.2 Utilisation de bibliothèques
 
-        1.2 [Valeurs et expressions booléennes](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.2_Booleens/T1.2_Booleens/)
+        1.2 Valeurs et expressions booléennes
 
-        1.3 [Représentation binaire d'un entier relatif](https://cgouygou.github.io/1NSI/T01_TypesBase/T1.3_Relatifs/T1.3_Relatifs/)
+        1.3 Représentation binaire d'un entier relatif
     
     === "Période 2"
 
-        6.3 [Jeux de tests](https://cgouygou.github.io/1NSI/T06_Python/T6.3_Tests/T6.3_Tests/)
+        6.3 Jeux de tests
 
-        6.4 [Spécification](https://cgouygou.github.io/1NSI/T06_Python/T6.4_Specification/T6.4_Specification/)
+        6.4 Spécification
 
-        2.1 [Tableaux et listes](https://cgouygou.github.io/1NSI/T02_TypesConstruits/T2.2_Listes/T2.2_Listes1/)
+        2.1 Tableaux et listes
 
         7.1 Parcours séquentiel d'un tableau
 

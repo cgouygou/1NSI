@@ -1,7 +1,7 @@
 # Cours de Première NSI - Groupe 1 - M. Gouygou
 
 
-![mdv](images/logo_MdV_site.png){: .center} 
+![mdv](images/logo_MdV_site.png){: .center width=640} 
 
 Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 

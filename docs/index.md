@@ -151,6 +151,34 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     <!-- https://cgouygou.github.io/1NSI/index.html -->
 
+=== "Légende du site"
+    !!! abstract "Cours/À savoir"
+
+    !!! info "Remarque"
+
+    !!! note "Exemple"
+
+    !!! gear "Méthode/algorithme"
+
+    !!! code "Code/Programme"
+    
+    !!! example "Exercice/TP"
+
+    !!! tip "Astuce/conseil"
+
+    !!! check "Solution/Correction"
+
+    !!! warning "Attention/Remarque importante"
+
+    !!! quote "Citation"
+
+    !!! history "Histoire de l'informatique"
+
+    !!! video "Video"
+
+    !!! lien "Lien externe"
+
+    !!! capytale "Lien vers activité Capytale"
 
 === "Liens utiles"
 

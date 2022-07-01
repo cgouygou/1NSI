@@ -11,6 +11,8 @@ theme:
   icon:
     logo: fontawesome/solid/laptop-code
     repo : fontawesome/brands/github
+    admonition:
+      note: fontawesome/solid/pen-to-square
   favicon: xtra/favicon_bleu.svg
   
   features:

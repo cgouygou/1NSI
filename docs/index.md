@@ -180,6 +180,8 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     !!! capytale "Lien vers activité Capytale"
 
+    !!! pydefi "Pydéfi - c0d1ng UP"
+
 === "Liens utiles"
 
     **À propos de la spécialité NSI**

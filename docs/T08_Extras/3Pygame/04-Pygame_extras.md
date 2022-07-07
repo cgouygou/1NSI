@@ -66,6 +66,50 @@ pygame.draw.arc(screen, RED,  [210, 75, 150, 125], 3*pi/2, 2*pi, 2)
 pygame.draw.circle(screen, BLUE, [60, 250], 40)
 ```
 
+!!! note "Balle rebondissante"
+    Par exemple, pour représenter la balle qui rebondit sur les bords de la fenêtre, on peut dessiner un cercle plutôt que d'importer une image.
+    Il faut alors gérer les coordonnées du centre du cercle qui représente la balle.
+
+    Le code devient alors:
+
+    ```python linenums='1'
+    import pygame
+    from pygame.locals import *
+
+    pygame.init()
+
+    width, height = 320, 240
+    screen = pygame.display.set_mode((width, height))
+
+    # Caractéristiques de la balle
+    rayon = 8
+    x = width // 2 
+    y = height // 2
+    dx, dy = 1, 0
+    couleur = (255, 110, 66)
+    # Dessin du cercle
+    pygame.draw.circle(screen, couleur, (x, y), rayon)
+
+    continuer = True
+    while continuer:
+        for evenement in pygame.event.get():
+            if evenement.type == QUIT:
+                continuer = False
+        
+        x = x + dx
+        y = y + dy
+
+        if x < rayon or x > width-rayon:
+            dx = - dx
+
+        screen.fill([0, 0, 0])
+        pygame.draw.circle(screen, couleur, (x, y), rayon)
+        pygame.display.flip()
+
+    pygame.quit()
+
+    ```
+    
 ## 3. Gérer plusieurs fenêtres
 
 *En terminale...*

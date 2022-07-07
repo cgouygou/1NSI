@@ -4,7 +4,7 @@
 
 L'objectif ici est de faire apparaître un personnage (une image) et de l'animer. Pour illustrer cela on va utiliser [cette image](images/basketball16.png){:target="_blank"} que l'on va faire rebondire sur les bords de la fenêtre.
 
-## Création de la fenêtre et insertion de l'image
+## 1. Création de la fenêtre et insertion de l'image
 
 ```python linenums='1'
 import pygame
@@ -40,7 +40,7 @@ pygame.quit()
     === "Ligne 11"
         On affiche cette image en la *superposant* aux éléments graphiques déjà affichés (en l'occurence, rien...) avec la méthode `blit`.
 
-## Animation de l'image/personnage
+## 2. Animation de l'image/personnage
 
 !!! code "Déplacement"
     Pour déplacer l'image/le personnage, il faut modifier ses coordonnées à chaque rafraîchissement de la fenêtre. 
@@ -72,19 +72,21 @@ pygame.quit()
         ```
         
 
-Pour notre animation, on décide donc d'un décalage relatif en abscisse et en ordonnée, qu'on stocke par exemple dans une liste.
+Pour notre animation, on décide donc d'un décalage relatif en abscisse et en ordonnée, qu'on stocke par exemple dans une deux variables `dx` et `dy`.
+
+![](images/schema_move.png){: .center width=480} 
 
 Ici, pour déplacer d'un pixel sur chaque coordonnée:
 
 ```python
-speed = [1, 1]
-position_balle.move(speed)
+dx, dy = 1, 1
+position_balle.move([dx, dy])
 ```
 
 Bien entendu, il faut changer ces valeurs lorsqu'on atteint le bord de la fenêtre:
 
-- si `position_balle.right` dépasse la largeur `width`, il faut repartir vers la gauche, c'est-à-dire passer de la valeur `1` à `-1`.
-- et si `position_balle.left` devient négatif, il faut repartir vers la droite, c'est-à-dire passer de la valeur `-1` à `1`.
+- si `position_balle.right` dépasse la largeur `width`, il faut repartir vers la gauche, c'est-à-dire passer de la valeur `dx` de `1` à `-1`.
+- et si `position_balle.left` devient négatif, il faut repartir vers la droite, c'est-à-dire passer de la valeur `dx` de `-1` à `1`.
 
 Le code suivant va donc actualiser ce déplacement et faire rebondir notre balle de droite à gauche:
 
@@ -103,7 +105,7 @@ position_balle = balle.get_rect()
 screen.blit(balle, position_balle)
 pygame.display.flip()
 
-speed = [1, 0]
+dx, dy = 1, 0
 
 continuer = True
 while continuer:
@@ -112,9 +114,9 @@ while continuer:
             continuer = False
 
     if position_balle.left < 0 or position_balle.right > width:
-        speed[0] = -speed[0]
+        dx = - dx
     
-    position_balle = position_balle.move(speed) 
+    position_balle = position_balle.move([dx, dy]) 
 
     screen.fill([0, 0, 0])
     screen.blit(balle, position_balle)

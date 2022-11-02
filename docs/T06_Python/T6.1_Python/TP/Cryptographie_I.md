@@ -1,7 +1,7 @@
 # FKLIIUH#GH#FHVDU
 
 !!! abstract "Objectif"
-    L'objectif de ce projet est de décrypter la phrase suivante:
+    L'objectif de ce TP est de décrypter la phrase suivante (ou le titre, ou ...):
 
     `PRZRFFNTRARPBAGVRAGEVRAQVAGRERFFNAGZNVFVYRFGFHSSVFNZZRAGYBATCBHEARCNFYRQRPELCGRENYNZNVA`
 
@@ -44,7 +44,7 @@
     - le chiffre de Vigenère;
     - la méthode du masque jetable;
 
-
+<!-- 
 !!! check "Proposition de correction"
     1.
     ```python linenums='1'
@@ -84,7 +84,7 @@
         return phrase_decalee
         
     ```
-    
+     -->
 
     
     

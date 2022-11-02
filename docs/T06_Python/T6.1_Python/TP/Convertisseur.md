@@ -1,7 +1,7 @@
-# Convertisseur binaire / décimal
+# Convertisseur binaire ⟷ décimal
 
 !!! abstract "Objectif"
-    L'objectif de ce projet est de programmer un convertisseur d'écritures:
+    L'objectif de ce TP est de programmer un convertisseur d'écritures:
 
     - d'un nombre décimal en binaire;
     - d'un nombre binaire en décimal.
@@ -29,9 +29,9 @@
         - incrémenter de la bonne puissance de deux un `int` selon les valeurs des caractères (convertis en `int`).
 
 !!! note "Ouverture"
-    Réaliser de même un convertisseur hexadécimal / décimal.
+    Réaliser de même un convertisseur hexadécimal ⟷ décimal.
 
-
+<!-- 
 !!! check "Proposition de correction"
 
     === "Décimal → Binaire"
@@ -66,4 +66,4 @@
                 exposant -= 1
             return decimal
         ```
-        
+         -->

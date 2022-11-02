@@ -21,7 +21,7 @@ Pour chaque suite de Syracuse, de terme de départ $n$, on définit:
 Par exemple, pour la suite de Syracuse de 13, le temps de vol est 9, le temps de vol en altitude est 3 et l'altitude maximale est 40.
 
 !!! abstract "Objectif"
-    L'objectif de ce projet est de construire un *module* contenant différentes fonctions permettant d'étudier ce suites.
+    L'objectif de ce TP est de construire un *module* contenant différentes fonctions permettant d'étudier ce suites.
 
     En particulier, le module contiendra *a minima* les fonctions suivantes:
 

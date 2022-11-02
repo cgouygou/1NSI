@@ -4,6 +4,8 @@ La majorité des exercices proposés sont issus du site [https://pydefis.callico
 
 ![](../images/c0d1ngUP_affiche_2023.png){: .center width=480} 
 
+L'[affiche au format PDF](../images/affiche_2023.pdf){:target="_blank"} , plus pratique pour déchiffrer [le message caché](https://capytale2.ac-paris.fr/web/c/36c3-873002){:target="_blank"} ...
+
 Vous pouvez vous y créer un compte, pour valider les défis et progresser au Hall of Fame... mais ce n'est absolument pas obligé.
 
 !!! pydefi "Désamorçage d'un explosif (I)"

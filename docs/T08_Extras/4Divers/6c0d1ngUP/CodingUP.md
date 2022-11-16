@@ -1,6 +1,6 @@
 # Préparation à c0d1ng UP
 
-![](../../images/codingup_banner.webp){: .center} 
+![](../images/xcropped-banniere-codingup.png){: .center} 
 
 Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toutes les infos.
 

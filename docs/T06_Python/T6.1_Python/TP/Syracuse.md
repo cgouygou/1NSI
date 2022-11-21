@@ -31,7 +31,7 @@ Par exemple, pour la suite de Syracuse de 13, le temps de vol est 9, le temps de
     - `affiche_syracuse`: qui doit afficher le graphique de la suite (utiliser pour cela le module `matplotlib.pyplot`.
 
 !!! example "Partie I"
-    **À la main**, écrire les suites de Syracuse de 15, 64, et 97. Déterminer pour chacune les temps de vol, temps de vol en altitude et altitude maximale.
+    **À la main**, écrire les suites de Syracuse de 15, 64, et 42. Déterminer pour chacune les temps de vol, temps de vol en altitude et altitude maximale.
 
     Ces exemples serviront plus tard de jeu de tests pour les fonctions à écrire.
 

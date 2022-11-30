@@ -5,4 +5,4 @@ Lorsqu'on navigue sur le Web, nous interagissons avec une machine distante via d
 ![](../images/client.png){: .center} 
 
 
-Avant de commencer un [petit web-escape game...](http://lyceevalois.com/snt/IntroWeb/index.html){:target="_blank"} 
+Avant de commencer,  un [petit web-escape game...](http://lyceevalois.com/nsi/WebGame/index.html){:target="_blank"} pour s'échauffer...

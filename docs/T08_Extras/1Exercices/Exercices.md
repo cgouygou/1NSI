@@ -1,5 +1,9 @@
 # Exercices supplémentaires
 
+!!! capytale "Fiches d'exercices sur Capytale"
+    - [Fiche d'exercices 1](https://capytale2.ac-paris.fr/web/c/b154-1046119){:target="_blank"} ou code de partage : `b154-1046119`.
+
+    
 La majorité des exercices proposés sont issus du site [https://pydefis.callicode.fr](https://pydefis.callicode.fr/){target="_blank"} qui recense tous les défis des différentes éditions du concours [`c0d1ng UP`](https://codingup.fr){target="_blank"}.
 
 ![](../images/c0d1ngUP_affiche_2023.png){: .center width=480} 

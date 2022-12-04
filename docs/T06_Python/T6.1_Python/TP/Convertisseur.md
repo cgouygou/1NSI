@@ -31,7 +31,7 @@
 !!! note "Ouverture"
     Réaliser de même un convertisseur hexadécimal ⟷ décimal.
 
-<!-- 
+
 !!! check "Proposition de correction"
 
     === "Décimal → Binaire"
@@ -66,4 +66,4 @@
                 exposant -= 1
             return decimal
         ```
-         -->
+        

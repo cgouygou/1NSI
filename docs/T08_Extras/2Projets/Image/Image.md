@@ -31,8 +31,11 @@
     - une couleur dont les 3 composantes sont identiques correspond à un niveau de gris;
     - selon les formats, une quatrième composante peut s'ajouter: le **canal alpha**. Cette valeur (sur un octet également) indique le niveau de transparence du pixel.
 
-!!! tip "Site incontournable"
-    Un site pour visualiser les couleurs au formet RGB, et convertir en héxadécimal : [http://www.proftnj.com/RGB3.htm](http://www.proftnj.com/RGB3.htm){:target="_blank"}  
+!!! tip "Sites incontournables"
+    Pour visualiser les couleurs au format RGB, et convertir en hexadécimal : 
+
+    - [http://www.proftnj.com/RGB3.htm](http://www.proftnj.com/RGB3.htm){:target="_blank"}  
+    - [https://www.w3schools.com/colors/colors_rgb.asp](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} 
 
 ## 2. Les modules
 
@@ -42,6 +45,11 @@ Pour manipuler les images, nous allons avoir besoin du module `imageio`. Ce modu
 
 
 !!! info "`imageio`"
+
+
+
+
+
     - Ouvrir et charger une image existante (`ada.png` par exemple)  dans une variable (`img` par exemple):
 
     ```python
@@ -95,9 +103,9 @@ Pour manipuler les images, nous allons avoir besoin du module `imageio`. Ce modu
     === "Énoncé" 
         1. Télécharger l'image `ada.png` ci-dessus (simple clic-gauche), puis la charger dans un programme avec le module `imageio`.
         2. Trouver ses dimensions et son nombre de composantes.
-        3. Faire un crime de lèse-majesté et tracer une ligne horizontale rouge au nivau du front.
+        3. Faire un crime de lèse-majesté et tracer une ligne horizontale rouge au niveau du front.
     === "Solution" 
-        {{ correction(True, 
+        {{ correction(False, 
         "
         ```python linenums='1'
         import imageio
@@ -119,13 +127,26 @@ Pour manipuler les images, nous allons avoir besoin du module `imageio`. Ce modu
         "
         ) }}
 
+
+!!! example "{{ exercice() }}"
+    === "Énoncé" 
+        De combien de pixels (non verts) ce dessin de Pikachu est-il composé?
+
+        ![](../images/pikachu.png){: .center} 
+
+    === "Correction" 
+        {{ correction(False, 
+        "
+        "
+        ) }}
+
 !!! example "{{ exercice() }}"
     === "Énoncé" 
         Cette image est-elle vraiment composée de pixels tous noirs?
 
         ![](../images/message.png){: .center}
     === "Solution" 
-        {{ correction(True, 
+        {{ correction(False, 
         "
         
         - on parcourt tous les pixels de l'image avec deux boucles `for` imbriquées: `i` sur la hauteur (les lignes) et `j` sur la largeur (les colonnes);
@@ -151,13 +172,16 @@ Pour manipuler les images, nous allons avoir besoin du module `imageio`. Ce modu
 
 !!! example "{{ exercice() }}"
     === "Énoncé" 
-        Incruster John Travolta devant le lycée
+        Incruster Vincent Vega (John Travolta) devant le lycée.
 
         ![](../images/john.bmp){: .center} 
 
         ![](../images/lycmdv_crop.jpg){: .center} 
-    === "Solution" 
-        {{ correction(True, 
+
+        Si vous avez le temps, essayez d'incruster Pikachu... Ou Vincent Vega sur une image de votre choix, de plus grande définition que celle-ci.
+
+    === "Correction" 
+        {{ correction(False, 
         "
         - on charge les deux images dans deux variables;
         - on parcourt l'image sur fond vert, et si le pixel est vert, on le remplace par le pixel (aux mêmes coordonnées) de l'autre image.
@@ -199,7 +223,9 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_filtre.png){: .center} 
 
         ??? check "Correction"
-            ```python linenums="1"
+            {{ correction(False, 
+            "
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -210,6 +236,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
             imageio.imsave('img_filtre.png', img)
             ```
+            "
+            ) }}
 
     === "Négatif"
         Pour obtenir le négatif d'une image, il faut remplacer chaque composante RGB par son complémentaire à 255.
@@ -220,7 +248,9 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
 
         ??? check "Correction"
-            ```python linenums="1"
+            {{ correction(False, 
+            "
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -233,6 +263,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
             imageio.imsave('img_negatif.png', img)
             ```
+            "
+            ) }}
 
     === "Niveaux de gris"
         Dans sa norme 709, la Commission Internationale de l’Éclairage propose de remplacer les 3 composantes d'un pixel (r, g, b) par la valeur suivante :
@@ -242,7 +274,9 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_gris.png){: .center} 
 
         ??? check "Correction"
-            ```python linenums="1"
+            {{ correction(False, 
+            "
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -256,6 +290,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
             imageio.imsave('img_gris.png', img)
             ```
+            "
+            ) }}
 
     === "Flip"
         On retourne l'image horizontalement.
@@ -263,7 +299,9 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_flip.png){: .center} 
 
         ??? check "Correction"
-            ```python linenums="1"
+            {{ correction(False, 
+            "
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -277,6 +315,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
             imageio.imsave('img_miroir.png', img_miroir)
 
             ```
+            "
+            ) }}
 
     === "Photomaton"
         C'est une transformation réversible, puisqu'on envoie un pixel sur quatre dans chaque carré...
@@ -284,6 +324,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_photomaton.png){: .center} 
 
         ??? check "Correction"
+            {{ correction(False, 
+            "
 
             L'idée est d'«envoyer» chaque pixel dans l'un des 4 carrés, en considérant la parité des indices de ligne `i` et de colonnes `j`:
 
@@ -292,7 +334,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
             - les pixels sur une colonne paire sur les carrés de gauche;
             - les pixels sur une colonne impaire sur les carrés de droite;
             
-            ```python linenums="1"
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -305,6 +347,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
             imageio.imsave('img_photomaton.png', img_photomaton)
 
             ```
+            "
+            ) }}
 
     === "Pop-art"
 
@@ -313,10 +357,12 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_popart2.png){: .center} 
 
         ??? check "Correction"
+            {{ correction(False, 
+            "
 
             Avec une fonction...
 
-            ```python linenums="1"
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -340,6 +386,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
             imageio.imsave('img_popart.png', img)
             ```
+            "
+            ) }}
 
     === "Pixellisation"
         Je vous laisse deviner...
@@ -347,6 +395,8 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_mosaique.png){: .center} 
 
         ??? check "Correction"
+            {{ correction(False, 
+            "
             Le principe est de décider tout d'abord d'une taille de «carrés» qui vont composer l'image pixellisée. Bien entendu, cette taille doit être un diviseur commun de la hauteur et de la largeur de l'image. Ici comme l'image fait 256x256, on peut choisir n'importe quelle puissance de 2.
             Par exemple, prenons 8 pixels. Il y aura donc 256//8 = 32 carrés en hauteur et en largeur.
 
@@ -354,7 +404,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
             On affecte enfin cette couleur à chaque pixel du carré.
 
-            ```python linenums="1"
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
@@ -375,8 +425,10 @@ On travaillera (par exemple) sur l'image ci-dessous:
                         for j in range(cote):
                             img[cote*ligne + i,cote*colonne + j] = couleur_moyenne(ligne, colonne)
 
-            imageio.imsave("img_pixellisee.png", img)
+            imageio.imsave('img_pixellisee.png', img)
             ```
+            "
+            ) }}
 
     === "Floutage" 
         Je vous laisse deviner...
@@ -384,12 +436,16 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_floue.png){: .center} 
 
         ??? check "Correction"
-            ```python linenums="1"
+            {{ correction(False, 
+            "
+            ```python linenums='1'
             import imageio
             img = imageio.imread('VanGogh_Arles.png')
 
             
             ```
+            "
+            ) }}
 
 
         

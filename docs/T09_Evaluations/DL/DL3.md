@@ -2,7 +2,7 @@
 
 {{ initexo(0) }}
 
-À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/448d-1071587){:target="_blank"}  avant le 04 janvier 2023.
+À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/448d-1071587){:target="_blank"}  avant le 12 janvier 2023.
 
 
 !!! example "{{ exercice() }} : Piège numérique à Pokémons"
@@ -16,6 +16,8 @@
 
         1. La **division euclidienne par 10**: le reste donne le chiffre des unités, le quotient ce qui «reste»;
         2. La **conversion** du nombre en chaîne de caractères pour parcourir facilement le nombre.
+
+        **Edit:** on a construit (et corrigé) une telle fonction dans la fiche d'exercices n°2...
 
 
     === "Correction" 

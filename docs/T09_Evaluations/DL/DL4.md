@@ -2,7 +2,7 @@
 
 {{ initexo(0) }}
 
-À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/59e6-1071667){:target="_blank"}  avant le 1er février 2023.
+À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/59e6-1071667){:target="_blank"}  avant le 02 février 2023.
 
 
 

@@ -1,7 +1,7 @@
 # DL 0010
 {{ initexo(0) }}
 
-À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/17a7-1064333){:target="_blank"} avant le 16 décembre 2022.
+À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/17a7-1064333){:target="_blank"} avant le 23 décembre 2022.
 
 
 !!! example "{{ exercice() }} : maximum d'un tableau"
@@ -32,6 +32,8 @@
         - écrire une fonction pour stopper (proprement) le parcours de la liste lorsque l'énergie est tombée à 0 (solution 4).
 
         **Remarque:** les nombres négatifs n'ont pas d'importance. En effet si un objet a pour valeur -46 et que Psystigri possède une énergie de 52, alors il fait valser l'objet (et donc perdra un point d'énergie) car 52 est supérieur à 46, **la valeur absolue** de -46.
+
+        Il faut donc comparer l'énergie de Psystigri à la valeur absolue de l'objet de la liste.
 
         En Python, la valeur absolue est obtenue à l'aide de la fonction `#!py abs` :
 

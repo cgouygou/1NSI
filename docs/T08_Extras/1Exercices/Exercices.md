@@ -4,6 +4,93 @@
     - [Fiche d'exercices 1](https://capytale2.ac-paris.fr/web/c/b154-1046119){:target="_blank"} ou code de partage : `b154-1046119`.
 
     - [Fiche d'exercices 2](https://capytale2.ac-paris.fr/web/c/5d12-1084132){:target="_blank"} ou code de partage : `5d12-1084132`.
+
+    ??? check "Correction fiche n°2"
+        === "Exercice 1"
+            ```python linenums='1'
+            #1. parcours par indice
+            def somme(tab:list) -> int:
+                s = 0
+                for k in range(len(tab)):
+                    s += tab[k]
+                return s
+
+            #1. parcours par élément
+            def somme(tab:list) -> int:
+                s = 0
+                for elt in tab:
+                    s += elt
+                return s
+
+            #2. parcours par indice
+            def somme_carres(tab:list) -> int:
+                s = 0
+                for k in range(len(tab)):
+                    s += tab[k]**2
+                return s
+
+            #2. parcours par élément
+            def somme_carres(tab:list) -> int:
+                s = 0
+                for elt in tab:
+                    s += elt**2
+                return s
+
+            #3. parcours par indice obligatoire!
+            def somme_indices_pairs(tab:list) -> int:
+                s = 0
+                for k in range(len(tab)):
+                    if k%2 == 0:
+                        s += tab[k]
+                return s
+
+            #4. parcours par élément
+            def somme_elements_pairs(tab:list) -> int:
+                s = 0
+                for element in tab:
+                    if element%2 == 0:
+                        s += element
+                return s
+            ```
+        === "Exercice 2"
+            ```python linenums='1'
+            # En utilisant la division euclidienne par 10 et en ajoutant des listes à gauche
+            def chiffres_math(n:int) -> list:
+                c = []
+                while n != 0:
+                    c = [n%10] + c
+                    n = n // 10
+                return c
+
+            # En utilisant des conversions int ⟷ str
+            def chiffres_str(n:int) -> list:
+                c = []
+                for car in str(n):
+                    c.append(int(car))
+                return c
+            ```
+        
+        === "Exercice 3"
+            ```python linenums='1'
+            import marvel 
+
+            c = 0
+            for nom in marvel.persos_marvel:
+                if 'black' in nom or 'Black' in nom:
+                    c += 1
+            print(c)
+
+            # ou, en utilisant la méthode lower():
+            import marvel 
+
+            c = 0
+            for nom in marvel.persos_marvel:
+                if 'black' in nom.lower():
+                    c += 1
+            print(c)
+            ```
+            
+            
     
 
     

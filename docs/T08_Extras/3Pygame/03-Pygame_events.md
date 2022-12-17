@@ -52,6 +52,53 @@ pygame.key.set_repeat(50)
                 print("clic gauche détecté")
     ```
 
-**Remarque:**  on récupère le tuple des coordonnées de la souris par l'instruction `pygame.event.get_pos()`.
+**Remarque:**  on récupère le tuple des coordonnées de la souris par l'instruction `pygame.mouse.get_pos()`.
 
-<!-- !!! example "À vous de jouer" -->
+!!! example "Exemple d'utilisation"
+    Exécuter et analyser le code suivant:
+
+    ```python linenums='1'
+    import pygame
+    from pygame.locals import *
+    import random
+
+    ## Fonctions
+    def affiche():
+        couleur = (random.randint(0, 255),
+                   random.randint(0, 255),
+                   random.randint(0, 255))
+        screen.fill(couleur)
+        pygame.draw.rect(screen, (0, 0, 0), [width//2 - 50, height//2 - 50, 100, 100], 10)
+
+    ## Constantes
+    width, height = 640, 480
+    size = (width, height)
+
+
+    ## Initialisation de Pygame
+    pygame.init()
+
+    ## Écran
+    screen = pygame.display.set_mode(size)
+    pygame.display.set_caption("Cliquez dans le carré")
+
+    ## Boucle des événements
+    affiche()
+    continuer = True
+
+    while continuer:
+        for evenement in pygame.event.get():
+            if evenement.type == pygame.QUIT:
+                continuer = False
+            if evenement.type == MOUSEBUTTONDOWN:
+                if evenement.button == 1:
+                    x, y = pygame.mouse.get_pos()
+                    if abs(x - width//2) < 50 and abs(y - height//2) < 50:
+                        affiche()
+
+        pygame.display.flip()
+
+    ## Fermeture de la fenêtre
+    pygame.quit()
+    ```
+    

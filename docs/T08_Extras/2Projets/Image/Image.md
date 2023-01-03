@@ -8,7 +8,7 @@
         
         [^1]: en fait cela dépend de l'outil (module) utilisé pour lire et écrire des images.
 
-        ![](../images/tabpixeleps.png){: .center .w640} 
+        ![](../images/tabpixelNSI.png){: .center .w640} 
         
     === "Définition"
         La définition de l’image est le nombre total de pixels qui la composent. Celle-ci n’est pas forcément égale à la définition du capteur.

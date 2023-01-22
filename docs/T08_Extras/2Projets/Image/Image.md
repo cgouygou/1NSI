@@ -206,19 +206,22 @@ Pour manipuler les images, nous allons avoir besoin du module `imageio`. Ce modu
         ) }}
 
 
-## 4. Création d'effets 
+## 4. Le mini-projet : Création d'effets 
 
-Dans cette dernière partie, on va recréer des effets que des logiciels de retouche d'image (GIMP, Photoshop, ...) proposent.
+Dans ce mini-projet, vous devez créer des effets que des logiciels de retouche d'image (GIMP, Photoshop, ...) proposent.
 
 On travaillera (par exemple) sur l'image ci-dessous:
 
 ![](../images/vangogh/VanGogh_Arles.png){: .center} 
 
 !!! note "Effets"
+    Les 6 premiers effets sont obligatoires, les deux derniers (pixellisation et floutage) sont facultatifs.
+
+
     === "Filtre rouge"
         Pour créer un filtre rouge il suffit de conserver la composante rouge et de remplacer les autres composantes par 0.
 
-        Si vous n'aimez pas le rouge, faites un filtre vert. Ou bleu.
+        Si vous n'aimez pas le rouge, faites un filtre vert. Ou bleu. Ou les trois.
 
         ![](../images/vangogh/img_filtre.png){: .center} 
 
@@ -448,4 +451,14 @@ On travaillera (par exemple) sur l'image ci-dessous:
             ) }}
 
 
-        
+!!! info "Grille d'évaluation"
+    Sur ce projet, vous serez évalués sur la grille suivante:
+
+    |Contenu|Points|
+    |-------|:----:|
+    |Filtre correctement réalisé (2 pts × 6) |12|
+    |Utilisation de fonctions pour les filtres|3|
+    |Un seul fichier|1|
+    |Code aéré, spécifié, lisible, noms de variables pertinents...|2|
+    |«P'tit truc en plus» : filtre supplémentaire, interface utilisateur (console ou graphique avec Pygame)|2|
+    |Total|20|

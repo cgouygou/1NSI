@@ -214,9 +214,101 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
 
         En utilisant `pygame`.
 
+    === "Indications"
+        ```python linenums='1' title="Rappel du code minimal pour Pygame"
+        import pygame
+        from pygame.locals import *
+
+        pygame.init()
+
+        fenetre = pygame.display.set_mode((640, 480)) # taille de la fenêtre à éventuellement modifier...
+        fenetre.fill([255, 255, 255]) # on peut choisir une autre couleur de fond que du blanc...
+
+        # Début des instructions
+
+
+
+
+
+        # Fin des instructions
+
+        pygame.display.flip()
+
+        # Boucle des événements
+        continuer = True
+        while continuer:
+            for evenement in pygame.event.get():    #Attente des événements
+                if evenement.type == QUIT:
+                    continuer = False
+
+        # Sortie
+        pygame.quit()
+        ```
+        
+        Pour résoudre de pydéfi, il va valloir tracer un segment pour chaque pas en direction de N, S, O, E. Commençons par choisir une taille pour chaque pas, par exemple 10 pixels:
+        ```python 
+        pas = 10
+        ```
+        
+        Ensuite il faut savoir [tracer un segment](https://cgouygou.github.io/1NSI/T08_Extras/3Pygame/04-Pygame_extras/#2-dessiner-avec-pygame){:target="_blank"} 
+
+        ```python
+        pygame.draw.line(fenetre, [0, 0, 0], [0, 0], [50, 30], 2)
+        ```
+        
+        L'instruction précédente trace un segment (*a line*) d'épaisseur `2` pixels, en noir (`#!py [0, 0, 0]`) entre les points de coordonnées `#!py [0, 0]` et `#!py [50, 30]`.
+
+        Enfin il faut modéliser correctement le problème, c'est-à-dire identifier les grandeurs dont on va avoir besoin et avec quels types de variables on va les représenter...
+
+        On a besoin à chaque étape:
+
+        - d'un point de départ
+        - d'un point d'arrivée
+        - d'un déplacement entre les deux
+
+
+
+
     === "Correction" 
         {{ correction(False, 
         "
+        ```python linenums='1'
+        import pygame
+        from pygame.locals import *
+
+        pygame.init()
+
+        fenetre = pygame.display.set_mode((1400, 80)) # taille de la fenêtre à éventuellement modifier...
+        fenetre.fill([255, 255, 255]) # on peut choisir une autre couleur de fond que du blanc...
+
+        # Début des instructions
+        message = '''NNEESOOESEENNEEOOSEOSEEENNESENSSENNEESSOOEEENNEEOOSEOSEEENEENOOEESOOSEEEEEEENONSESENNSSENNEESSOOEEENNSSEENNSSEEENOONEEOOSEESEEEENNEESSOOEEENNEESOOEESENNESENSSEEENOONEEOOSEESEEEENNSSEEENNEESOOEESEEEENNEEOOSEOSEEENNEESSOOEEENNEESOOESEENNEEOOSEOSEEEENNOEEOSSEEEEENNEESOOEESOOEEENNEESOOESEENNSSEENNSSENNESNESSENNEEOOSEOSEEENNSSEENNSSEEENOONEEOOSEESENNEEOOSEOSEEEEEENNEESSOOEEENNEEOOSEOSEEENNESNESSENNEESOOEESENNSSENNESENSS'''
+
+        pas = 10
+        directions = {'N':(0, -pas), 'S':(0, pas), 'E':(pas, 0), 'O':(-pas, 0)}
+
+        pos_depart = [60, 60]
+
+        for d in message:
+            pos_arrivee = [pos_depart[0] + directions[d][0], pos_depart[1] + directions[d][1]]
+            pygame.draw.line(fenetre, [0, 0, 0], pos_depart, pos_arrivee, 2)
+            pos_depart = pos_arrivee
+
+        # Fin des instructions
+
+        pygame.display.flip()
+
+        # Boucle des événements
+        continuer = True
+        while continuer:
+            for evenement in pygame.event.get():    #Attente des événements
+                if evenement.type == QUIT:
+                    continuer = False
+
+        # Sortie
+        pygame.quit()
+        ```
+        
         "
         ) }}
 

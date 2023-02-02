@@ -201,6 +201,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
     **À propos de l'orientation**
 
+    - [BD à télécharger en PDF : Les décodeuses du numérique](data/les_decodeuses_du_numerique_web.pdf){:target="_blank"} 
     - [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 
     - Une [brochure](data/Infographie_TN.pdf){:target="_blank"} intéressante sur les métiers du numérique.
     - Un [podcast](https://pixees.fr/podcast/pod-nsi-orientation-post-bac/){:target="_blank"} sur les poursuites d'études (CPGE MPI, IUT, Université) après avoir choisi NSI comme spécialité au lycée.
@@ -213,6 +214,7 @@ Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
     Quelques sites de challenges/énigmes/défis de programmation:
 
     - [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"} 
+    - [Codémoi](https://iremsinfo.callicode.fr/concours/infos/){:target="_blank"}
     - [Advent of Code](https://adventofcode.com/){:target="_blank"} 
     - [MicroContest](http://www.microcontest.com/){:target="_blank"} 
     - [Hackinscience](https://www.hackinscience.org/){:target="_blank"} 

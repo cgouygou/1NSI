@@ -2,7 +2,7 @@
 
 {{ initexo(0) }}
 
-À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/59e6-1071667){:target="_blank"}  avant le 02 février 2023.
+À rendre sur [Capytale](https://capytale2.ac-paris.fr/web/c/59e6-1071667){:target="_blank"}  avant le 19 février 2023.
 
 
 
@@ -21,7 +21,7 @@
         ```
 
     === "Correction" 
-        {{ correction(False, 
+        {{ correction(True, 
         "
         L'image fournie est en niveaux de gris, c'est-à-dire que chaque pixel est codé sur un seul octet: c'est un entier et non une liste de 3 entiers. On peut le voir ainsi:
 
@@ -58,7 +58,7 @@
         [https://pydefis.callicode.fr/defis/LePortraitColore/txt](https://pydefis.callicode.fr/defis/LePortraitColore/txt){:target="_blank"} 
         
     === "Correction" 
-        {{ correction(False, 
+        {{ correction(True, 
         "
         Il s'agit ici de :
 

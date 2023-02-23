@@ -226,7 +226,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_filtre.png){: .center} 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
             ```python linenums='1'
             import imageio
@@ -251,7 +251,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
             ```python linenums='1'
             import imageio
@@ -277,7 +277,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_gris.png){: .center} 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
             ```python linenums='1'
             import imageio
@@ -302,7 +302,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_flip.png){: .center} 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
             ```python linenums='1'
             import imageio
@@ -327,7 +327,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_photomaton.png){: .center} 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
 
             L'idée est d'«envoyer» chaque pixel dans l'un des 4 carrés, en considérant la parité des indices de ligne `i` et de colonnes `j`:
@@ -360,7 +360,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_popart2.png){: .center} 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
 
             Avec une fonction...
@@ -398,7 +398,7 @@ On travaillera (par exemple) sur l'image ci-dessous:
         ![](../images/vangogh/img_mosaique.png){: .center} 
 
         ??? check "Correction"
-            {{ correction(False, 
+            {{ correction(True, 
             "
             Le principe est de décider tout d'abord d'une taille de «carrés» qui vont composer l'image pixellisée. Bien entendu, cette taille doit être un diviseur commun de la hauteur et de la largeur de l'image. Ici comme l'image fait 256x256, on peut choisir n'importe quelle puissance de 2.
             Par exemple, prenons 8 pixels. Il y aura donc 256//8 = 32 carrés en hauteur et en largeur.

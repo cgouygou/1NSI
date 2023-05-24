@@ -5,6 +5,8 @@
 
     - [Fiche d'exercices 2](https://capytale2.ac-paris.fr/web/c/5d12-1084132){:target="_blank"} ou code de partage : `5d12-1084132`.
 
+    - [Fiche d'exercices 3](https://capytale2.ac-paris.fr/web/c/a8b4-1629612){:target="_blank"} ou code de partage : `a8b4-1629612`.
+
     ??? check "Correction fiche n°2"
         === "Exercice 1"
             ```python linenums='1'
@@ -89,6 +91,66 @@
                     c += 1
             print(c)
             ```
+            
+    ??? check "Correction fiche n°3"
+        === "Exercice 1"
+            ```python linenums='1'
+            def maximum(lst:list) -> int:
+                '''
+                Renvoie l'entier le plus grand dans une liste lst d'entiers positifs.
+                '''
+                maxi = 0
+                for nombre in lst:
+                    if nombre > maxi:
+                        maxi = nombre
+                return maxi
+            ```
+        
+        === "Exercice 2"
+            ```python linenums='1'
+            def champ_max(table:list, champ:str) -> dict:
+                '''
+                Renvoie l'enregistrement de table qui possède la valeur la plus grande dans champ.
+                '''
+                valeur_max = 0
+                for enregistrement in table:
+                    if enregistrement[champ] > valeur_max:
+                        valeur_max = enregistrement[champ]
+                        e_max = enregistrement
+                return e_max
+            ```
+
+        === "Exercice 3"
+            ```python linenums='1'
+            def separe(tab:list) -> list:
+                '''
+                Prend en paramètre un tableau tab dont les éléments sont des 0 et des 1 et qui sépare les 0 des 1 en plaçant les 0 en début de tableau et les 1 à la suite.
+                '''
+                indice_gauche = 0
+                indice_droite = len(tab) - 1
+                while indice_gauche < indice_droite:
+                    if tab[indice_gauche] == 0 :
+                        indice_gauche = indice_gauche + 1
+                    else :
+                        tab[indice_gauche], tab[indice_droite] = tab[indice_droite], tab[indice_gauche]
+                        indice_droite = indice_droite - 1
+                return tab
+            ```
+        
+        === "Exercice 4"
+            ```python linenums='1'
+            def ajoute_dictionnaires(d1:dict, d2:dict) -> dict:
+                d = {}
+                for cle, valeur in d1.items():
+                    d[cle] = valeur
+                for cle, valeur in d2.items():
+                    if cle in d:
+                        d[cle] += valeur
+                    else:
+                        d[cle] = valeur
+                return d
+            ```
+            
             
             
     

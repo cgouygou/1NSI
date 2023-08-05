@@ -14,8 +14,9 @@ from pygame.locals import *
 pygame.init()
 
 fenetre = pygame.display.set_mode((640, 480))
-fenetre.fill([10,186,181])
-
+pygame.display.set_caption("Mon super programme")
+fenetre.fill([10, 186, 181])
+ 
 pygame.display.flip()
 
 # Boucle des événements
@@ -36,8 +37,8 @@ pygame.quit()
     === "Ligne 4"
         `pygame.init()` effectue une initialisation globale de tous les modules `pygame` importés. À mettre au début du code.
     
-    === "Lignes 5 et 6"
-        On crée une fenêtre graphique en précisant sa taille en pixels (largeur, hauteur) et sa couleur de remplissage (on verra plus tard comment utiliser plutôt une image de fond).
+    === "Lignes 6 à 8"
+        On crée une fenêtre graphique en précisant sa taille en pixels (ici 640 pixels de largeur et 480 de hauteur), son titre et sa couleur de remplissage, ici un bleu turquoise codé en RGB `[10, 186, 181]` (on verra plus tard comment utiliser plutôt une image de fond).
     
     === "Ligne 9"
         `pygame.display.flip()` effectue un rafraîchissement total de tous les éléments graphiques de la fenêtre. À mettre donc plutôt vers la fin du code.
@@ -47,5 +48,3 @@ pygame.quit()
         
     === "Ligne 19"
         On ferme tout proprement.
-
-**Remarque:** on peut préciser le titre de la fenêtre avec `pygame.display.set_caption("Mon super programme")`.

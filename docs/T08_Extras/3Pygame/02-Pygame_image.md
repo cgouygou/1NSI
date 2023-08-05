@@ -2,7 +2,7 @@
 
 ![](images/Capture_balle.gif){: .center} 
 
-L'objectif ici est de faire apparaître un personnage (une image) et de l'animer. Pour illustrer cela on va utiliser [cette image](images/basketball16.png){:target="_blank"} que l'on va faire rebondir sur les bords de la fenêtre.
+L'objectif ici est de faire apparaître un personnage (une image) et de l'animer. Pour illustrer cela on va utiliser [cette image](images/basketball16.png){:target="_blank"} que l'on va faire rebondire sur les bords de la fenêtre.
 
 ## 1. Création de la fenêtre et insertion de l'image
 
@@ -72,7 +72,7 @@ pygame.quit()
         ```
         
 
-Pour notre animation, on décide donc d'un décalage relatif en abscisse et en ordonnée, qu'on stocke par exemple dans deux variables `dx` et `dy`.
+Pour notre animation, on décide donc d'un décalage relatif en abscisse et en ordonnée, qu'on stocke par exemple dans une deux variables `dx` et `dy`.
 
 ![](images/schema_move.png){: .center width=480} 
 

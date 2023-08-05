@@ -1,243 +1,240 @@
-# Cours de Première NSI - M. Gouygou
+# Cours de Première NSI - Groupe 1 - M. Gouygou
 
 
-![mdv](images/logo_mdv2.png){: .center width=320} 
+![mdv](images/logo_MdV_site.png){: .center width=640} 
 
-
+Vous trouverez sur ce site tous les cours de l'année en spécialité NSI.
 
 <br>
 
-!!! info "À propos de NSI..."
-    Vous trouverez sur ce site tous les cours, TP, exercices, évaluations de l'année en spécialité NSI. Mais aussi:
+=== "Programme"
+    Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes.
 
-    === "Programme"
-        Le [programme](data/Programme1NSI.pdf) de NSI est articulé autour de sept thèmes.
+    Nous traiterons les différentes entrées du programme dans les chapitres suivants:
 
-        Nous traiterons les différentes entrées du programme dans les chapitres suivants:
+    === "Thème 1"
+        **[Thème 1: Représentation des données, types et valeurs de base](https://cgouygou.github.io/1NSI/T01_TypesBase/accueil/)**
 
-        === "Thème 1"
-            **[Thème 1: Représentation des données, types et valeurs de base](https://cgouygou.github.io/1NSI/T01_TypesBase/accueil/)**
-
-            1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
-            
-            1.2 Valeurs et expressions booléennes
-
-            1.3 Représentation binaire d'un entier relatif
-
-            1.4 Codage des caractères
-            
-            1.5 Représentation des réels: nombres flottants
-
+        1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
         
-        === "Thème 2"
-            **[Thème 2:  Représentation des données, types construits](https://cgouygou.github.io/1NSI/T02_TypesConstruits/accueil/)**
+        1.2 Valeurs et expressions booléennes
 
-            2.1 Tableaux et listes
+        1.3 Représentation binaire d'un entier relatif
 
-            2.2 Dictionnaires
-
-        === "Thème 3"
-            **[Thème 3: Traitement de données en tables](https://cgouygou.github.io/1NSI/T03_TraitementDonnees/accueil/)**
-
-            3.1 Manipulation, recherche et tri de tables
-
-            3.2 Fusion et jointure de tables
-
-        === "Thème 4"
-            **[Thème 4: Interaction entre l'homme et la machine (IHM) sur le Web](https://cgouygou.github.io/1NSI/T04_IHMWeb/accueil/)**
-
-            4.1 Pages Web et interactions
-
-            4.2 Protocole HTTP
-
-            4.3 Requêtes GET/POST et formulaires d'une page Web
-
-        === "Thème 5"
-            **[Thème 5: Architectures matérielles et systèmes d'exploitation](https://cgouygou.github.io/1NSI/T05_Architectures/accueil/)**
-
-            5.1 Modèle de Von Neumann
-
-            5.2 Systèmes d'exploitation
-
-            5.3 Architecture d'un réseau
-
-            5.4 IHM, capteurs (Microbit)
-
-        === "Thème 6"
-            **[Thème 6: Langages et programmation](https://cgouygou.github.io/1NSI/T06_Python/accueil/)**
-
-            6.1 Prise en main de Python
-
-            6.2 Utilisation de bibliothèques
-
-            6.3 Spécification
-
-            6.4 Jeux de tests
-
-        === "Thème 7"
-            **[Thème 7: Algorithmique](https://cgouygou.github.io/1NSI/T07_Algorithmes/accueil/)**
-            
-            7.1 Parcours séquentiel d'un tableau
-
-            7.2 Algorithmes de tri
-            
-            7.3 Recherche dichotomique dans un tableau trié
-
-            7.4 Algorithmes gloutons
-
-            7.5 Algorithme des $k$ plus proches voisins
-
-    === "Progression"
-        Cette progression est découpée selon les 5 périodes entre les vacances.
-
-        === "Période 1"
-
-            6.1 Prise en main de Python
-
-            1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
-            
-            6.2 Utilisation de bibliothèques
-
-            1.2 Valeurs et expressions booléennes
-
-            1.3 Représentation binaire d'un entier relatif
+        1.4 Codage des caractères
         
-        === "Période 2"
+        1.5 Représentation des réels: nombres flottants
 
-            6.3 Jeux de tests
+    
+    === "Thème 2"
+        **[Thème 2:  Représentation des données, types construits](https://cgouygou.github.io/1NSI/T02_TypesConstruits/accueil/)**
 
-            6.4 Spécification
+        2.1 Tableaux et listes
 
-            2.1 Tableaux et listes
+        2.2 Dictionnaires
 
-            7.1 Parcours séquentiel d'un tableau
+    === "Thème 3"
+        **[Thème 3: Traitement de données en tables](https://cgouygou.github.io/1NSI/T03_TraitementDonnees/accueil/)**
 
-            1.4 Codage des caractères
+        3.1 Manipulation, recherche et tri de tables
 
-            4.1 Pages Web et interactions
+        3.2 Fusion et jointure de tables
 
-        === "Période 3"
+    === "Thème 4"
+        **[Thème 4: Interaction entre l'homme et la machine (IHM) sur le Web](https://cgouygou.github.io/1NSI/T04_IHMWeb/accueil/)**
 
-            5.1 Modèle de Von Neumann
+        4.1 Pages Web et interactions
 
-            2.2 Dictionnaires
+        4.2 Protocole HTTP
 
-            3.1 Manipulation, recherche et tri de tables
+        4.3 Requêtes GET/POST et formulaires d'une page Web
 
-            3.2 Fusion et jointure de tables
+    === "Thème 5"
+        **[Thème 5: Architectures matérielles et systèmes d'exploitation](https://cgouygou.github.io/1NSI/T05_Architectures/accueil/)**
 
-            5.2 Systèmes d'exploitation
+        5.1 Modèle de Von Neumann
 
-            7.2 Algorithmes de tri
+        5.2 Systèmes d'exploitation
+
+        5.3 Architecture d'un réseau
+
+        5.4 IHM, capteurs (Microbit)
+
+    === "Thème 6"
+        **[Thème 6: Langages et programmation](https://cgouygou.github.io/1NSI/T06_Python/accueil/)**
+
+        6.1 Prise en main de Python
+
+        6.2 Utilisation de bibliothèques
+
+        6.3 Spécification
+
+        6.4 Jeux de tests
+
+    === "Thème 7"
+        **[Thème 7: Algorithmique](https://cgouygou.github.io/1NSI/T07_Algorithmes/accueil/)**
         
-        === "Période 4"
+        7.1 Parcours séquentiel d'un tableau
 
-            4.2 Protocole HTTP
-
-            4.3 Requêtes GET/POST et formulaires d'une page Web
-
-            7.3 Recherche dichotomique dans un tableau trié
-
-            5.3 Architecture d'un réseau
-
-            1.5 Représentation des réels: nombres flottants
+        7.2 Algorithmes de tri
         
-        === "Période 5"
+        7.3 Recherche dichotomique dans un tableau trié
 
-            7.4 Algorithmes gloutons
+        7.4 Algorithmes gloutons
 
-            5.4 IHM, capteurs (Microbit)
+        7.5 Algorithme des $k$ plus proches voisins
 
-            7.5 Algorithme des $k$ plus proches voisins
+=== "Progression"
+    Cette progression est découpée selon les 5 périodes entre les vacances.
 
-        ![](images/progression1NSI.png){: .center} 
+    === "Période 1"
 
-        <!-- https://cgouygou.github.io/1NSI/index.html -->
+        6.1 Prise en main de Python
 
-    === "Légende du site"
-        !!! abstract "Cours/À savoir"
-
-        !!! info "Remarque"
-
-        !!! note "Exemple"
-
-        !!! gear "Méthode/algorithme"
-
-        !!! code "Code/Programme"
+        1.1 Écriture d'un entier positif dans une base $b \geqslant 2$ (2, 10 ou 16).
         
-        !!! example "Exercice/TP"
+        6.2 Utilisation de bibliothèques
 
-        !!! tip "Astuce/conseil"
+        1.2 Valeurs et expressions booléennes
 
-        !!! check "Solution/Correction"
+        1.3 Représentation binaire d'un entier relatif
+    
+    === "Période 2"
 
-        !!! warning "Attention/Remarque importante"
+        6.3 Jeux de tests
 
-        !!! quote "Citation"
+        6.4 Spécification
 
-        !!! history "Histoire de l'informatique"
+        2.1 Tableaux et listes
 
-        !!! video "Video"
+        7.1 Parcours séquentiel d'un tableau
 
-        !!! lien "Lien externe"
+        1.4 Codage des caractères
 
-        !!! capytale "Lien vers activité Capytale"
+        4.1 Pages Web et interactions
 
-        !!! pydefi "Pydéfi - c0d1ng UP"
+    === "Période 3"
 
-    === "Liens utiles"
+        5.1 Modèle de Von Neumann
 
-        **À propos de la spécialité NSI**
+        2.2 Dictionnaires
 
-        - [Le site Eduscol](https://eduscol.education.fr/2068/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g){:target="_blank"} 
-        - [Les trophées NSI](https://trophees-nsi.fr/){:target="_blank"} 
+        3.1 Manipulation, recherche et tri de tables
 
-        **À propos de la culture des sciences de l'informatique**
+        3.2 Fusion et jointure de tables
 
-        - [Interstices](https://interstices.info/){:target="_blank"} 
+        5.2 Systèmes d'exploitation
 
-        - [Inria](https://www.inria.fr/fr){:target="_blank"} 
+        7.2 Algorithmes de tri
+    
+    === "Période 4"
 
-        **À propos de Python**
+        4.2 Protocole HTTP
 
-        - Une [interview](https://www.lemonde.fr/pixels/article/2018/07/25/je-n-imaginais-pas-que-python-connaitrait-un-tel-succes_5335917_4408996.html){:target="_blank"} de [Guido van Rossum](https://fr.wikipedia.org/wiki/Guido_van_Rossum){:target="_blank"} , le créateur de Python
+        4.3 Requêtes GET/POST et formulaires d'une page Web
 
-        **À propos de l'orientation**
+        7.3 Recherche dichotomique dans un tableau trié
 
-        - [BD à télécharger en PDF : Les décodeuses du numérique](data/les_decodeuses_du_numerique_web.pdf){:target="_blank"} 
-        - [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 
-        - Une [brochure](data/Infographie_TN.pdf){:target="_blank"} intéressante sur les métiers du numérique.
-        - Un [podcast](https://pixees.fr/podcast/pod-nsi-orientation-post-bac/){:target="_blank"} sur les poursuites d'études (CPGE MP2I, IUT, Université) après avoir choisi NSI comme spécialité au lycée.
-        - [Zoom sur les métiers des mathématiques et de l'informatique](data/Zoom_metiers_maths.pdf){:target="_blank"} 
-        - [Onisep](https://www.onisep.fr/Decouvrir-les-metiers/Actus-2022/Journee-nationale-NSI-numerique-et-sciences-informatiques){:target="_blank"} 
+        5.3 Architecture d'un réseau
+
+        1.5 Représentation des réels: nombres flottants
+    
+    === "Période 5"
+
+        7.4 Algorithmes gloutons
+
+        5.4 IHM, capteurs (Microbit)
+
+        7.5 Algorithme des $k$ plus proches voisins
+
+    ![](images/progression1NSI.png){: .center} 
+
+    <!-- https://cgouygou.github.io/1NSI/index.html -->
+
+=== "Légende du site"
+    !!! abstract "Cours/À savoir"
+
+    !!! info "Remarque"
+
+    !!! note "Exemple"
+
+    !!! gear "Méthode/algorithme"
+
+    !!! code "Code/Programme"
+    
+    !!! example "Exercice/TP"
+
+    !!! tip "Astuce/conseil"
+
+    !!! check "Solution/Correction"
+
+    !!! warning "Attention/Remarque importante"
+
+    !!! quote "Citation"
+
+    !!! history "Histoire de l'informatique"
+
+    !!! video "Video"
+
+    !!! lien "Lien externe"
+
+    !!! capytale "Lien vers activité Capytale"
+
+    !!! pydefi "Pydéfi - c0d1ng UP"
+
+=== "Liens utiles"
+
+    **À propos de la spécialité NSI**
+
+    - [Le site Eduscol](https://eduscol.education.fr/2068/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g){:target="_blank"} 
+    - [Les trophées NSI](https://trophees-nsi.fr/){:target="_blank"} 
+
+    **À propos de la culture des sciences de l'informatique**
+
+    - [Interstices](https://interstices.info/){:target="_blank"} 
+
+    - [Inria](https://www.inria.fr/fr){:target="_blank"} 
+
+    **À propos de Python**
+
+    - Une [interview](https://www.lemonde.fr/pixels/article/2018/07/25/je-n-imaginais-pas-que-python-connaitrait-un-tel-succes_5335917_4408996.html){:target="_blank"} de [Guido van Rossum](https://fr.wikipedia.org/wiki/Guido_van_Rossum){:target="_blank"} , le créateur de Python
+
+    **À propos de l'orientation**
+
+    - [BD à télécharger en PDF : Les décodeuses du numérique](data/les_decodeuses_du_numerique_web.pdf){:target="_blank"} 
+    - [Talents du numérique](https://talentsdunumerique.com/){:target="_blank"} 
+    - Une [brochure](data/Infographie_TN.pdf){:target="_blank"} intéressante sur les métiers du numérique.
+    - Un [podcast](https://pixees.fr/podcast/pod-nsi-orientation-post-bac/){:target="_blank"} sur les poursuites d'études (CPGE MPI, IUT, Université) après avoir choisi NSI comme spécialité au lycée.
+    - [Zoom sur les métiers des mathématiques et de l'informatique](data/Zoom_metiers_maths.pdf){:target="_blank"} 
+    - [Onisep](https://www.onisep.fr/Decouvrir-les-metiers/Actus-2022/Journee-nationale-NSI-numerique-et-sciences-informatiques){:target="_blank"} 
 
 
-        **Pour se creuser la tête**
+    **Pour se creuser la tête**
 
-        Quelques sites de challenges/énigmes/défis de programmation:
+    Quelques sites de challenges/énigmes/défis de programmation:
 
-        - [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"} 
-        - [Codémoi](https://iremsinfo.callicode.fr/concours/infos/){:target="_blank"}
-        - [Advent of Code](https://adventofcode.com/){:target="_blank"} 
-        - [MicroContest](http://www.microcontest.com/){:target="_blank"} 
-        - [Hackinscience](https://www.hackinscience.org/){:target="_blank"} 
+    - [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"} 
+    - [Codémoi](https://iremsinfo.callicode.fr/concours/infos/){:target="_blank"}
+    - [Advent of Code](https://adventofcode.com/){:target="_blank"} 
+    - [MicroContest](http://www.microcontest.com/){:target="_blank"} 
+    - [Hackinscience](https://www.hackinscience.org/){:target="_blank"} 
 
-        **Pour se former en autonomie**
+    **Pour se former en autonomie**
 
-        Au cas où vous vous ennuieriez...
+    Au cas où vous vous ennuieriez...
 
-        - [France-IOI](http://www.france-ioi.org/){:target="_blank"} 
-        - [CheckIO](https://checkio.org/){:target="_blank"} 
-        - [CodinGame](https://www.codingame.com/start){:target="_blank"} 
+    - [France-IOI](http://www.france-ioi.org/){:target="_blank"} 
+    - [CheckIO](https://checkio.org/){:target="_blank"} 
+    - [CodinGame](https://www.codingame.com/start){:target="_blank"} 
 
-    === "Sources"
-        L'essentiel des sources des contenus de ce site:
+=== "Sources"
+    L'essentiel des sources des contenus de ce site:
 
-        - L'excellentissime site de Gilles Lassus : [https://glassus.github.io/premiere_nsi/](https://glassus.github.io/premiere_nsi/){:target="_blank"} 
-        - Le site de David Roche, [https://pixees.fr/informatiquelycee](https://pixees.fr/informatiquelycee){:target="_blank"} 
-        - *Prépabac NSI, 1re générale*, C. Adobet, G. Connan, G. Rozsavolgyi, L. Signac, Hatier
-        - *NSI 1re, 30 leçons avec exercices corrigés*, T. Balabonski, S. Conchon, J-C. Filiâtre, K. Nguyen, Ellipses
-        - *Informatique et Sciences du Numérique*, G. Dowek, Eyrolles
-        - Les ressources disponibles sur [https://gitlab.com/eskool/profs-info](https://gitlab.com/eskool/profs-info){:target="_blank"} et sur le [forum NSI - INRIA](https://mooc-forums.inria.fr/moocnsi/){:target="_blank"}
+    - L'excellentissime site de Gilles Lassus : [https://glassus.github.io/premiere_nsi/](https://glassus.github.io/premiere_nsi/){:target="_blank"} 
+    - Le site de David Roche, [https://pixees.fr/informatiquelycee](https://pixees.fr/informatiquelycee){:target="_blank"} 
+    - *Prépabac NSI, 1re générale*, C. Adobet, G. Connan, G. Rozsavolgyi, L. Signac, Hatier
+    - *NSI 1re, 30 leçons avec exercices corrigés*, T. Balabonski, S. Conchon, J-C. Filiâtre, K. Nguyen, Ellipses
+    - *Informatique et Sciences du Numérique*, G. Dowek, Eyrolles
+    - Les ressources disponibles sur [https://gitlab.com/eskool/profs-info](https://gitlab.com/eskool/profs-info){:target="_blank"} et sur le [forum NSI - INRIA](https://mooc-forums.inria.fr/moocnsi/){:target="_blank"}
 
 

@@ -183,6 +183,15 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
         ```
 
         Pour les deux derniers chiffres, on effectuera une division euclidienne par 100, pour les trois derniers par 1000, etc.
+
+        ```python
+        >>> entree = 317010
+        >>> entree % 1000
+        10
+        >>> entree // 1000
+        317
+        ```
+        
             
     === "Correction" 
         {{ correction(False, 
@@ -287,7 +296,7 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
         fenetre.fill([255, 255, 255]) # on peut choisir une autre couleur de fond que du blanc...
 
         # Début des instructions
-
+        message = '''NNEESOOESEENNEEOOSEOSEEENNESENSSENNEESSOOEEENNEEOOSEOSEEENEENOOEESOOSEEEEEEENONSESENNSSENNEESSOOEEENNSSEENNSSEEENOONEEOOSEESEEEENNEESSOOEEENNEESOOEESENNESENSSEEENOONEEOOSEESEEEENNSSEEENNEESOOEESEEEENNEEOOSEOSEEENNEESSOOEEENNEESOOESEENNEEOOSEOSEEEENNOEEOSSEEEEENNEESOOEESOOEEENNEESOOESEENNSSEENNSSENNESNESSENNEEOOSEOSEEENNSSEENNSSEEENOONEEOOSEESENNEEOOSEOSEEEEEENNEESSOOEEENNEEOOSEOSEEENNESNESSENNEESOOEESENNSSENNESENSS'''
 
 
 
@@ -307,7 +316,7 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
         pygame.quit()
         ```
         
-        Pour résoudre de pydéfi, il va valloir tracer un segment pour chaque pas en direction de N, S, O, E. Commençons par choisir une taille pour chaque pas, par exemple 10 pixels:
+        Pour résoudre ce pydéfi, il va valloir tracer un segment pour chaque pas en direction de N, S, O, E. Commençons par choisir une taille pour chaque pas, par exemple 10 pixels:
         ```python 
         pas = 10
         ```
@@ -324,9 +333,8 @@ Vous pouvez vous y créer un compte, pour valider les défis et progresser au Ha
 
         On a besoin à chaque étape:
 
-        - d'un point de départ
-        - d'un point d'arrivée
-        - d'un déplacement entre les deux
+        - d'un point de départ et d'un point d'arrivée (se rappeler de l'exercice 2.2 de la série 3 avec pygame [ici](https://cgouygou.github.io/1NSI/T06_Python/T6.1_Python/T6.1_2_For/#serie-3-avec-pygame){:target="_blank"}) dont il faut calculer les coordonnées en fonction de la lettre lue (N, S, E, O);
+        - d'un déplacement entre les deux, c'est-à-dire tracer une ligne.
 
 
 

@@ -44,7 +44,7 @@
     - le chiffre de Vigenère;
     - la méthode du masque jetable;
 
- 
+<!---
 !!! check "Proposition de correction"
     1.
     ```python linenums='1'
@@ -84,6 +84,7 @@
         return phrase_decalee
         
     ```
+    -->
 
 
     

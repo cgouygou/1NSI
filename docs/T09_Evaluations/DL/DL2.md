@@ -1,5 +1,8 @@
 # DL0010
 
+
+Vous pouvez faire ce devoir sur [Capytale ici](https://capytale2.ac-paris.fr/web/c/5189-2122849){.target="_blank"}
+
 ## Partie 1 : Le jeu du + ou -
 
 Alice: « Je pense à un nombre entre 1 et 100. Bob, essaie de le deviner ! »

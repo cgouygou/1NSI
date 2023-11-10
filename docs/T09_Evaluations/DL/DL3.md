@@ -17,7 +17,7 @@
         - utiliser une boucle while, peut-être plus adaptée ici, (solution 3);
         - écrire une fonction pour stopper (proprement) le parcours de la liste lorsque l'énergie est tombée à 0 (solution 4).
 
-        En Python , pour obtenir la valeur absolue d'un nombre, on utilise la fonction `!#py abs`:
+        En Python , pour obtenir la valeur absolue d'un nombre, on utilise la fonction `#!py abs`:
 
         ```python
         >>> abs(-5)

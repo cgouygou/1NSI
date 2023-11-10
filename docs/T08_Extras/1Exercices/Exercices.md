@@ -7,7 +7,7 @@
 
     - [Fiche d'exercices 3](https://capytale2.ac-paris.fr/web/c/a8b4-1629612){:target="_blank"} ou code de partage : `a8b4-1629612`.
 
-    ??? check "Correction fiche n°2"
+<!-- ??? check "Correction fiche n°2"
         === "Exercice 1"
             ```python linenums='1'
             #1. parcours par indice
@@ -150,6 +150,7 @@
                         d[cle] = valeur
                 return d
             ```
+-->
             
             
             

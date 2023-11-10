@@ -41,7 +41,34 @@ Alice: « Bravo! Tu as deviné! »
         - Le programme affiche le nombre de tentatives pour trouver.
         - Le programme joue seul, de façon *intelligente*.
 
+!!! check "Proposition de correction"
+    ```python
+    import random
+    nbr_essais = 1
+    nbr_alea =random.randint(0, 100) # nombre choisi par l'ordinateur
+    mon_nombre = 0 # nombre proposé par BOB
+    while mon_nombre != nbr_alea :
+        print(f"Essai numeros {nbr_essais})
+        mon_nombre = int(input("Entrez un nombre entier : "))
+        if mon_nombre < nbr_alea:
+            print("C'est plus!")
+        elif mon_nombre > nbr_alea:
+            print("C'est moins!")
+        else:
+            print(f"Bravo BOB ! Tu as trouvé en {nbr_essais} essai(s)")
+        nbr_essais += 1
+    ```
 
 ## Partie 2
 
 Résoudre le pydéfi «Désamorçage d'un explosif (I)» (voir [sur cette page](https://cgouygou.github.io/1NSI/T08_Extras/1Exercices/Exercices/){:target="_blank"}).
+
+!!! check "Proposition de correction"
+    ```python
+    numero_serie = 797114
+    U = numero_serie // 1000
+    N = numero_serie % 1000
+    for k  in range(N):
+        U = U*13 % 1000
+    print(f"Le numéro de fil à couper est {U}")
+    ```

@@ -18,3 +18,8 @@
     ![](../images/maze2.gif){: .center} 
 
     **Variante:** plutôt que laisser l'ordinateur suivre le chemin tout seul, on peut piloter le déplacement avec les touches directionnelles du clavier, en évitant de traverser les murs...
+
+## Partie 3
+
+!!! example "Objectif"
+    Des «ennemis» peuvent apparaître dans le labyrinthe, il faut les éviter...

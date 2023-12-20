@@ -111,7 +111,7 @@ Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toute
     [https://pydefis.callicode.fr/defis/CodeCabine/txt](https://pydefis.callicode.fr/defis/CodeCabine/txt)
 
 !!! info "Lire et travailler sur une image"
-    Ça se passe [là](https://cgouygou.github.io/1NSI/T09_Projets/Image/Image/){:target="_blank"} 
+    Ça se passe [là](https://cgouygou.github.io/1NSI/T02_TypesConstruits/T2.1_Listes/TP_image/){:target="_blank"} 
 
     **Pour s'entraîner:**
 

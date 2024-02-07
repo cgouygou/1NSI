@@ -1,4 +1,4 @@
-site_name: "Cours de Première NSI - Groupe 1 - M. Gouygou"
+site_name: "Cours de Première NSI - M. Gouygou"
 site_url: "https://cgouygou.github.io/1NSI/"
 
 theme:
@@ -85,6 +85,7 @@ plugins:
   - awesome-pages:
       collapse_single_pages: true
   - macros
+  - glightbox
 
 extra:
   social:
@@ -102,10 +103,10 @@ extra:
 
 extra_javascript:
   - scripts/mathjax.js
-  - xtra/javascripts/interpreter.js
+  # - xtra/javascripts/interpreter.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
 
 extra_css:
   - stylesheets/extra.css

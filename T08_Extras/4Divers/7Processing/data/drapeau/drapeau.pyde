@@ -1,0 +1,7 @@
+size(300, 200)
+background(255)
+noStroke()
+fill(0, 0, 255)
+rect(0, 0, 100, 200)
+fill(255, 0, 0)
+rect(200, 0, 100, 200)

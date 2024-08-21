@@ -15,6 +15,7 @@
                 }
                 if ($mdp == 'penguin') {
                     echo "Bien vu !";
+                    <img src="hackerman.png" alt="">;
                 }
                 else {
                     echo "Mot de passe erroné. Essaie encore";

@@ -13,6 +13,7 @@ theme:
     repo : fontawesome/brands/github
     admonition:
       note: fontawesome/solid/pen-to-square
+
   favicon: xtra/favicon_bleu.svg
   
   features:
@@ -85,8 +86,8 @@ plugins:
   - awesome-pages:
       collapse_single_pages: true
   - macros
+  - glightbox
   
-
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -102,7 +103,7 @@ extra:
       name: Lycée Marguerite de Valois - Angoulême (16)
 
 extra_javascript:
-  - scripts/mathjax.js
+  - javascripts/mathjax.js
   # - xtra/javascripts/interpreter.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

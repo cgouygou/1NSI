@@ -122,7 +122,7 @@ Si on peut toujours raisonner sur les indices des caractères à récupérer dan
 
 Parfois il est nécessaire de fusionner/concaténer des chaînes de caractères pour obtenir une réponse. Si ces chaînes de caractères sont les éléments d'une liste, on peut utiliser la méthode `#!py join`:
 
-!! tip "`join`"
+!!! tip "`join`"
     On peut fusionner avec la méthode `join` les élements d'une liste dont tous les éléments sont de type `str`, avec un caractère d'insertion entre les éléments.
 
     ```python

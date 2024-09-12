@@ -4,34 +4,7 @@
 
 Le [blog](https://codingup.fr/){:target="_blank"} pour s'inscrire et avoir toutes les infos.
 
-!!! info "Lecture d'un fichier texte"
-    Voici deux principales méthodes pour lire un fichier texte à l'aide de la fonction `open` (aucun module requis, elle fait partie des [fonctions natives de Python](https://docs.python.org/fr/3/library/functions.html){:target="_blank"} :
-
-    === "Méthode 1: sans traitement"
-        Si on n'a pas besoin de traiter les données sur chaque ligne du fichier texte, on peut récupérer le fichier sous forme d'une liste (`data` ici), où chaque élément sera une ligne du fichier (`input.txt` ici), de type `str` bien entendu, avec:
-
-        ```python 
-        data = open('input.txt').read().splitlines()
-        ```
-    === "Méthode 2: avec traitement"
-        On peut également parcourir ligne par ligne le fichier ainsi:
-
-        ```python 
-        data = []
-        with open('input.txt') as f:
-            for line in f.readlines():
-                data.append(line.strip())
-        ```
-        
-        Ce code est identique à la méthode 1, mais la boucle `for` permet de faire un traitement de la chaîne de caractéres `line` avant ajout à la liste `data`.
-
-        **Remarque:** la méthode `strip` permet de «nettoyer» la chaîne de caractères, c'est-à-dire ici d'enlever le caractère `\n` de retour à la ligne.
-        
-    **Pour s'entraîner:**
-
-    [https://pydefis.callicode.fr/defis/EwoksSansA/txt](https://pydefis.callicode.fr/defis/EwoksSansA/txt){:target="_blank"} 
-
-    [https://pydefis.callicode.fr/defis/EwoksVoyelle/txt](https://pydefis.callicode.fr/defis/EwoksVoyelle/txt){:target="_blank"} 
+!
 
 
 !!! info "Défi par requête web"

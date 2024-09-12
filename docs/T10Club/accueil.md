@@ -1,27 +1,5 @@
 # Club
 
-!!! info "CTF"
-    Épreuve type [Capture The Flag](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)){:target="_blank"} axée Cybersécurité
-
-    **Sites d'entraînement:**
-
-    - [The OSINT Project](https://the-osint-project.fr/){:target="_blank"} :fr:
-    - [Root me](https://www.root-me.org/){:target="_blank"} :fr:
-    - [Try hack me](https://tryhackme.com/){:target="_blank"} :gb:
-    - [Hackropole](https://hackropole.fr/fr/){:target="_blank"} :fr:
-
-!!! info "PROG"
-    Épreuve de programmation: résolution de problèmes de différents types nécessitant l'écriture d'un programme (en Python par exemple).
-
-    De type «Marathon» sur une journée (environ 6h) ou échelonnée sur plusieurs semaines.
-
-    **Sites d'entraînement:**
-
-    - [PyDéfis](https://pydefis.callicode.fr/){:target="_blank"}  :fr:
-    - [Codémoi](https://iremsinfo.callicode.fr/concours/infos/){:target="_blank"} :fr:
-    - [Advent of Code](https://adventofcode.com/){:target="_blank"} :gb:
-    - [Hackinscience](https://www.hackinscience.org/){:target="_blank"} :fr:
-
 
 !!! history "Planning des épreuves"
     - Octobre (du 1er au 24): [CSAW'24 / Red Team Competition](https://esisar.grenoble-inp.fr/fr/l-ecole/epreuve-red-team){:target="_blank"}  - CTF - National - :fr:

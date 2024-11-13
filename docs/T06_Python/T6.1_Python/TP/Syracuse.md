@@ -44,6 +44,8 @@ Par exemple, pour la suite de Syracuse de 13, le temps de vol est 9, le temps de
 
 
 !!! check "Proposition de correction"
+    {{ correction(False, 
+    "
     ```python linenums='1'
     import doctest
     import matplotlib.pyplot as plt
@@ -133,8 +135,10 @@ Par exemple, pour la suite de Syracuse de 13, le temps de vol est 9, le temps de
         abscisses = range(len(ordonnees))
         plt.plot(abscisses, ordonnees, '--sr')
         plt.show()
-
+    
     if __name__ == '__main__':
         doctest.testmod(verbose=True)
     
     ```
+    "
+    ) }}

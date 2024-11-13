@@ -19,10 +19,10 @@
         {{ correction(True, 
         "
         ```python linenums='1'
-        def multiplication(a,b): # il manque les : en fin de ligne (SyntaxError)
-            m = 0                # initialisation manquante de la variable accumulatrice (NameError plus tard)
+        def multiplication(a,b):  # il manque les : en fin de ligne (SyntaxError)
+            m = 0                 # initialisation manquante de la variable accumulatrice (NameError plus tard)
             for k in range(b):    # il manque les : en fin de ligne (SyntaxError) et indentation manquante (IndentationError)
-                m = m + a        # indentation manquante (IndentationError)
+                m = m + a         # indentation manquante (IndentationError)
             return m
         ```
         On fait un appel en console pour vérifier, par exemple:
@@ -75,7 +75,7 @@
 !!! example "{{ exercice() }} : Le jeu du + ou -"
     === "Énoncé" 
         Alice: « Je pense à un nombre entre 1 et 100. Bob, essaie de le deviner ! » 
-        
+
         Bob: « Ok. 50 ? »
 
         Alice: « C'est moins! »

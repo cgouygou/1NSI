@@ -56,7 +56,7 @@
             for element in tab:
                 if element > maxi:
                     maxi = element
-            return element
+            return maxi
         ```
         
         **Parcours par indice:**
@@ -66,7 +66,7 @@
             for i in range(len(tab)):
                 if tab[i] > maxi:
                     maxi = tab[i]
-            return element
+            return maxi
         ```
         "
         ) }}

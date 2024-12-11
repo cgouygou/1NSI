@@ -30,7 +30,7 @@
         
     === "Memory"
 
-        Le memory des nombres est un jeu pour enfants où des paires de cartes sont mélangées et retournées. 
+        Le memory des nombres est un jeu pour enfants où des paires de cartes sont mélangées et retournées. Il s'agit de retrouver ces paires en retournant deux cartes. Si c'est une paire, on la supprime. Sinon on retourne les cartes et on recommence.
 
         ![](images/memory.png){: .center width=320} 
 
@@ -68,7 +68,7 @@
     === "Lights Out"
         Issu de [Wikipedia](https://fr.wikipedia.org/wiki/Lights_Out_(jeu)){:target="_blank"} :
 
-        Lights Out est un jeu électronique commercialisé par Tiger Electronics en 1995. Le jeu est composé d’une grille de cinq par cinq lumières. Quand le jeu commence, un nombre aléatoire ou un motif enregistré de ces lumières s’allument. Appuyer sur l’une des lumières basculera la position des lumières adjacentes à celle-ci. Le but du jeu est d’éteindre toutes les lumières, de préférence avec le moins de coups possible.
+        Lights Out est un jeu électronique commercialisé par Tiger Electronics en 1995. Le jeu est composé d’une grille de cinq par cinq lumières. Quand le jeu commence, un nombre aléatoire ou un motif enregistré de ces lumières s’allument. Appuyer sur l’une des lumières basculera la position des lumières adjacentes à celle-ci (haut, bas, gauche, droite, mais pas en diagonale). Le but du jeu est d’éteindre toutes les lumières, de préférence avec le moins de coups possible.
 
         ![](images/Lights_Out.png){: .center width=640} 
 
@@ -91,7 +91,7 @@
     - **Séance 1 (11/12/2024)** : conception du projet (:no_entry: programmation :no_entry:)
         - choix du sujet;
         - réflexion autour des variables nécessaires, du choix des structures de données pour représenter les différentes composantes du jeu;
-        - découpage du programme en fonctions (raisonner par verbes d'action, ne pas se préoccuper du codde à cette étape);
+        - découpage du programme en fonctions (raisonner par verbes d'action, ne pas se préoccuper du code à cette étape);
         - attribution des fonctions aux membres du groupe.
     - **Séances 2 (16/12/2024) et 3 (18/12/2024)**
         - écriture des fonctions;
@@ -99,7 +99,7 @@
     - **Séance 4 (06/01/2025)**
         - assemblage des fonctions dans le fichier principal;
         - débuggage.
-    - **Séance 5 (06/01/2025)**
+    - **Séance 5 (08/01/2025)**
         - finalisation/améliorations du programme;
         - rendu du travail.
 
@@ -161,9 +161,9 @@
         # *********************************
 
 
-        # ********************
+        # ====================
         #   INITIALISATION
-        # ********************
+        # ====================
 
 
         ```
@@ -177,7 +177,7 @@
             
         ```
         
-        ne sera exécutée que si le fichier est lancé comme fichier principal (dans l'éditeur ou en console), **mais pas en tant que module**.
+        ne sera exécuté que si le fichier est lancé comme fichier principal (dans l'éditeur ou en console), **mais pas en tant que module**.
 
         On peut donc:
 

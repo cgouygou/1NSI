@@ -15,6 +15,9 @@
         4. Le programme s'arrête dès qu'un joueur parvient à aligner 3 symboles, ou en cas de match nul
         5. En fin de partie, le choix "r ou R" relance une nouvelle partie, le choix "q ou Q" permet de quitter le jeu
 
+        ??? info "Conseils - aides"
+            Trop facile...
+
     === "Puissance 4"
         Est-il vraiment nécessaire de présenter ce jeu?
 
@@ -27,7 +30,26 @@
         4. Le programme s'arrête dès qu'un joueur parvient à aligner 4 pions, ou en cas de match nul
         5. En fin de partie, le choix "r ou R" relance une nouvelle partie, le choix "q ou Q" permet de quitter le jeu
 
-        
+        ??? info "Conseils - aides"
+            - Répérer le joueur par son symbole (`#!py 'X'` ou `#!py 'O'`).
+            - Prévoir une variable (de type `#!py list`) stockant les indices (de ligne) où on peut placer un pion (au départ du jeu tous ces indices sont à 5). Cela permet de rapidement placer un pion dans la grille, de vérifier qu'un coup est valable (on peut jouer dans une colonne sauf si l'indice est `#!py -1`) et de vérifier le match nul.
+
+            - Fonctions à prévoir (à mon avis), à vous de réfléchir aux éventuels paramètres et éventuelles valeurs renvoyées.
+                - afficher_grille()
+                - saisir_coup()
+                - verifier_coup()
+                - actualiser_grille()
+                - alignement_horizontal()
+                - alignement_vertical()
+                - alignement_diagonal_droite()
+                - alignement_diagonal_gauche()
+                - victoire()
+
+            - La fonction victoire() utilisera les 4 fonctions d'alignement.
+            - Pour l'alignement horizontal, ne tester que la ligne dans laquelle un joueur vient de jouer. Idem pour l'alignement vertical, une seule colonne à tester.
+            - Pour les alignements diagonaux, repérer (au brouillon) de quelles cases il peut y avoir une diagonale d'au moins 4 cases qui part vers le bas à droite (et vers le bas à gauche). Il n'y en a pas tant que ça.
+            - Pour tester les alignements, le plus simple est de transformer une ligne (ou une colonne, ou une diagonale) de la grille en chaîne de caractères, puis de faire un simple test par `#!py if 'XXXX' in ...` ou `#!py if 'OOOO' in ...` en fonction du joueur qui vient de jouer.
+
     === "Memory"
 
         Le memory des nombres est un jeu pour enfants où des paires de cartes sont mélangées et retournées. Il s'agit de retrouver ces paires en retournant deux cartes. Si c'est une paire, on la supprime. Sinon on retourne les cartes et on recommence.
@@ -43,6 +65,21 @@
         4. Le programme indiquera le nombre de coups joués à chaque tour
         5. Le choix "r ou R" réinitialise le jeu (et le compteur)
         6. Le choix "q ou Q" permet de quitter le jeu
+
+        ??? info "Conseils - aides"
+            * Prévoir deux grilles de même dimensions: une qui contient les cartes/nombres, une qui contient l'information carte cachée/dévoilée.
+            * Prévoir une variable qui compte le nombres de paires déjà dévoilées pour prévoir l'arrêt du jeu.
+            * Fonctions à prévoir (à mon avis), à vous de réfléchir aux éventuels paramètres et éventuelles valeurs renvoyées.
+                * generer_grille_depart()
+                * saisir_choix()
+                * verifier_choix()
+                * actualiser()
+                * afficher()
+
+            * Pour générer la grille, je vous conseille de:
+                * créer une liste avec toutes les valeurs en double, par exemple `#!py [1, 1, 2, 2, 3, 3, ..., 10, 10]` 
+                * mélanger aléatoirement cette liste avec la méthode `#!py shuffle()` du module `#!py random` 
+                * parcourir la grille et y placer les valeurs issues de cette liste (utiliser la méthode `#!py pop()` sur la liste pour récupérer la dernière valeur et l'enlever).
 
     === "GASP"
         Le Gasp est un casse-tête apparu dans la revue Jeux & Stratégie n°38 (avril/mai 1986).
@@ -79,6 +116,11 @@
         4. Le programme indiquera le nombre de coups joués à chaque tour
         5. Le choix "r ou R" réinitialise le jeu (et le compteur)
         6. Le choix "q ou Q" permet de quitter le jeu
+
+        ??? info "Conseils - aides"
+            
+
+
 
 !!! warning "Contraintes"
     - Nombre de participant·e·s : 2 ou 3;
@@ -126,6 +168,35 @@
         ```
 
         Pour aller plus loin, sur les caractères spéciaux permettant de faire de beaux affichages de tableaux : [https://en.wikipedia.org/wiki/Box-drawing_characters](https://en.wikipedia.org/wiki/Box-drawing_characters){:target="_blank"}.
+    
+    === "Gestion d'un flag"
+        En programmation, un *flag* (drapeau) est une variable le plus souvent de type `#!py bool` qui va indiquer si dans un programme une boucle `#!py while` doit continuer à tourner ou doit s'arrêter.
+
+        On l'initialise à `#!py True` et dans la boucle, une condition d'arrêt doit pouvoir la faire passer  à la valeur `#!py False`.
+
+        Par exemple, dans le programme suivant la boucle s'arrête dès qu'on appuie sur la touche q ou Q (peu importe la casse, c'est l'interêt de la fonction `#!py lower()`) et continue si on appuie sur une autre touche.
+
+        ```python linenums='1'
+        go = True
+
+        while go:
+            touche = input("Appuie sur la touche Q pour arrêter la boucle")
+            if touche.lower() == 'q':
+                go = False
+        ```
+    
+    === "Variables globales"
+        Si certaines de vos fonctions font appel à des variables globales (c'est-à-dire définies en dehors des fonctions, vous devez les déclarer en début de fonction après le mot-clé `#!py global`. Ce n'est pas la peine pour celles de type `#!py list`.
+
+        Par exemple:
+
+        ```python linenums='1'
+        toto = 2
+
+        def machin(n:int):
+            global toto
+            return toto * n
+        ```
         
 
     === "Utilisation de la console"

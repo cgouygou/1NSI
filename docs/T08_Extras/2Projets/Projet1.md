@@ -118,6 +118,8 @@
         6. Le choix "q ou Q" permet de quitter le jeu
 
         ??? info "Conseils - aides"
+            - La position de départ doit être construite en choisissant aléatoirement quelques (3 ou 4?) cases et en effectuant les allumages correspondants.
+            - Faire attention à la gestion des bords.
             
 
 

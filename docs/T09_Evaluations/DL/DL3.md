@@ -38,26 +38,62 @@
        
         
     === "Correction" 
-        {{ correction(False, 
+        {{ correction(True, 
         "
+        **Stratégie 1:**
+
+        ```python linenums='1'
+        def somme_chiffres(n:int) -> int:
+            somme = 0
+            while n != 0:
+                somme += n % 10
+                n = n // 10
+            return somme
+        ```
+        
+        **Stratégie 2:**
+
+        ```python linenums='1'
+        def somme_chiffres(n:int) -> int:
+            somme = 0
+            for chiffre in str(n):
+                somme += int(chiffre)
+            return somme
+        ```
         "
         ) }}
 
 !!! question "Bonus 1 :sunglasses:"
     À l'aide de la fonction `#!py sum` , qui renvoie la somme des éléments d'une liste donnée en paramètre, et d'une liste en compréhension, sauriez-vous écrire la fonction précédente en une seule ligne?
 
+    ```python linenums='1'
+    def somme_chiffres(n:int) -> int:
+        return sum([int(chiffre) for chiffre in str(n)])
+    ```
+
 
 !!! example "{{ exercice() }}"
     === "Énoncé" 
         Résoudre le premier pydéfi.
     === "Correction" 
-        {{ correction(False, 
+        {{ correction(True, 
         "
+        ```python linenums='1'
+        liste_nombres = []
+        for nombre in range(1000):
+            if nombre % 7 == 0 and somme_chiffres(nombre) == 11:
+                liste_nombres.append(nombre)
+        ```
         "
         ) }}
 
 !!! question "Bonus 2 :sunglasses:"
     Résoudre ce pydéfi à l'aide d'une liste en compréhension.
+
+    ```python linenums='1'
+    liste_nombres = [nombre for nombre in range(1000) if nombre % 7 == 0 and somme_chiffres(nombre) == 11]
+    ```
+    
 
 
 !!! example "{{ exercice() }}"
@@ -79,7 +115,19 @@
         - Vérifier le code sur l'exemple (`#!py [14, 25, 13]`)  avant de l'exécuter sur la liste des permutations du problème.
 
     === "Correction" 
-        {{ correction(False, 
+        {{ correction(True, 
         "
+        ```python linenums='1'
+        lst = [25, 31, 43, 12, 12, 43, 31, 35, 54, 23, 12, 23, 12, 21, 45, 43, 41, 45, 43, 45, 35, 15, 53, 41, 51, 45, 12, 31, 14, 45, 12, 24, 32, 24, 21, 21, 51, 31, 53, 25, 12, 43, 35, 13, 23, 54, 34, 32, 23, 15, 23, 42, 41, 43, 13, 14, 52, 14, 53, 41, 14, 43, 35, 42, 32, 21, 51, 52, 24, 51, 12, 12, 52, 34, 35, 54, 21, 41, 32, 32, 34, 12, 41, 34, 43, 41, 35, 12, 32, 51, 34, 15, 25, 43, 45, 45, 45, 52, 31, 43]
+
+        fils = [3, 4, 1, 2, 5]
+        for permutation in lst:
+            i = permutation // 10 - 1
+            j = permutation % 10 - 1
+            temp = fils[i]
+            fils[i] = fils[j]
+            fils[j] = temp
+        ```
+        
         "
         ) }}

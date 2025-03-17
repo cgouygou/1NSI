@@ -1,0 +1,788 @@
+No;Nom;Type;PV;Attaque;Défense;Vitesse;ASpé;DSpé;Talent;Nom US;code
+1;Bulbizarre;plante,poison;45;49;49;45;65;65;Engrais,Chlorophylle;Bulbasaur;77140
+2;Herbizarre;plante,poison;60;62;63;60;80;80;Engrais,Chlorophylle;Ivysaur;67530
+3;Florizarre;plante,poison;80;82;83;80;100;100;Engrais,Chlorophylle;Venusaur;65357
+4;Salamèche;feu;39;52;43;65;60;50;Brasier,Force Soleil;Charmander;10140
+5;Reptincel;feu;58;64;58;80;80;65;Brasier,Force Soleil;Charmeleon;72098
+6;Dracaufeu;feu,vol;78;84;78;100;109;85;Brasier,Force Soleil;Charizard;63266
+7;Carapuce;eau;44;48;65;43;50;64;Torrent,Cuvette;Squirtle;17388
+8;Carabaffe;eau;59;63;80;58;65;80;Torrent;Wartortle;52297
+9;Tortank;eau;79;83;100;78;85;105;Torrent,Cuvette;Blastoise;37268
+10;Chenipan;insecte;45;30;35;45;20;20;Écran Poudre,Fuite;Caterpie;21669
+11;Chrysacier;insecte;50;20;55;30;25;25;Mue;Metapod;70330
+12;Papilusion;insecte,vol;90;45;50;70;90;80;Œil Composé,Lentiteintée;Butterfree;28194
+13;Aspicot;insecte,poison;40;35;30;50;20;20;Écran Poudre,Fuite;Weedle;36155
+14;Coconfort;insecte,poison;45;25;50;35;25;25;Mue;Kakuna;62238
+15;Dardargnan;insecte,poison;65;90;40;75;45;80;Essaim,Sniper,Adaptabilité;Beedrill;76165
+16;Roucool;normal,vol;40;45;40;56;35;35;Regard Vif,Pieds Confus,Cœur de Coq;Pidgey;95436
+17;Roucoups;normal,vol;63;60;55;71;50;50;Regard Vif,Pieds Confus,Cœur de Coq;Pidgeotto;76705
+18;Roucarnage;normal,vol;83;80;75;91;70;70;Regard Vif,Pieds Confus,Cœur de Coq;Pidgeot;31499
+19;Rattata;normal;30;56;35;72;25;35;Fuite,Cran,Agitation;Rattata;11419
+20;Rattatac;normal;55;81;60;97;50;70;Fuite,Cran,Agitation;Raticate;14707
+21;Piafabec;normal,vol;40;60;30;70;31;31;Regard Vif,Sniper;Spearow;45250
+22;Rapasdepic;normal,vol;65;90;65;100;61;61;Regard Vif,Sniper;Fearow;26318
+23;Abo;poison;35;60;44;55;40;54;Intimidation,Mue,Tension;Ekans;57478
+24;Arbok;poison;60;85;69;80;65;79;Intimidation,Mue,Tension;Arbok;22233
+25;Pikachu;electrik;35;55;40;90;50;50;Statik,Paratonnerre;Pikachu;12113
+26;Raichu;electrik;60;90;5;110;90;80;Statik,Paratonnerre;Raichu;55474
+27;Sabelette;sol;50;75;85;40;20;30;Voile Sable,Baigne Sable;Sandshrew;69029
+28;Sablaireau;sol;75;100;110;65;45;55;Voile Sable,Baigne Sable;Sandslash;53188
+29;Nidoran?;poison;55;47;52;41;40;40;Point Poison,Rivalité,Agitation;Nidoran?;31050
+30;Nidorina;poison;70;62;67;56;55;55;Point Poison,Rivalité,Agitation;Nidorina;50507
+31;Nidoqueen;poison,sol;90;92;87;76;75;85;Point Poison,Rivalité,Sans Limite;Nidoqueen;62447
+32;Nidoran?;poison;46;57;40;50;40;40;Point Poison,Rivalité,Agitation;Nidoran?;76031
+33;Nidorino;poison;61;72;57;65;55;55;Point Poison,Rivalité,Agitation;Nidorino;28403
+34;Nidoking;poison,sol;81;102;77;85;85;75;Point Poison,Rivalité,Sans Limite;Nidoking;73110
+35;Mélofée;fee;70;45;48;35;60;65;Joli Sourire,Garde Magik,Garde Amie;Clefairy;30255
+36;Mélodelfe;fee;95;70;73;60;95;90;Joli Sourire,Garde Magik,Inconscient;Clefable;91244
+37;Goupix;feu;38;41;40;65;50;65;Torche,Sécheresse;Vulpix;64399
+38;Feunard;feu;73;76;75;100;81;100;Torche,Sécheresse;Ninetales;80449
+39;Rondoudou;normal,fee;115;45;20;20;45;25;Joli Sourire,Battant,Garde Amie;Jigglypuff;63090
+40;Grodoudou;normal,fee;140;70;45;45;85;50;Joli Sourire,Battant,Fouille;Wigglytuff;37079
+41;Nosferapti;poison,vol;40;45;35;55;30;40;Attention,Infiltration;Zubat;44198
+42;Nosferalto;poison,vol;75;80;70;90;65;75;Attention,Infiltration;Golbat;76023
+43;Mystherbe;plante,poison;40;50;55;30;75;65;Chlorophylle,Fuite;Oddish;74031
+44;Ortide;plante,poison;60;65;70;40;85;75;Chlorophylle,Puanteur;Gloom;80702
+45;Rafflesia;plante,poison;75;80;85;50;100;90;Chlorophylle,Pose Spore;Vileplume;02669
+46;Paras;insecte,plante;35;70;55;25;45;55;Pose Spore,Peau Sèche,Moiteur;Paras;63471
+47;Parasect;insecte,plante;60;95;80;30;60;80;Pose Spore,Peau Sèche,Moiteur;Parasect;62385
+48;Mimitoss;insecte,poison;60;55;50;45;40;55;Œil Composé,Lentiteintée,Fuite;Venonat;27333
+49;Aéromite;insecte,poison;70;65;60;90;90;75;Écran Poudre,Lentiteintée,Peau Miracle;Venomoth;47011
+50;Taupiqueur;sol;10;55;25;95;35;45;Voile Sable,Piège,Force Sable;Diglett;84050
+51;Triopikeur;sol;35;80;50;120;50;70;Voile Sable,Piège,Force Sable;Dugtrio;02063
+52;Miaouss;normal;40;45;35;90;40;40;Ramassage,Technicien,Tension;Meowth;47281
+53;Persian;normal;65;70;60;115;65;65;Échauffement,Technicien,Tension;Persian;90027
+54;Psykokwak;eau;50;52;48;55;65;50;Moiteur,Ciel Gris,Glissade;Psyduck;55315
+55;Akwakwak;eau;80;82;78;85;95;80;Moiteur,Ciel Gris,Glissade;Golduck;43099
+56;Férosinge;combat;40;80;35;70;35;45;Esprit Vital,Colérique,Acharné;Mankey;28267
+57;Colossinge;combat;65;105;60;95;60;70;Esprit Vital,Colérique,Acharné;Primeape;65148
+58;Caninos;feu;55;70;45;60;70;50;Intimidation,Torche,Cœur Noble;Growlithe;02783
+59;Arcanin;feu;90;110;80;95;100;80;Intimidation,Torche,Cœur Noble;Arcanine;28425
+60;Ptitard;eau;40;50;40;90;40;40;Absorb Eau,Moiteur,Glissade;Poliwag;21439
+61;Têtarte;eau;65;65;65;90;50;50;Absorb Eau,Moiteur,Glissade;Poliwhirl;72356
+62;Tartard;eau,combat;90;85;95;70;70;90;Absorb Eau,Moiteur,Glissade;Poliwrath;67174
+63;Abra;psy;25;20;15;90;105;55;Synchro,Attention,Garde Magik;Abra;03117
+64;Kadabra;psy;40;35;30;105;120;70;Synchro,Attention,Garde Magik;Kadabra;46010
+65;Alakazam;psy;55;50;45;135;135;120;Synchro,Attention,Garde Magik;Alakazam;08494
+66;Machoc;combat;70;80;50;35;35;35;Cran,Annule Garde,Impassible;Machop;38291
+67;Machopeur;combat;80;100;70;45;50;60;Cran,Annule Garde,Impassible;Machoke;65250
+68;Mackogneur;combat;90;130;80;65;65;85;Cran,Annule Garde,Impassible;Machamp;47263
+69;Chétiflor;plante,poison;50;70;35;40;70;30;Chlorophylle,Gloutonnerie;Bellsprout;34093
+70;Boustiflor;plante,poison;65;90;50;55;85;45;Chlorophylle,Gloutonnerie;Weepinbell;80282
+71;Empiflor;plante,poison;80;105;65;70;100;60;Chlorophylle,Gloutonnerie;Victreebel;04138
+72;Tentacool;eau,poison;40;40;35;70;50;100;Corps Sain,Suintement,Cuvette;Tentacool;37183
+73;Tentacruel;eau,poison;80;70;65;100;80;120;Corps Sain,Suintement,Cuvette;Tentacruel;34084
+74;Racaillou;roche,sol;40;80;100;20;30;30;Tête de Roc,Fermeté,Voile Sable;Geodude;52292
+75;Gravalanch;roche,sol;55;95;115;35;45;45;Tête de Roc,Fermeté,Voile Sable;Graveler;89411
+76;Grolem;roche,sol;80;120;130;45;55;65;Tête de Roc,Fermeté,Voile Sable;Golem;60310
+77;Ponyta;feu;50;85;55;90;65;65;Fuite,Torche,Corps Ardent;Ponyta;59328
+78;Galopa;feu;65;100;70;105;80;80;Fuite,Torche,Corps Ardent;Rapidash;78246
+79;Ramoloss;eau,psy;90;65;65;15;40;40;Benêt,Tempo Perso,Régé-Force;Slowpoke;19126
+80;Flagadoss;eau,psy;95;75;110;30;100;80;Benêt,Tempo Perso,Régé-Force;Slowbro;57689
+81;Magnéti;electrik,acier;25;35;70;45;95;55;Magnépiège,Fermeté,Analyste;Magnemite;48002
+82;Magnéton;electrik,acier;80;60;95;70;120;70;Magnépiège,Fermeté,Analyste;Magneton;27558
+83;Canarticho;normal,vol;62;65;55;52;58;62;Attention,Regard Vif,Acharné;Farfetch’d;39101
+84;Doduo;normal,vol;35;85;45;75;35;35;Fuite,Matinal,Pieds Confus;Doduo;64101
+85;Dodrio;normal,vol;60;110;70;100;60;60;Fuite,Matinal,Pieds Confus;Dodrio;54425
+86;Otaria;eau;65;45;55;45;45;70;Isograisse,Hydratation,Corps Gel;Seel;59658
+87;Lamantine;eau,glace;90;70;80;70;70;95;Isograisse,Hydratation,Corps Gel;Dewgong;74250
+88;Tadmorv;poison;80;80;50;25;40;50;Puanteur,Glue,Toxitouche;Grimer;62115
+89;Grotadmorv;poison;105;105;75;50;65;100;Puanteur,Glue,Toxitouche;Muk;02160
+90;Kokiyas;eau;30;65;100;40;45;25;Coque Armure,Multi-Coups,Envelocape;Shellder;24147
+91;Crustabri;eau,glace;50;95;180;70;85;45;Coque Armure,Multi-Coups,Envelocape;Cloyster;19043
+92;Fantominus;spectre,poison;30;35;30;80;100;35;Lévitation;Gastly;29080
+93;Spectrum;spectre,poison;45;50;45;95;115;55;Lévitation;Haunter;44163
+94;Ectoplasma;spectre,poison;60;65;60;110;130;75;Corps Maudit;Gengar;45276
+95;Onix;roche,sol;35;45;160;70;30;45;Tête de Roc,Fermeté,Armurouillée;Onix;48094
+96;Soporifik;psy;60;48;45;42;43;90;Insomnia,Prédiction,Attention;Drowzee;62160
+97;Hypnomade;psy;85;73;70;67;73;115;Insomnia,Prédiction,Attention;Hypno;52003
+98;Krabby;eau;30;105;90;50;25;25;Hyper Cutter,Coque Armure,Sans Limite;Krabby;34322
+99;Krabboss;eau;55;130;115;75;50;50;Hyper Cutter,Coque Armure,Sans Limite;Kingler;19242
+100;Voltorbe;electrik;40;30;50;100;55;55;Statik,Anti-Bruit,Boom Final;Voltorb;54043
+101;Electrode;electrik;60;50;70;140;80;80;Statik,Anti-Bruit,Boom Final;Electrode;14016
+102;Noeunoeuf;plante,psy;60;40;80;40;60;45;Chlorophylle,Récolte;Exeggcute;16141
+103;Noadkoko;plante,psy;95;95;85;55;125;65;Chlorophylle,Récolte;Exeggutor;62158
+104;Osselait;sol;50;50;95;35;40;50;Tête de Roc,Paratonnerre,Armurbaston;Cubone;09320
+105;Ossatueur;sol;60;80;110;45;50;80;Tête de Roc,Paratonnerre,Armurbaston;Marowak;13202
+106;Kicklee;combat;50;120;53;87;35;110;Échauffement,Téméraire,Délestage;Hitmonlee;24325
+107;Tygnon;combat;50;105;79;76;35;110;Regard Vif,Poing de Fer,Attention;Hitmonchan;63434
+108;Excelangue;normal;90;55;75;30;60;75;Tempo Perso,Benêt,Ciel Gris;Lickitung;08412
+109;Smogo;poison;40;65;95;35;60;45;Lévitation;Koffing;51293
+110;Smogogo;poison;65;90;120;60;85;70;Lévitation;Weezing;37263
+111;Rhinocorne;sol,roche;80;85;95;25;30;30;Paratonnerre,Tête de Roc,Téméraire;Rhyhorn;30254
+112;Rhinoféros;sol,roche;105;130;120;40;45;45;Paratonnerre,Tête de Roc,Téméraire;Rhydon;91191
+113;Leveinard;normal;250;5;5;50;35;105;Médic Nature,Sérénité,Cœur Soin;Chansey;11092
+114;Saquedeneu;plante;65;55;115;60;100;40;Chlorophylle,Feuille Garde,Régé-Force;Tangela;26048
+115;Kangourex;normal;105;95;80;90;40;80;Matinal,Querelleur,Attention;Kangaskhan;77126
+116;Hypotrempe;eau;30;40;70;60;70;25;Glissade,Sniper,Moiteur;Horsea;45233
+117;Hypocéan;eau;55;65;95;85;95;45;Point Poison,Sniper,Moiteur;Seadra;30159
+118;Poissirène;eau;45;67;60;63;35;50;Glissade,Ignifu-Voile,Paratonnerre;Goldeen;68155
+119;Poissoroy;eau;80;92;65;68;65;80;Glissade,Ignifu-Voile,Paratonnerre;Seaking;87203
+120;Stari;eau;30;45;55;85;70;55;Médic Nature,Lumiattirance,Analyste;Staryu;72013
+121;Staross;eau,psy;60;75;85;115;100;85;Médic Nature,Lumiattirance,Analyste;Starmie;76549
+122;M. Mime;psy,fee;40;45;65;90;100;120;Anti-Bruit,Filtre,Technicien;Mr. Mime;47300
+123;Insécateur;insecte,vol;70;110;80;105;55;80;Essaim,Technicien,Impassible;Scyther;81282
+124;Lippoutou;glace,psy;65;50;35;95;115;95;Benêt,Prédiction,Peau Sèche;Jynx;30337
+125;Élektek;electrik;65;83;57;105;95;85;Statik,Esprit Vital;Electabuzz;27483
+126;Magmar;feu;65;95;57;93;100;85;Corps Ardent,Esprit Vital;Magmar;86144
+127;Scarabrute;insecte;65;125;100;85;55;70;Hyper Cutter,Brise Moule,Impudence;Pinsir;12062
+128;Tauros;normal;75;100;95;110;40;70;Intimidation,Colérique,Sans Limite;Tauros;88076
+129;Magicarpe;eau;20;10;55;80;15;20;Glissade,Phobique;Magikarp;78089
+130;Léviator;eau,vol;95;125;79;81;60;100;Intimidation,Impudence;Gyarados;64272
+131;Lokhlass;eau,glace;130;85;80;60;85;95;Absorb Eau,Coque Armure,Hydratation;Lapras;08235
+132;Métamorph;normal;48;48;48;48;48;48;Échauffement,Imposteur;Ditto;32260
+133;Évoli;normal;55;55;50;55;45;65;Fuite,Adaptabilité,Anticipation;Eevee;62623
+134;Aquali;eau;130;65;60;65;110;95;Absorb Eau,Hydratation;Vaporeon;79258
+135;Voltali;electrik;65;65;60;130;110;95;Absorb Volt,Pied Véloce;Jolteon;49213
+136;Pyroli;feu;65;130;60;65;95;110;Torche,Cran;Flareon;50365
+137;Porygon;normal;65;60;70;40;85;75;Calque,Télécharge,Analyste;Porygon;50414
+138;Amonita;roche,eau;35;40;100;35;90;55;Glissade,Coque Armure,Armurouillée;Omanyte;69093
+139;Amonistar;roche,eau;70;60;125;55;115;70;Glissade,Coque Armure,Armurouillée;Omastar;74200
+140;Kabuto;roche,eau;30;80;90;55;55;45;Glissade,Armurbaston,Armurouillée;Kabuto;54177
+141;Kabutops;roche,eau;60;115;105;80;65;70;Glissade,Armurbaston,Armurouillée;Kabutops;18066
+142;Ptéra;roche,vol;80;105;65;130;60;75;Pression,Tête de Roc,Tension;Aerodactyl;01037
+143;Ronflex;normal;160;110;65;30;65;110;Vaccin,Isograisse,Gloutonnerie;Snorlax;02398
+144;Artikodin;glace,vol;90;85;100;85;95;12;Pression,Rideau Neige;Articuno;42016
+145;Électhor;electrik,vol;90;90;85;100;125;90;Pression,Statik;Zapdos;31390
+146;Sulfura;feu,vol;90;100;90;90;125;85;Pression,Corps Ardent;Moltres;04012
+147;Minidraco;dragon;41;64;45;50;50;50;Mue,Écaille Spéciale;Dratini;38499
+148;Draco;dragon;61;84;65;70;70;70;Mue,Écaille Spéciale;Dragonair;57636
+149;Dracolosse;dragon,vol;91;134;95;80;100;100;Attention,Multiécaille;Dragonite;97118
+150;Mewtwo;psy;106;110;90;130;154;90;Pression,Tension;Mewtwo;50015
+151;Mew;psy;100;100;100;100;100;100;Synchro;Mew;25011
+152;Germignon;plante;45;49;65;45;49;65;Engrais,Feuille Garde;Chikorita;50049
+153;Macronium;plante;60;62;80;60;63;80;Engrais,Feuille Garde;Bayleef;50297
+154;Méganium;plante;80;82;100;80;83;100;Engrais,Feuille Garde;Meganium;57745
+155;Héricendre;feu;39;52;43;65;60;50;Brasier,Torche;Cyndaquil;84087
+156;Feurisson;feu;58;64;58;80;80;65;Brasier,Torche;Quilava;84035
+157;Typhlosion;feu;78;84;78;100;109;85;Brasier,Torche;Typhlosion;69014
+158;Kaiminus;eau;50;65;64;43;44;48;Torrent,Sans Limite;Totodile;01281
+159;Crocrodil;eau;65;80;80;58;59;63;Torrent,Sans Limite;Croconaw;26187
+160;Aligatueur;eau;85;105;100;78;79;83;Torrent,Sans Limite;Feraligatr;01146
+161;Fouinette;normal;35;46;34;20;35;45;Fuite,Regard Vif,Fouille;Sentret;55173
+162;Fouinar;normal;85;76;64;90;45;55;Fuite,Regard Vif,Fouille;Furret;38305
+163;Hoothoot;normal,vol;60;30;30;50;36;56;Insomnia,Regard Vif,Lentiteintée;Hoothoot;88007
+164;Noarfang;normal,vol;100;50;50;70;76;96;Insomnia,Regard Vif,Lentiteintée;Noctowl;67347
+165;Coxy;insecte,vol;40;20;30;55;40;80;Essaim,Matinal,Phobique;Ledyba;77412
+166;Coxyclaque;insecte,vol;55;35;50;85;55;110;Essaim,Matinal,Poing de Fer;Ledian;43096
+167;Mimigal;insecte,poison;40;60;40;30;40;40;Essaim,Insomnia,Sniper;Spinarak;67225
+168;Migalos;insecte,poison;70;90;70;40;60;60;Essaim,Insomnia,Sniper;Ariados;54273
+169;Nostenfer;poison,vol;85;90;80;130;70;80;Attention,Infiltration;Crobat;32139
+170;Loupio;eau,electrik;75;38;38;67;56;56;Absorb Volt,Lumiattirance,Absorb Eau;Chinchou;08078
+171;Lanturn;eau,electrik;125;58;58;67;76;76;Absorb Volt,Lumiattirance,Absorb Eau;Lanturn;68031
+172;Pichu;electrik;20;40;15;60;35;35;Statik,Paratonnerre;Pichu;85120
+173;Mélo;fee;50;25;28;15;45;55;Joli Sourire,Garde Magik,Garde Amie;Cleffa;54283
+174;Toudoudou;normal,fee;90;30;15;15;40;20;Joli Sourire,Battant,Garde Amie;Igglybuff;15005
+175;Togepi;fee;35;20;65;20;40;65;Sérénité,Agitation,Chanceux;Togepi;66089
+176;Togetic;fee,vol;55;40;85;40;80;105;Sérénité,Agitation,Chanceux;Togetic;65324
+177;Natu;psy,vol;40;50;45;70;70;45;Synchro,Matinal,Miroir Magik;Natu;71576
+178;Xatu;psy,vol;65;70;60;95;95;70;Synchro,Matinal,Miroir Magik;Xatu;79273
+179;Wattouat;electrik;55;40;40;35;65;45;Statik,Plus;Mareep;56193
+180;Lainergie;electrik;70;55;55;45;80;60;Statik,Plus;Flaaffy;62019
+181;Pharamp;electrik;90;75;85;55;115;90;Statik,Plus;Ampharos;12133
+182;Joliflor;plante;75;80;95;50;90;100;Chlorophylle,Cœur Soin;Bellossom;03221
+183;Marill;eau,fee;70;20;50;40;20;50;Isograisse,Coloforce,Herbivore;Marill;57428
+184;Azumarill;eau,fee;100;50;80;50;60;80;Isograisse,Coloforce,Herbivore;Azumarill;80234
+185;Simularbre;roche;70;100;115;30;30;65;Fermeté,Tête de Roc,Phobique;Sudowoodo;32007
+186;Tarpaud;eau;90;75;75;70;90;100;Absorb Eau,Moiteur,Crachin;Politoed;25008
+187;Granivol;plante,vol;35;35;40;50;35;55;Chlorophylle,Feuille Garde,Infiltration;Hoppip;59055
+188;Floravol;plante,vol;55;45;50;80;45;65;Chlorophylle,Feuille Garde,Infiltration;Skiploom;28161
+189;Cotovol;plante,vol;75;55;70;110;55;95;Chlorophylle,Feuille Garde,Infiltration;Jumpluff;57263
+190;Capumain;normal;55;70;55;85;40;55;Fuite,Ramassage,Multi-Coups;Aipom;57746
+191;Tournegrin;plante;30;30;30;30;30;30;Chlorophylle,Force Soleil,Matinal;Sunkern;30213
+192;Héliatronc;plante;75;75;55;30;105;85;Chlorophylle,Force Soleil,Matinal;Sunflora;17359
+193;Yanma;insecte,vol;65;65;45;95;75;45;Œil Composé,Turbo,Fouille;Yanma;60408
+194;Axoloto;eau,sol;55;45;45;15;25;25;Absorb Eau,Moiteur,Inconscient;Wooper;30233
+195;Maraiste;eau,sol;95;85;85;35;65;65;Absorb Eau,Moiteur,Inconscient;Quagsire;80094
+196;Mentali;psy;65;65;60;110;130;95;Synchro,Miroir Magik;Espeon;70327
+197;Noctali;tenebres;95;65;110;65;60;130;Synchro,Attention;Umbreon;71293
+198;Cornèbre;tenebres,vol;60;85;42;91;85;42;Insomnia,Chanceux,Farceur;Murkrow;40238
+199;Roigada;eau,psy;95;75;80;30;100;110;Benêt,Tempo Perso,Régé-Force;Slowking;61039
+200;Feuforêve;spectre;60;60;60;85;85;85;Lévitation;Misdreavus;88447
+201;Zarbi;psy;48;72;48;48;72;48;Lévitation;Unown;07254
+202;Qulbutoké;psy;190;33;58;33;33;58;Marque Ombre,Télépathe;Wobbuffet;51361
+203;Girafarig;normal,psy;70;80;65;85;90;65;Attention,Matinal,Herbivore;Girafarig;59101
+204;Pomdepik;insecte;50;65;90;15;35;35;Fermeté,Envelocape;Pineco;22227
+205;Foretress;insecte,acier;75;90;140;40;60;60;Fermeté,Envelocape;Forretress;25170
+206;Insolourdo;normal;100;70;70;45;65;65;Sérénité,Fuite,Phobique;Dunsparce;81175
+207;Scorplane;sol,vol;65;75;105;85;35;65;Voile Sable,Hyper Cutter,Vaccin;Gligar;56214
+208;Steelix;acier,sol;75;85;200;30;55;65;Tête de Roc,Fermeté,Sans Limite;Steelix;25481
+209;Snubbull;fee;60;80;50;30;40;40;Fuite,Intimidation,Phobique;Snubbull;33283
+210;Granbull;fee;90;120;75;45;60;60;Pied Véloce,Intimidation,Phobique;Granbull;36209
+211;Qwilfish;eau,poison;65;95;75;85;55;55;Point Poison,Glissade,Intimidation;Qwilfish;63052
+212;Cizayox;insecte,acier;70;130;100;65;55;80;Essaim,Technicien,Light Metal;Scizor;56175
+213;Caratroc;insecte,roche;20;10;230;5;10;230;Fermeté,Gloutonnerie,Contestation;Shuckle;10188
+214;Scarhino;insecte,combat;80;125;75;85;40;95;Essaim,Cran,Impudence;Heracross;59445
+215;Farfuret;tenebres,glace;55;95;55;115;35;75;Attention,Regard Vif,Pickpocket;Sneasel;75115
+216;Teddiursa;normal;60;80;50;40;50;50;Ramassage,Pied Véloce,Cherche Miel;Teddiursa;02104
+217;Ursaring;normal;90;130;75;55;75;75;Cran,Pied Véloce,Tension;Ursaring;59033
+218;Limagma;feu;40;40;40;20;70;40;Armumagma,Corps Ardent,Armurouillée;Slugma;25105
+219;Volcaropod;feu,roche;50;50;120;30;80;80;Armumagma,Corps Ardent,Armurouillée;Magcargo;39113
+220;Marcacrin;glace,sol;50;50;40;50;30;30;Benêt,Rideau Neige,Isograisse;Swinub;88316
+221;Cochignon;glace,sol;100;100;80;50;60;60;Benêt,Rideau Neige,Isograisse;Piloswine;82060
+222;Corayon;eau,roche;55;55;85;35;65;85;Agitation,Médic Nature,Régé-Force;Corsola;14376
+223;Rémoraid;eau;35;65;35;65;65;35;Agitation,Sniper,Lunatique;Remoraid;65015
+224;Octillery;eau;75;105;75;45;105;75;Ventouse,Sniper,Lunatique;Octillery;37232
+225;Cadoizo;glace,vol;45;55;45;75;65;45;Esprit Vital,Agitation,Insomnia;Delibird;77111
+226;Démanta;eau,vol;65;40;70;70;80;140;Glissade,Absorb Eau,Ignifu-Voile;Mantine;64131
+227;Airmure;acier,vol;65;80;140;70;40;70;Fermeté,Regard Vif,Armurouillée;Skarmory;80310
+228;Malosse;tenebres,feu;45;60;30;65;80;50;Torche,Matinal,Tension;Houndour;31311
+229;Démolosse;tenebres,feu;75;90;50;95;110;80;Torche,Matinal,Tension;Houndoom;59160
+230;Hyporoi;eau,dragon;75;95;95;85;95;95;Glissade,Sniper,Moiteur;Kingdra;48009
+231;Phanpy;sol;90;60;60;40;40;40;Ramassage,Voile Sable;Phanpy;47213
+232;Donphan;sol;90;120;120;50;60;60;Fermeté,Voile Sable;Donphan;2B260
+233;Porygon2;normal;85;80;90;60;105;95;Calque,Télécharge,Analyste;Porygon2;64050
+234;Cerfrousse;normal;73;95;62;65;85;65;Intimidation,Fouille,Herbivore;Stantler;14255
+235;Queulorior;normal;55;20;35;70;20;45;Tempo Perso,Technicien,Lunatique;Smeargle;27042
+236;Debugant;combat;35;35;35;35;35;35;Cran,Impassible,Esprit Vital;Tyrogue;02473
+237;Kapoera;combat;50;95;95;70;35;110;Intimidation,Technicien,Impassible;Hitmontop;70077
+238;Lippouti;glace,psy;45;30;15;65;85;65;Benêt,Prédiction,Hydratation;Smoochum;33134
+239;Élekid;electrik;45;63;37;95;65;55;Statik,Esprit Vital;Elekid;39531
+240;Magby;feu;45;75;37;83;70;55;Corps Ardent,Esprit Vital;Magby;58226
+241;Écrémeuh;normal;95;80;105;100;40;70;Isograisse,Querelleur,Herbivore;Miltank;31246
+242;Leuphorie;normal;255;10;10;55;75;135;Médic Nature,Sérénité,Cœur Soin;Blissey;49047
+243;Raikou;electrik;90;85;75;115;115;100;Pression,Attention;Raikou;26255
+244;Entei;feu;115;115;85;100;90;75;Pression,Attention;Entei;61243
+245;Suicune;eau;100;75;115;85;90;115;Pression,Attention;Suicune;72386
+246;Embrylex;roche,sol;50;64;50;41;45;50;Cran,Voile Sable;Larvitar;04094
+247;Ymphect;roche,sol;70;84;70;51;65;70;Mue;Pupitar;62737
+248;Tyranocif;roche,tenebres;100;134;110;61;95;100;Sable Volant,Tension;Tyranitar;63239
+249;Lugia;psy,vol;106;90;130;110;90;154;Pression,Multiécaille;Lugia;84119
+250;Ho-Oh;feu,vol;106;130;90;90;110;154;Pression,Régé-Force;Ho-Oh;26352
+251;Celebi;psy,plante;100;100;100;100;100;100;Médic Nature;Celebi;14687
+252;Arcko;plante;40;45;34;70;65;55;Engrais,Délestage;Treecko;35136
+253;Massko;plante;50;65;45;95;85;65;Engrais,Délestage;Grovyle;48090
+254;Jungko;plante;70;85;65;120;105;85;Engrais,Délestage;Sceptile;77171
+255;Poussifeu;feu;45;60;40;45;70;50;Brasier,Turbo;Torchic;85303
+256;Galifeu;feu,combat;60;85;60;55;85;60;Brasier,Turbo;Combusken;57303
+257;Braségali;feu,combat;80;120;70;80;110;70;Brasier,Turbo;Blaziken;64423
+258;Gobou;eau;50;70;50;40;50;50;Torrent,Moiteur;Mudkip;85025
+259;Flobio;eau,sol;70;85;70;50;60;70;Torrent,Moiteur;Marshtomp;52208
+260;Laggron;eau,sol;100;110;90;60;85;90;Torrent,Moiteur;Swampert;42121
+261;Medhyèna;tenebres;35;55;35;35;30;30;Fuite,Pied Véloce,Phobique;Poochyena;82142
+262;Grahyèna;tenebres;70;90;70;70;60;60;Intimidation,Pied Véloce,Impudence;Mightyena;81266
+263;Zigzaton;normal;38;30;41;60;30;41;Ramassage,Gloutonnerie,Pied Véloce;Zigzagoon;07321
+264;Linéon;normal;78;70;61;100;50;61;Ramassage,Gloutonnerie,Pied Véloce;Linoone;62286
+265;Chenipotte;insecte;45;45;35;20;20;30;Écran Poudre,Fuite;Wurmple;59121
+266;Armulys;insecte;50;35;55;15;25;25;Mue;Silcoon;14492
+267;Charmillon;insecte,vol;60;70;50;65;100;50;Essaim,Rivalité;Beautifly;01425
+268;Blindalys;insecte;50;35;55;15;25;25;Mue;Cascoon;28078
+269;Papinox;insecte,poison;60;50;70;65;50;90;Écran Poudre,Œil Composé;Dustox;17179
+270;Nénupiot;eau,plante;40;30;30;30;40;50;Glissade,Cuvette,Tempo Perso;Lotad;54600
+271;Lombre;eau,plante;60;50;50;50;60;70;Glissade,Cuvette,Tempo Perso;Lombre;71091
+272;Ludicolo;eau,plante;80;70;70;70;90;100;Glissade,Cuvette,Tempo Perso;Ludicolo;54507
+273;Grainipiot;plante;40;40;50;30;30;30;Chlorophylle,Matinal,Pickpocket;Seedot;15026
+274;Pifeuil;plante,tenebres;70;70;40;60;60;40;Chlorophylle,Matinal,Pickpocket;Nuzleaf;08331
+275;Tengalice;plante,tenebres;90;100;60;80;90;60;Chlorophylle,Matinal,Pickpocket;Shiftry;70487
+276;Nirondelle;normal,vol;40;55;30;85;30;30;Cran,Querelleur;Taillow;70447
+277;Hélédelle;normal,vol;60;85;60;125;50;50;Cran,Querelleur;Swellow;45006
+278;Goélise;eau,vol;40;30;30;85;55;30;Regard Vif,Cuvette;Wingull;04245
+279;Bekipan;eau,vol;60;50;100;65;85;70;Regard Vif,Cuvette;Pelipper;48051
+280;Tarsal;psy,fee;28;25;25;40;45;35;Synchro,Calque,Télépathe;Ralts;77382
+281;Kirlia;psy,fee;38;35;35;50;65;55;Synchro,Calque,Télépathe;Kirlia;44218
+282;Gardevoir;psy,fee;68;65;65;80;125;115;Synchro,Calque,Télépathe;Gardevoir;38197
+283;Arakdo;insecte,eau;40;30;32;65;50;50;Glissade,Cuvette;Surskit;72231
+284;Maskadra;insecte,vol;70;60;62;60;80;82;Intimidation,Tension;Masquerain;07102
+285;Balignon;plante;60;40;60;35;40;60;Pose Spore,Soin Poison,Pied Véloce;Shroomish;74269
+286;Chapignon;plante,combat;60;130;80;70;60;60;Pose Spore,Soin Poison,Technicien;Breloom;25460
+287;Parecool;normal;60;60;60;30;35;35;Absentéisme;Slakoth;14525
+288;Vigoroth;normal;80;80;80;90;55;55;Esprit Vital;Vigoroth;64441
+289;Monaflèmit;normal;150;160;100;100;95;65;Absentéisme;Slaking;60448
+290;Ningale;insecte,sol;31;45;90;40;30;30;Œil Composé,Fuite;Nincada;42167
+291;Ninjask;insecte,vol;61;90;45;160;50;50;Turbo,Infiltration;Ninjask;69217
+292;Munja;insecte,spectre;1;90;45;40;30;30;Garde Mystik;Shedinja;14661
+293;Chuchmur;normal;64;51;23;28;51;23;Anti-Bruit,Phobique;Whismur;77027
+294;Ramboum;normal;84;71;43;48;71;43;Anti-Bruit,Querelleur;Loudred;63416
+295;Brouhabam;normal;104;91;63;68;91;63;Anti-Bruit,Querelleur;Exploud;32010
+296;Makuhita;combat;72;60;30;25;20;30;Isograisse,Cran,Sans Limite;Makuhita;36015
+297;Hariyama;combat;144;120;60;50;40;60;Isograisse,Cran,Sans Limite;Hariyama;91184
+298;Azurill;normal,fee;50;20;40;20;20;40;Isograisse,Coloforce,Herbivore;Azurill;77128
+299;Tarinor;roche;30;45;135;30;45;90;Fermeté,Magnépiège,Force Sable;Nosepass;62419
+300;Skitty;normal;50;45;45;50;35;35;Joli Sourire,Normalise,Peau Miracle;Skitty;67085
+301;Delcatty;normal;70;65;65;70;55;55;Joli Sourire,Normalise,Peau Miracle;Delcatty;88026
+302;Ténéfix;spectre,tenebres;50;75;75;50;65;65;Regard Vif,Frein,Farceur;Sableye;15014
+303;Mysdibule;acier,fee;50;85;85;50;55;55;Hyper Cutter,Intimidation,Sans Limite;Mawile;38109
+304;Galekid;acier,roche;50;70;100;30;40;40;Fermeté,Tête de Roc,Heavy Metal;Aron;90043
+305;Galegon;acier,roche;60;90;140;40;50;50;Fermeté,Tête de Roc,Heavy Metal;Lairon;56123
+306;Galeking;acier,roche;70;110;180;50;60;60;Fermeté,Tête de Roc,Heavy Metal;Aggron;54496
+307;Méditikka;combat,psy;30;40;55;60;40;55;Force Pure,Télépathe;Meditite;17263
+308;Charmina;combat,psy;60;60;75;80;60;75;Force Pure,Télépathe;Medicham;21244
+309;Dynavolt;electrik;40;45;40;65;65;40;Paratonnerre,Statik,Minus;Electrike;43128
+310;Élecsprint;electrik;70;75;60;105;105;60;Statik,Paratonnerre,Minus;Manectric;18223
+311;Posipi;electrik;60;50;40;95;85;75;Plus,Paratonnerre;Plusle;01184
+312;Négapi;electrik;60;40;50;95;75;85;Minus,Absorb Volt;Minun;91345
+313;Muciole;insecte;65;73;55;85;47;75;Lumiattirance,Essaim,Farceur;Volbeat;61378
+314;Lumivole;insecte;65;47;55;85;73;75;Benêt,Lentiteintée,Farceur;Illumise;22250
+315;Rosélia;plante,poison;50;60;45;65;100;80;Médic Nature,Point Poison,Feuille Garde;Roselia;69265
+316;Gloupti;poison;70;43;53;40;43;53;Suintement,Glue,Gloutonnerie;Gulpin;45303
+317;Avaltout;poison;100;73;83;55;73;83;Suintement,Glue,Gloutonnerie;Swalot;85255
+318;Carvanha;eau,tenebres;45;90;20;65;65;20;Peau Dure,Turbo;Carvanha;14588
+319;Sharpedo;eau,tenebres;70;120;40;95;95;40;Peau Dure,Turbo;Sharpedo;2A035
+320;Wailmer;eau;130;70;35;60;70;35;Ignifu-Voile,Benêt,Pression;Wailmer;59162
+321;Wailord;eau;170;90;45;60;90;45;Ignifu-Voile,Benêt,Pression;Wailord;80294
+322;Chamallot;feu,sol;60;60;40;35;65;45;Benêt,Simple,Tempo Perso;Numel;19056
+323;Camérupt;feu,sol;70;100;70;40;105;75;Armumagma,Solide Roc,Colérique;Camerupt;88222
+324;Chartor;feu;70;85;140;20;85;70;Écran Fumée,Coque Armure;Torkoal;55307
+325;Spoink;psy;60;25;35;60;70;80;Isograisse,Tempo Perso,Gloutonnerie;Spoink;02483
+326;Groret;psy;80;45;65;80;90;110;Isograisse,Tempo Perso,Gloutonnerie;Grumpig;07028
+327;Spinda;normal;60;60;60;60;60;60;Tempo Perso,Pieds Confus,Contestation;Spinda;14763
+328;Kraknoix;sol;45;100;45;10;45;45;Hyper Cutter,Piège,Sans Limite;Trapinch;31232
+329;Vibraninf;sol,dragon;50;70;50;70;50;50;Lévitation;Vibrava;39225
+330;Libégon;sol,dragon;80;100;80;100;80;80;Lévitation;Flygon;52373
+331;Cacnea;plante;50;85;40;35;85;40;Voile Sable,Absorb Eau;Cacnea;24043
+332;Cacturne;plante,tenebres;70;115;60;55;115;60;Voile Sable,Absorb Eau;Cacturne;21701
+333;Tylton;normal,vol;45;40;60;50;40;75;Médic Nature,Ciel Gris;Swablu;56253
+334;Altaria;dragon,vol;75;70;90;80;70;105;Médic Nature,Ciel Gris;Altaria;39153
+335;Mangriff;normal;73;115;60;90;60;60;Vaccin,Rage Poison;Zangoose;83005
+336;Séviper;poison;73;100;60;65;100;60;Mue,Infiltration;Seviper;51536
+337;Séléroc;roche,psy;70;55;65;70;95;85;Lévitation;Lunatone;34187
+338;Solaroc;roche,psy;70;95;85;70;55;65;Lévitation;Solrock;56139
+339;Barloche;eau,sol;50;48;43;50;46;41;Benêt,Anticipation,Hydratation;Barboach;73119
+340;Barbicha;eau,sol;110;76;73;60;76;71;Benêt,Anticipation,Hydratation;Whiscash;54402
+341;Écrapince;eau;43;80;65;35;50;35;Hyper Cutter,Coque Armure,Adaptabilité;Corphish;36069
+342;Colhomard;eau,tenebres;63;120;85;55;90;55;Hyper Cutter,Coque Armure,Adaptabilité;Crawdaunt;59122
+343;Balbuto;sol,psy;40;40;55;55;40;70;Lévitation;Baltoy;35339
+344;Kaorine;sol,psy;60;70;105;75;70;120;Lévitation;Claydol;01288
+345;Lilia;roche,plante;66;41;77;23;61;87;Ventouse,Lavabo;Lileep;07050
+346;Vacilys;roche,plante;86;81;97;43;81;107;Ventouse,Lavabo;Cradily;67447
+347;Anorith;roche,insecte;45;95;50;75;40;50;Armurbaston,Glissade;Anorith;72237
+348;Armaldo;roche,insecte;75;125;100;45;70;80;Armurbaston,Glissade;Armaldo;24327
+349;Barpau;eau;20;15;20;80;10;55;Glissade,Benêt,Adaptabilité;Feebas;62870
+350;Milobellus;eau;95;60;79;81;100;125;Écaille Spéciale,Battant,Joli Sourire;Milotic;19071
+352;Kecleon;normal;60;90;70;50;60;120;Déguisement,Protéen;Kecleon;10095
+353;Polichombr;spectre;44;75;35;45;63;33;Insomnia,Fouille,Corps Maudit;Shuppet;14159
+354;Branette;spectre;64;115;65;65;83;63;Insomnia,Fouille,Corps Maudit;Banette;02773
+355;Skelénox;spectre;20;40;90;25;30;90;Lévitation,Fouille;Duskull;39302
+356;Téraclope;spectre;40;70;130;25;60;130;Pression,Fouille;Dusclops;90045
+357;Tropius;plante,vol;99;68;83;51;72;87;Chlorophylle,Force Soleil,Récolte;Tropius;67485
+358;Éoko;psy;65;50;70;65;95;80;Lévitation;Chimecho;29197
+359;Absol;tenebres;65;130;60;75;75;60;Pression,Chanceux,Cœur Noble;Absol;63338
+360;Okéoké;psy;95;23;48;23;23;48;Marque Ombre,Télépathe;Wynaut;31593
+361;Stalgamin;glace;50;50;50;50;50;50;Attention,Corps Gel,Lunatique;Snorunt;90030
+362;Oniglali;glace;80;80;80;80;80;80;Attention,Corps Gel,Lunatique;Glalie;17360
+363;Obalie;glace,eau;70;40;50;25;55;50;Isograisse,Corps Gel,Benêt;Spheal;38322
+364;Phogleur;glace,eau;90;60;70;45;75;70;Isograisse,Corps Gel,Benêt;Sealeo;12270
+365;Kaimorse;glace,eau;110;80;90;65;95;90;Isograisse,Corps Gel,Benêt;Walrein;51200
+366;Coquiperl;eau;35;64;85;32;74;55;Coque Armure,Phobique;Clamperl;32387
+367;Serpang;eau;55;104;105;52;94;75;Glissade,Ignifu-Voile;Huntail;88135
+368;Rosabyss;eau;55;84;105;52;114;75;Glissade,Hydratation;Gorebyss;65056
+369;Relicanth;eau,roche;100;90;130;55;45;65;Glissade,Tête de Roc,Fermeté;Relicanth;18093
+370;Lovdisc;eau;43;30;55;97;40;65;Glissade,Hydratation;Luvdisc;63344
+371;Draby;dragon;45;75;60;50;40;30;Tête de Roc,Sans Limite;Bagon;51325
+372;Drackhaus;dragon;65;95;100;50;60;50;Tête de Roc,Envelocape;Shelgon;71532
+373;Drattak;dragon,vol;95;135;80;100;110;80;Intimidation,Impudence;Salamence;17442
+374;Terhal;acier,psy;40;55;80;30;35;60;Corps Sain,Light Metal;Beldum;89286
+375;Métang;acier,psy;60;75;100;50;55;80;Corps Sain,Light Metal;Metang;03182
+376;Métalosse;acier,psy;80;135;130;70;95;90;Corps Sain,Light Metal;Metagross;77053
+377;Regirock;roche;80;100;200;50;50;100;Corps Sain,Fermeté;Regirock;24365
+378;Regice;glace;80;50;100;50;100;200;Corps Sain,Corps Gel;Regice;68014
+379;Registeel;acier;80;75;150;50;75;150;Corps Sain,Light Metal;Registeel;32398
+380;Latias;dragon,psy;80;80;90;110;110;130;Lévitation;Latias;59229
+381;Latios;dragon,psy;80;90;80;110;130;110;Lévitation;Latios;32313
+382;Kyogre;eau;100;100;90;90;150;140;Crachin;Kyogre;62256
+383;Groudon;sol;100;150;140;90;100;90;Sécheresse;Groudon;90039
+384;Rayquaza;dragon,vol;105;150;90;95;150;90;Air Lock;Rayquaza;21528
+385;Jirachi;acier,psy;100;100;100;100;100;100;Sérénité;Jirachi;44084
+387;Tortipouss;plante;55;68;64;31;45;55;Engrais,Coque Armure;Turtwig;74114
+388;Boskara;plante;75;89;85;36;55;65;Engrais,Coque Armure;Grotle;62361
+389;Torterra;plante,sol;95;109;105;56;75;85;Engrais,Coque Armure;Torterra;04116
+390;Ouisticram;feu;44;58;44;61;58;44;Brasier,Poing de Fer;Chimchar;03277
+391;Chimpenfeu;feu,combat;64;78;52;81;78;52;Brasier,Poing de Fer;Monferno;13017
+392;Simiabraz;feu,combat;76;104;71;108;104;71;Brasier,Poing de Fer;Infernape;56206
+393;Tiplouf;eau;53;51;53;40;61;56;Torrent,Acharné;Piplup;62011
+394;Prinplouf;eau;64;66;68;50;81;76;Torrent,Acharné;Prinplup;01311
+395;Pingoléon;eau,acier;84;86;88;60;111;101;Torrent,Acharné;Empoleon;71257
+396;Étourmi;normal,vol;40;55;30;60;30;30;Regard Vif,Téméraire;Starly;41071
+397;Étourvol;normal,vol;55;75;50;80;40;40;Intimidation,Téméraire;Staravia;01218
+398;Étouraptor;normal,vol;85;120;70;100;50;50;Intimidation,Téméraire;Staraptor;68153
+399;Keunotor;normal;59;45;40;31;35;40;Simple,Inconscient,Lunatique;Bidoof;02604
+400;Castorno;normal,eau;79;85;60;71;55;60;Simple,Inconscient,Lunatique;Bibarel;33227
+401;Crikzik;insecte;37;25;41;25;25;41;Mue,Fuite;Kricketot;61474
+402;Mélokrik;insecte;77;85;51;65;55;51;Essaim,Technicien;Kricketune;64123
+403;Lixy;electrik;45;65;34;45;40;34;Rivalité,Intimidation,Cran;Shinx;38433
+404;Luxio;electrik;60;85;49;60;60;49;Rivalité,Intimidation,Cran;Luxio;31211
+405;Luxray;electrik;80;120;79;70;95;79;Rivalité,Intimidation,Cran;Luxray;63248
+406;Rozbouton;plante,poison;40;30;35;55;50;70;Médic Nature,Point Poison,Feuille Garde;Budew;62346
+407;Roserade;plante,poison;60;70;65;90;125;105;Médic Nature,Point Poison,Technicien;Roserade;14229
+408;Kranidos;roche;67;125;40;58;30;30;Brise Moule,Sans Limite;Cranidos;71331
+409;Charkos;roche;97;165;60;58;65;50;Brise Moule,Sans Limite;Rampardos;61034
+410;Dinoclier;roche,acier;30;42;118;30;42;88;Fermeté,Anti-Bruit;Shieldon;14145
+411;Bastiodon;roche,acier;60;52;168;30;47;138;Fermeté,Anti-Bruit;Bastiodon;57350
+412;Cheniti;insecte;40;29;45;36;29;45;Mue,Envelocape;Burmy;82111
+414;Papilord;insecte,vol;70;94;50;66;94;50;Essaim,Lentiteintée;Mothim;31306
+415;Apitrini;insecte,vol;30;30;42;71;30;42;Cherche Miel,Agitation;Combee;81221
+416;Apireine;insecte,vol;70;80;102;40;80;102;Pression,Tension;Vespiquen;15269
+417;Pachirisu;electrik;60;45;70;95;45;90;Fuite,Ramassage,Absorb Volt;Pachirisu;19078
+418;Mustébouée;eau;55;65;35;85;60;30;Glissade,Ignifu-Voile;Buizel;46187
+419;Mustéflott;eau;85;105;55;115;85;50;Glissade,Ignifu-Voile;Floatzel;14352
+420;Ceribou;plante;45;35;45;35;62;53;Chlorophylle;Cherubi;71025
+421;Ceriflor;plante;70;60;70;85;87;78;Don Floral;Cherrim;80321
+422;Sancoki;eau;76;48;48;34;57;62;Glue,Lavabo,Force Sable;Shellos;76397
+423;Tritosor;eau,sol;111;83;68;39;92;82;Glue,Lavabo,Force Sable;Gastrodon;27231
+424;Capidextre;normal;75;100;66;115;60;66;Ramassage,Technicien,Multi-Coups;Ambipom;29104
+425;Baudrive;spectre,vol;90;50;34;70;60;44;Boom Final,Délestage,Rage Brûlure;Drifloon;91067
+426;Grodrive;spectre,vol;150;80;44;80;90;54;Boom Final,Délestage,Rage Brûlure;Drifblim;50368
+427;Laporeille;normal;55;66;44;85;44;56;Fuite,Maladresse,Échauffement;Buneary;08174
+428;Lockpin;normal;65;76;84;105;54;96;Joli Sourire,Maladresse,Échauffement;Lopunny;62317
+429;Magirêve;spectre;60;60;60;105;105;105;Lévitation;Mismagius;09139
+430;Corboss;tenebres,vol;100;125;52;71;105;52;Insomnia,Chanceux,Impudence;Honchkrow;73283
+431;Chaglam;normal;49;55;42;85;42;37;Échauffement,Tempo Perso,Regard Vif;Glameow;22343
+432;Chaffreux;normal;71;82;64;112;64;59;Isograisse,Tempo Perso,Acharné;Purugly;21704
+433;Korillon;psy;45;30;50;45;65;50;Lévitation;Chingling;62580
+434;Moufouette;poison,tenebres;63;63;47;74;41;41;Puanteur,Boom Final,Regard Vif;Stunky;33258
+435;Moufflair;poison,tenebres;103;93;67;84;71;61;Puanteur,Boom Final,Regard Vif;Skuntank;57081
+436;Archéomire;acier,psy;57;24;86;23;24;86;Lévitation,Ignifuge,Heavy Metal;Bronzor;37134
+437;Archéodong;acier,psy;67;89;116;33;76;116;Lévitation,Ignifuge,Heavy Metal;Bronzong;22048
+438;Manzaï;roche;50;80;95;10;10;45;Tête de Roc,Fermeté,Phobique;Bonsly;58035
+439;Mime Jr.;psy,fee;20;25;45;60;70;90;Anti-Bruit,Filtre,Technicien;Mime Jr.;63148
+440;Ptiravi;normal;100;5;5;30;15;65;Médic Nature,Sérénité,Garde Amie;Happiny;59535
+441;Pijako;normal,vol;76;65;45;91;92;42;Regard Vif,Pieds Confus,Cœur de Coq;Chatot;10312
+442;Spiritomb;spectre,tenebres;50;92;108;35;92;108;Pression,Infiltration;Spiritomb;29094
+443;Griknot;dragon,sol;58;70;45;42;40;45;Voile Sable,Peau Dure;Gible;71148
+444;Carmache;dragon,sol;68;90;65;82;50;55;Voile Sable,Peau Dure;Gabite;78239
+445;Carchacrok;dragon,sol;108;130;95;102;80;85;Voile Sable,Peau Dure;Garchomp;66134
+446;Goinfrex;normal;135;85;40;5;40;85;Ramassage,Isograisse,Gloutonnerie;Munchlax;77221
+447;Riolu;combat;40;70;40;60;35;40;Attention,Impassible,Farceur;Riolu;74145
+448;Lucario;combat,acier;70;110;70;90;115;70;Attention,Impassible,Cœur Noble;Lucario;72107
+449;Hippopotas;sol;68;72;78;32;38;42;Sable Volant,Force Sable;Hippopotas;26214
+450;Hippodocus;sol;108;112;118;47;68;72;Sable Volant,Force Sable;Hippowdon;89298
+451;Rapion;poison,insecte;40;50;90;65;30;55;Armurbaston,Sniper,Regard Vif;Skorupi;08199
+452;Drascore;poison,tenebres;70;90;110;95;60;75;Armurbaston,Sniper,Regard Vif;Drapion;51544
+453;Cradopaud;poison,combat;48;61;40;50;61;40;Anticipation,Peau Sèche,Toxitouche;Croagunk;50409
+454;Coatox;poison,combat;83;106;65;85;86;65;Anticipation,Peau Sèche,Toxitouche;Toxicroak;95026
+455;Vortente;plante;74;100;72;46;90;72;Lévitation;Carnivine;79320
+456;Écayon;eau;49;49;56;66;49;61;Lavabo,Glissade,Ignifu-Voile;Finneon;89235
+457;Luminéon;eau;69;69;76;91;69;86;Glissade,Lavabo,Ignifu-Voile;Lumineon;57340
+458;Babimanta;eau,vol;45;20;50;50;60;120;Glissade,Absorb Eau,Ignifu-Voile;Mantyke;70529
+459;Blizzi;plante,glace;60;62;50;40;62;60;Alerte Neige,Anti-Bruit;Snover;85116
+460;Blizzaroi;plante,glace;90;92;75;60;92;85;Alerte Neige,Anti-Bruit;Abomasnow;61049
+461;Dimoret;tenebres,glace;70;120;65;125;45;85;Pression,Pickpocket;Weavile;68115
+462;Magnézone;electrik,acier;70;70;115;60;130;90;Magnépiège,Fermeté,Analyste;Magnezone;59506
+463;Coudlangue;normal;110;85;95;50;80;95;Benêt,Tempo Perso,Ciel Gris;Lickilicky;25018
+464;Rhinastoc;sol,roche;115;140;130;40;55;55;Paratonnerre,Solide Roc,Téméraire;Rhyperior;50598
+465;Bouldeneu;plante;100;100;125;50;110;50;Chlorophylle,Feuille Garde,Régé-Force;Tangrowth;47022
+466;Élekable;electrik;75;123;67;95;95;85;Motorisé,Esprit Vital;Electivire;05169
+467;Maganon;feu;75;95;67;83;125;95;Corps Ardent,Esprit Vital;Magmortar;62213
+468;Togekiss;fee,vol;85;50;95;80;120;115;Agitation,Sérénité,Chanceux;Togekiss;57025
+469;Yanméga;insecte,vol;86;76;86;95;116;56;Turbo,Lentiteintée,Fouille;Yanmega;26344
+470;Phyllali;plante;65;110;130;95;60;65;Feuille Garde,Chlorophylle;Leafeon;60513
+471;Givrali;glace;65;60;110;65;130;95;Rideau Neige,Corps Gel;Glaceon;52326
+472;Scorvol;sol,vol;75;95;125;95;45;75;Hyper Cutter,Voile Sable,Soin Poison;Gliscor;41234
+473;Mammochon;glace,sol;110;130;80;80;70;60;Benêt,Rideau Neige,Isograisse;Mamoswine;40152
+474;Porygon-Z;normal;85;80;70;90;135;75;Adaptabilité,Télécharge,Analyste;Porygon-Z;31185
+475;Gallame;psy,combat;68;125;65;80;65;115;Impassible,Cœur Noble;Gallade;23203
+476;Tarinorme;roche,acier;60;55;145;40;75;150;Fermeté,Magnépiège,Force Sable;Probopass;82193
+477;Noctunoir;spectre;45;100;135;45;65;135;Pression,Fouille;Dusknoir;77388
+478;Momartik;glace,spectre;70;80;70;110;80;70;Rideau Neige,Corps Maudit;Froslass;14390
+479;Motisma;electrik,spectre;50;50;77;91;95;77;Lévitation;Rotom;92051
+480;Créhelf;psy;75;75;130;95;75;130;Lévitation;Uxie;67487
+481;Créfollet;psy;80;105;105;80;105;105;Lévitation;Mesprit;24390
+482;Créfadet;psy;75;125;70;115;125;70;Lévitation;Azelf;26115
+483;Dialga;acier,dragon;100;120;120;90;150;100;Pression;Dialga;49187
+484;Palkia;eau,dragon;90;120;100;100;150;100;Pression,Télépathe;Palkia;41137
+485;Heatran;feu,acier;91;90;106;77;130;106;Torche,Corps Ardent;Heatran;67494
+486;Regigigas;normal;110;160;110;100;80;110;Début Calme;Regigigas;81224
+488;Cresselia;psy;120;70;120;85;75;130;Lévitation;Cresselia;94074
+489;Phione;eau;80;80;80;80;80;80;Hydratation;Phione;05154
+490;Manaphy;eau;100;100;100;100;100;100;Hydratation;Manaphy;52156
+491;Darkrai;tenebres;70;90;90;125;135;90;Mauvais Rêve;Darkrai;36236
+493;Arceus;normal;120;120;120;120;120;120;Multi-Type;Arceus;86256
+494;Victini;psy,feu;100;100;100;100;100;100;Victorieux;Victini;80186
+495;Vipélierre;plante;45;45;55;63;45;55;Engrais,Contestation;Snivy;62487
+496;Lianaja;plante;60;60;75;83;60;75;Engrais,Contestation;Servine;72180
+497;Majaspic;plante;75;75;95;113;75;95;Engrais,Contestation;Serperior;08413
+498;Gruikui;feu;65;63;45;45;45;45;Brasier,Isograisse;Tepig;55211
+499;Grotichon;feu,combat;90;93;55;55;70;55;Brasier,Isograisse;Pignite;55323
+500;Roitiflam;feu,combat;110;123;65;65;100;65;Brasier,Téméraire;Emboar;35324
+501;Moustillon;eau;55;55;45;45;63;45;Torrent,Coque Armure;Oshawott;52455
+502;Mateloutre;eau;75;75;60;60;83;60;Torrent,Coque Armure;Dewott;62171
+503;Clamiral;eau;95;100;85;70;108;70;Torrent,Coque Armure;Samurott;65352
+504;Ratentif;normal;45;55;39;42;35;39;Fuite,Regard Vif,Analyste;Patrat;23036
+505;Miradar;normal;60;85;69;77;60;69;Lumiattirance,Regard Vif,Analyste;Watchog;30093
+506;Ponchiot;normal;45;60;45;55;25;45;Esprit Vital,Ramassage,Fuite;Lillipup;66133
+507;Ponchien;normal;65;80;65;60;35;65;Intimidation,Baigne Sable,Querelleur;Herdier;14124
+508;Mastouffe;normal;85;110;90;80;45;90;Intimidation,Baigne Sable,Querelleur;Stoutland;38263
+509;Chacripan;tenebres;41;50;37;66;50;37;Échauffement,Délestage,Farceur;Purrloin;26065
+510;Léopardus;tenebres;64;88;50;106;88;50;Échauffement,Délestage,Farceur;Liepard;55404
+511;Feuillajou;plante;50;53;48;64;53;48;Gloutonnerie,Engrais;Pansage;57049
+512;Feuiloutan;plante;75;98;63;101;98;63;Gloutonnerie,Engrais;Simisage;34045
+513;Flamajou;feu;50;53;48;64;53;48;Gloutonnerie,Brasier;Pansear;37136
+514;Flamoutan;feu;75;98;63;101;98;63;Gloutonnerie,Brasier;Simisear;38205
+515;Flotajou;eau;50;53;48;64;53;48;Gloutonnerie,Torrent;Panpour;24560
+516;Flotoutan;eau;75;98;63;101;98;63;Gloutonnerie,Torrent;Simipour;26101
+517;Munna;psy;76;25;45;24;67;55;Prédiction,Synchro,Télépathe;Munna;17295
+518;Mushana;psy;116;55;85;29;107;95;Prédiction,Synchro,Télépathe;Musharna;57554
+519;Poichigeon;normal,vol;50;55;50;43;36;30;Cœur de Coq,Chanceux,Rivalité;Pidove;15078
+520;Colombeau;normal,vol;62;77;62;65;50;42;Cœur de Coq,Chanceux,Rivalité;Tranquill;50045
+521;Déflaisan;normal,vol;80;115;80;93;65;55;Cœur de Coq,Chanceux,Rivalité;Unfezant;52194
+522;Zébibron;electrik;45;60;32;76;50;32;Paratonnerre,Motorisé,Herbivore;Blitzle;88167
+523;Zéblitz;electrik;75;100;63;116;80;63;Paratonnerre,Motorisé,Herbivore;Zebstrika;62841
+524;Nodulithe;roche;55;75;85;15;25;25;Fermeté,Force Sable;Roggenrola;28016
+525;Géolithe;roche;70;105;105;20;50;40;Fermeté,Force Sable;Boldore;62568
+526;Gigalithe;roche;85;135;130;25;60;80;Fermeté,Force Sable;Gigalith;52203
+527;Chovsourir;psy,vol;55;45;43;72;55;43;Inconscient,Maladresse,Simple;Woobat;51584
+528;Rhinolove;psy,vol;67;57;55;114;77;55;Inconscient,Maladresse,Simple;Swoobat;65347
+529;Rototaupe;sol;60;85;40;68;30;45;Baigne Sable,Force Sable,Brise Moule;Drilbur;59453
+530;Minotaupe;sol,acier;110;135;60;88;50;65;Baigne Sable,Force Sable,Brise Moule;Excadrill;09079
+531;Nanméouïe;normal;103;60;86;50;60;86;Cœur Soin,Régé-Force,Maladresse;Audino;42199
+532;Charpenti;combat;75;80;55;35;25;35;Cran,Sans Limite,Poing de Fer;Timburr;89300
+533;Ouvrifier;combat;85;105;85;40;40;50;Cran,Sans Limite,Poing de Fer;Gurdurr;77398
+534;Bétochef;combat;105;140;95;45;55;65;Cran,Sans Limite,Poing de Fer;Conkeldurr;77001
+535;Tritonde;eau;50;50;40;64;50;40;Glissade,Hydratation,Absorb Eau;Tympole;60614
+536;Batracné;eau,sol;75;65;55;69;65;55;Glissade,Hydratation,Absorb Eau;Palpitoad;59016
+537;Crapustule;eau,sol;105;95;75;74;85;75;Glissade,Toxitouche,Absorb Eau;Seismitoad;01183
+538;Judokrak;combat;120;100;85;45;30;85;Cran,Attention,Brise Moule;Throh;71162
+539;Karaclée;combat;75;125;75;85;30;75;Fermeté,Attention,Brise Moule;Sawk;57403
+540;Larveyette;insecte,plante;45;53;70;42;40;60;Essaim,Chlorophylle,Envelocape;Sewaddle;60631
+541;Couverdure;insecte,plante;55;63;90;42;50;80;Feuille Garde,Chlorophylle,Envelocape;Swadloon;97408
+542;Manternel;insecte,plante;75;103;80;92;70;80;Essaim,Chlorophylle,Envelocape;Leavanny;45111
+543;Venipatte;insecte,poison;30;45;59;57;30;39;Point Poison,Essaim,Turbo;Venipede;51514
+544;Scobolide;insecte,poison;40;55;99;47;40;79;Point Poison,Essaim,Turbo;Whirlipede;39331
+545;Brutapode;insecte,poison;60;100;89;112;55;69;Point Poison,Essaim,Turbo;Scolipede;72160
+546;Doudouvet;plante,fee;40;27;60;66;37;50;Farceur,Infiltration,Chlorophylle;Cottonee;35216
+547;Farfaduvet;plante,fee;60;67;85;116;77;75;Farceur,Infiltration,Chlorophylle;Whimsicott;83021
+548;Chlorobule;plante;45;35;50;30;70;50;Chlorophylle,Tempo Perso,Feuille Garde;Petilil;02043
+549;Fragilady;plante;70;60;75;90;110;75;Chlorophylle,Tempo Perso,Feuille Garde;Lilligant;51573
+551;Mascaïman;sol,tenebres;50;72;35;65;35;35;Intimidation,Impudence,Colérique;Sandile;41133
+552;Escroco;sol,tenebres;60;82;45;74;45;45;Intimidation,Impudence,Colérique;Krokorok;01296
+553;Crocorible;sol,tenebres;95;117;70;92;65;70;Intimidation,Impudence,Colérique;Krookodile;57505
+554;Darumarond;feu;70;90;45;50;14;45;Agitation,Attention;Darumaka;60001
+556;Maracachi;plante;75;86;67;60;106;67;Absorb Eau,Chlorophylle,Lavabo;Maractus;12069
+557;Crabicoque;insecte,roche;50;65;85;55;35;35;Fermeté,Coque Armure,Armurouillée;Dwebble;60621
+558;Crabaraque;insecte,roche;70;95;125;45;65;75;Fermeté,Coque Armure,Armurouillée;Crustle;30330
+559;Baggiguane;tenebres,combat;50;75;70;48;35;70;Mue,Impudence,Intimidation;Scraggy;62146
+560;Baggaïd;tenebres,combat;65;90;115;58;45;115;Mue,Impudence,Intimidation;Scrafty;19019
+561;Cryptéro;psy,vol;72;58;80;97;103;80;Peau Miracle,Garde Magik,Lentiteintée;Sigilyph;86060
+562;Tutafeh;spectre;38;30;85;30;55;65;Momie;Yamask;88513
+563;Tutankafer;spectre;58;50;145;30;95;105;Momie;Cofagrigus;34082
+564;Carapagos;eau,roche;54;78;103;22;53;45;Solide Roc,Fermeté,Glissade;Tirtouga;89404
+565;Mégapagos;eau,roche;74;108;133;32;83;65;Solide Roc,Fermeté,Glissade;Carracosta;77031
+566;Arkéapti;roche,vol;55;112;45;70;74;45;Défaitiste;Archen;43129
+567;Aéroptéryx;roche,vol;75;140;65;110;112;65;Défaitiste;Archeops;61338
+568;Miamiasme;poison;50;50;62;65;40;62;Puanteur,Glue,Boom Final;Trubbish;32159
+569;Miasmax;poison;80;95;82;75;60;82;Puanteur,Armurouillée,Boom Final;Garbodor;14081
+570;Zorua;tenebres;40;65;40;65;80;40;Illusion;Zorua;31029
+571;Zoroark;tenebres;60;105;60;105;120;60;Illusion;Zoroark;76062
+572;Chinchidou;normal;55;50;40;75;40;40;Joli Sourire,Technicien,Multi-Coups;Minccino;33307
+573;Pashmilla;normal;75;95;60;115;65;60;Joli Sourire,Technicien,Multi-Coups;Cinccino;19008
+574;Scrutella;psy;45;30;50;45;55;65;Fouille,Battant,Marque Ombre;Gothita;65141
+575;Mesmérella;psy;60;45;70;55;75;85;Fouille,Battant,Marque Ombre;Gothorita;16302
+576;Sidérella;psy;70;55;95;65;95;110;Fouille,Battant,Marque Ombre;Gothitelle;78107
+577;Nucléos;psy;45;30;40;20;105;50;Envelocape,Garde Magik,Régé-Force;Solosis;33018
+578;Méios;psy;65;40;50;30;125;60;Envelocape,Garde Magik,Régé-Force;Duosion;61005
+579;Symbios?;psy;110;65;75;30;125;85;Envelocape,Garde Magik,Régé-Force;Reuniclus;32015
+580;Couaneton;eau,vol;62;44;50;55;44;50;Regard Vif,Cœur de Coq,Hydratation;Ducklett;22177
+581;Lakmécygne;eau,vol;75;87;63;98;87;63;Regard Vif,Cœur de Coq,Hydratation;Swanna;14105
+582;Sorbébé;glace;36;50;50;44;65;60;Corps Gel,Armurouillée;Vanillite;59431
+583;Sorboul;glace;51;65;65;59;80;75;Corps Gel,Armurouillée;Vanillish;64201
+584;Sorbouboul;glace;71;95;85;79;110;95;Corps Gel,Armurouillée;Vanilluxe;12002
+585;Vivaldaim;normal,plante;60;60;50;75;40;50;Chlorophylle,Herbivore,Sérénité;Deerling;44175
+586;Haydaim;normal,plante;80;100;70;95;60;70;Chlorophylle,Herbivore,Sérénité;Sawsbuck;17403
+587;Emolga;electrik,vol;55;75;60;103;75;60;Statik,Motorisé;Emolga;19190
+588;Carabing;insecte;50;75;45;60;40;45;Essaim,Mue,Annule Garde;Karrablast;50288
+589;Lançargot;insecte,acier;70;135;105;20;60;105;Essaim,Coque Armure,Envelocape;Escavalier;89446
+590;Trompignon;plante,poison;69;55;45;15;55;55;Pose Spore,Régé-Force;Foongus;2B168
+591;Gaulet;plante,poison;114;85;70;30;85;80;Pose Spore,Régé-Force;Amoonguss;53145
+592;Viskuse;eau,spectre;55;40;50;40;65;85;Absorb Eau,Corps Maudit,Moiteur;Frillish;42159
+593;Moyade;eau,spectre;100;60;70;60;85;105;Absorb Eau,Corps Maudit,Moiteur;Jellicent;61423
+594;Mamanbo;eau;165;75;80;65;40;45;Hydratation,Cœur Soin,Régé-Force;Alomomola;31425
+595;Statitik;insecte,electrik;50;47;50;65;57;50;Œil Composé,Tension,Essaim;Joltik;88260
+596;Mygavolt;insecte,electrik;70;77;60;108;97;60;Œil Composé,Tension,Essaim;Galvantula;56178
+597;Grindur;plante,acier;44;50;91;10;24;86;Épine de Fer;Ferroseed;2B049
+598;Noacier;plante,acier;74;94;131;20;54;116;Épine de Fer,Anticipation;Ferrothorn;54334
+599;Tic;acier;40;55;70;30;45;60;Plus,Minus,Corps Sain;Klink;42039
+600;Clic;acier;60;80;95;50;70;85;Plus,Minus,Corps Sain;Klang;31298
+601;Cliticlic;acier;60;100;115;90;70;85;Plus,Minus,Corps Sain;Klinklang;53113
+602;Anchwatt;electrik;35;55;40;60;45;40;Lévitation;Tynamo;57413
+603;Lampéroie;electrik;65;85;70;40;75;70;Lévitation;Eelektrik;88266
+604;Ohmassacre;electrik;85;115;80;50;105;80;Lévitation;Eelektross;82045
+605;Lewsor;psy;55;55;55;30;85;55;Télépathe,Synchro,Analyste;Elgyem;47326
+606;Neitram;psy;75;75;75;40;125;95;Télépathe,Synchro,Analyste;Beheeyem;77495
+607;Funécire;spectre,feu;50;30;55;20;65;55;Torche,Corps Ardent,Infiltration;Litwick;46227
+608;Mélancolux;spectre,feu;60;40;60;55;95;60;Torche,Corps Ardent,Infiltration;Lampent;11361
+609;Lugulabre;spectre,feu;60;55;90;80;145;90;Torche,Corps Ardent,Infiltration;Chandelure;95387
+610;Coupenotte;dragon;46;87;60;57;30;40;Rivalité,Brise Moule,Tension;Axew;73154
+611;Incisache;dragon;66;117;70;67;40;50;Rivalité,Brise Moule,Tension;Fraxure;34168
+612;Tranchodon;dragon;76;147;90;97;60;70;Rivalité,Brise Moule,Tension;Haxorus;33435
+613;Polarhume;glace;55;70;40;40;60;40;Rideau Neige,Phobique;Cubchoo;57142
+614;Polagriffe;glace;95;110;80;50;70;80;Rideau Neige,Glissade;Beartic;29302
+615;Hexagel;glace;70;50;30;105;95;135;Lévitation;Cryogonal;24527
+616;Escargaume;insecte;50;40;85;25;40;65;Hydratation,Coque Armure,Envelocape;Shelmet;25216
+617;Limaspeed;insecte;80;70;40;145;100;60;Hydratation,Glue,Délestage;Accelgor;58009
+618;Limonde;electrik,sol;109;66;84;32;81;99;Statik,Échauffement,Voile Sable;Stunfisk;25086
+619;Kungfouine;combat;45;85;50;65;55;50;Régé-Force,Attention,Téméraire;Mienfoo;80395
+620;Shaofouine;combat;65;125;60;105;95;60;Régé-Force,Attention,Téméraire;Mienshao;26213
+621;Drakkarmin;dragon;77;120;90;48;60;90;Peau Dure,Sans Limite,Brise Moule;Druddigon;63141
+622;Gringolem;sol,spectre;59;74;50;35;35;50;Poing de Fer,Maladresse,Annule Garde;Golett;69201
+623;Golemastoc;sol,spectre;89;124;80;55;55;80;Poing de Fer,Maladresse,Annule Garde;Golurk;50628
+624;Scalpion;tenebres,acier;45;85;70;60;40;40;Attention,Acharné,Pression;Pawniard;69112
+625;Scalproie;tenebres,acier;65;125;100;70;60;70;Attention,Acharné,Pression;Bisharp;08487
+626;Frison;normal;95;110;95;40;40;95;Téméraire,Herbivore,Anti-Bruit;Bouffalant;46215
+627;Furaiglon;normal,vol;70;83;50;60;37;50;Regard Vif,Sans Limite,Acharné;Rufflet;63230
+628;Guériaigle;normal,vol;100;123;75;80;57;75;Regard Vif,Sans Limite,Acharné;Braviary;62454
+629;Vostourno;tenebres,vol;70;55;75;60;45;65;Cœur de Coq,Envelocape,Armurouillée;Vullaby;60600
+630;Vaututrice;tenebres,vol;110;65;105;80;55;95;Cœur de Coq,Envelocape,Armurouillée;Mandibuzz;36075
+631;Aflamanoir;feu;85;97;66;65;105;66;Gloutonnerie,Torche,Écran Fumée;Heatmor;80763
+632;Fermite;insecte,acier;58;109;112;109;48;48;Essaim,Agitation,Absentéisme;Durant;17352
+633;Solochi;tenebres,dragon;52;65;50;38;45;50;Agitation;Deino;67169
+634;Diamat;tenebres,dragon;72;85;70;58;65;70;Agitation;Zweilous;19205
+635;Trioxhydre;tenebres,dragon;92;105;90;98;125;90;Lévitation;Hydreigon;11118
+636;Pyronille;insecte,feu;55;85;55;60;50;55;Corps Ardent,Essaim;Larvesta;70040
+637;Pyrax;insecte,feu;85;60;65;100;135;105;Corps Ardent,Essaim;Volcarona;46053
+638;Cobaltium;acier,combat;91;90;129;108;90;72;Cœur Noble;Cobalion;85104
+639;Terrakium;roche,combat;91;129;90;108;72;90;Cœur Noble;Terrakion;87192
+640;Viridium;plante,combat;91;90;72;108;90;129;Cœur Noble;Virizion;38464
+643;Reshiram;dragon,feu;100;120;100;90;150;120;Brasier,Turbo;Reshiram;10109
+644;Zekrom;dragon,electrik;100;150;120;90;120;100;Téra-Voltage;Zekrom;91339
+646;Kyurem;dragon,glace;125;130;90;95;130;90;Pression;Kyurem;66231
+647;Keldeo;eau,combat;91;72;90;108;129;90;Cœur Noble;Keldeo;17054
+649;Genesect;insecte,acier;71;120;95;99;120;95;Télécharge;Genesect;80654
+650;Marisson;plante;56;61;65;38;48;45;Engrais,Pare-Balles;Chespin;82106
+651;Boguérisse;plante;61;78;95;57;56;58;Engrais,Pare-Balles;Quilladin;86270
+652;Blindépique;plante,combat;88;107;122;64;74;75;Engrais,Pare-Balles;Chesnaught;49376
+653;Feunnec;feu;40;45;40;60;62;60;Brasier,Magicien;Fennekin;11122
+654;Roussil;feu;59;59;58;73;90;70;Brasier,Magicien;Braixen;59296
+655;Goupelin;feu,psy;75;69;72;104;114;100;Brasier,Magicien;Delphox;36145
+656;Grenousse;eau;41;56;40;71;62;44;Torrent,Protéen;Froakie;60579
+657;Croâporal;eau;54;63;52;97;83;56;Torrent,Protéen;Frogadier;21348
+658;Amphinobi;eau,tenebres;72;95;67;122;103;71;Torrent,Synergie,Protéen;Greninja;21148
+659;Sapereau;normal;38;36;38;57;32;36;Ramassage,Bajoues,Coloforce;Bunnelby;64262
+660;Excavarenne;normal,sol;85;56;77;78;50;77;Ramassage,Bajoues,Coloforce;Diggersby;28072
+661;Passerouge;normal,vol;45;50;43;62;40;38;Cœur de Coq,Ailes Bourrasques;Fletchling;42288
+662;Braisillon;feu,vol;62;73;55;84;56;52;Corps Ardent,Ailes Bourrasques;Fletchinder;72209
+663;Flambusard;feu,vol;78;81;71;126;74;69;Corps Ardent,Ailes Bourrasques;Talonflame;52104
+664;Lépidonille;insecte;38;35;40;35;27;25;Écran Poudre,Œil Composé,Garde Amie;Scatterbug;67510
+665;Pérégrain;insecte;45;22;60;29;27;30;Mue,Garde Amie;Spewpa;51553
+666;Prismillon;insecte,vol;80;52;50;89;90;50;Écran Poudre,Œil Composé,Garde Amie;Vivillon;38286
+667;Hélionceau;feu,normal;62;50;58;72;73;54;Rivalité,Tension,Impudence;Litleo;40124
+668;Némélios;feu,normal;86;68;72;106;109;66;Rivalité,Tension,Impudence;Pyroar;31179
+669;Flabébé;fee;44;38;39;42;61;79;Flora-Voile,Symbiose;Flabébé;76282
+670;Floette;fee;54;45;47;52;75;98;Flora-Voile,Symbiose;Floette;05048
+671;Florges;fee;78;65;68;75;112;154;Flora-Voile,Symbiose;Florges;29066
+672;Cabriolaine;plante;66;65;48;52;62;57;Herbivore,Toison Herbue;Skiddo;51084
+673;Chevroum;plante;123;100;62;68;97;81;Herbivore,Toison Herbue;Gogoat;40145
+674;Pandespiègle;combat;67;82;62;43;46;48;Poing de Fer,Brise Moule,Querelleur;Pancham;57147
+675;Pandarbare;combat,tenebres;95;124;78;58;69;71;Poing de Fer,Brise Moule,Querelleur;Pangoro;21710
+676;Couafarel;normal;75;80;60;102;65;90;Toison Épaisse;Furfrou;73177
+677;Psystigri;psy;62;48;54;68;63;60;Infiltration,Regard Vif,Tempo Perso;Espurr;14715
+679;Monorpale;acier,spectre;45;80;100;28;35;37;Annule Garde;Honedge;31112
+680;Dimoclès;acier,spectre;59;110;150;35;45;49;Annule Garde;Doublade;38259
+682;Fluvetin;fee;78;52;60;23;63;65;Cœur Soin,Aroma-Voile;Spritzee;76140
+683;Cocotine;fee;101;72;72;29;99;89;Cœur Soin,Aroma-Voile;Aromatisse;50093
+684;Sucroquin;fee;62;48;66;49;59;57;Gluco-Voile,Délestage;Swirlix;25309
+685;Cupcanaille;fee;82;80;86;72;85;75;Gluco-Voile,Délestage;Slurpuff;40183
+686;Sepiatop;tenebres,psy;53;54;53;45;37;46;Contestation,Ventouse,Infiltration;Inkay;29045
+687;Sepiatroce;tenebres,psy;86;92;88;73;68;75;Contestation,Ventouse,Infiltration;Malamar;08249
+688;Opermine;roche,eau;42;52;67;50;39;56;Griffe Dure,Sniper,Pickpocket;Binacle;01054
+689;Golgopathe;roche,eau;72;105;115;68;54;86;Griffe Dure,Sniper,Pickpocket;Barbaracle;57367
+690;Venalgue;poison,eau;50;60;60;30;60;60;Point Poison,Toxitouche,Adaptabilité;Skrelp;2B334
+691;Kravarech;poison,dragon;65;75;90;44;97;123;Point Poison,Toxitouche,Adaptabilité;Dragalge;62684
+692;Flingouste;eau;50;53;62;44;58;63;Méga Blaster;Clauncher;25247
+693;Gamblast;eau;71;73;88;59;120;89;Méga Blaster;Clawitzer;39550
+694;Galvaran;electrik,normal;44;38;33;70;61;43;Peau Sèche,Voile Sable,Force Soleil;Helioptile;50448
+695;Iguolta;electrik,normal;62;55;52;109;109;94;Peau Sèche,Voile Sable,Force Soleil;Heliolisk;17471
+696;Ptyranidur;roche,dragon;58;89;77;48;45;45;Prognathe,Fermeté;Tyrunt;43081
+697;Rexillius;roche,dragon;82;121;119;71;69;59;Prognathe,Tête de Roc;Tyrantrum;72166
+698;Amagara;roche,glace;77;59;50;46;67;63;Peau Gelée,Alerte Neige;Amaura;24494
+699;Dragmara;roche,glace;123;77;72;58;99;92;Peau Gelée,Alerte Neige;Aurorus;11324
+700;Nymphali;fee;95;65;65;60;110;130;Joli Sourire,Peau Féérique;Sylveon;02574
+701;Brutalibré;combat,vol;78;92;75;118;74;63;Échauffement,Délestage,Brise Moule;Hawlucha;46168
+702;Dedenne;electrik,fee;67;58;57;101;81;67;Bajoues,Ramassage,Plus;Dedenne;22341
+703;Strassie;roche,fee;50;50;150;50;50;150;Corps Sain,Fermeté;Carbink;27047
+704;Mucuscule;dragon;45;50;35;40;55;75;Herbivore,Hydratation,Poisseux;Goomy;12047
+705;Colimucus;dragon;68;75;53;60;83;113;Herbivore,Hydratation,Poisseux;Sliggoo;76233
+706;Muplodocus;dragon;90;100;70;80;110;150;Herbivore,Hydratation,Poisseux;Goodra;35177
+707;Trousselin;acier,fee;57;80;91;75;80;87;Farceur,Magicien;Klefki;89070
+708;Brocélôme;spectre,plante;43;70;48;38;50;60;Médic Nature,Fouille,Récolte;Phantump;55344
+709;Desséliande;spectre,plante;85;110;76;56;65;82;Médic Nature,Fouille,Récolte;Trevenant;17073
+712;Grelaçon;glace;55;69;85;28;32;35;Tempo Perso,Corps Gel,Fermeté;Bergmite;25419
+713;Séracrawl;glace;95;117;184;28;44;46;Tempo Perso,Corps Gel,Fermeté;Avalugg;10303
+714;Sonistrelle;vol,dragon;40;30;35;55;45;40;Fouille,Infiltration,Télépathe;Noibat;09072
+715;Bruyverne;vol,dragon;85;70;80;123;97;80;Fouille,Infiltration,Télépathe;Noivern;26087
+716;Xerneas;fee;126;131;95;99;131;98;Aura Féérique;Xerneas;25094
+717;Yveltal;tenebres,vol;126;131;95;99;131;98;Aura Ténébreuse;Yveltal;04001
+718;Zygarde;dragon,sol;108;100;121;95;81;95;Aura Inversée,Rassemblement;Zygarde;74191
+719;Diancie;roche,fee;50;100;150;50;100;150;Corps Sain;Diancie;64153
+721;Volcanion;feu,eau;80;110;120;70;130;90;Absorb Eau;Volcanion;60161
+722;Brindibou;plante,vol;68;55;55;42;50;50;Engrais,Longue Portée;Rowlet;10082
+723;Efflèche;plante,vol;78;75;75;52;70;70;Engrais,Longue Portée;Datrix;74027
+724;Archéduc;plante,spectre;78;107;75;70;100;100;Engrais,Longue Portée;Decidueye;18173
+725;Flamiaou;feu;45;65;40;70;60;40;Brasier,Intimidation;Litten;58085
+726;Matoufeu;feu;65;85;50;90;80;50;Brasier,Intimidation;Torracat;68355
+727;Félinferno;feu,tenebres;95;110;90;60;80;90;Brasier,Intimidation;Incineroar;29110
+728;Otaquin;eau;50;54;54;40;66;56;Torrent,Hydrata-Son;Poppolio;21087
+729;Otarlette;eau;60;69;69;50;91;81;Torrent,Hydrata-Son;Brionne;30056
+730;Oratoria;eau,fee;80;74;74;60;126;116;Torrent,Hydrata-Son;Primarina;09282
+731;Picassaut;normal,vol;35;75;30;65;30;30;Regard Vif,Multi-Coups,Ramassage;Pikipek;80151
+732;Piclairon;normal,vol;55;85;50;75;40;50;Regard Vif,Multi-Coups,Ramassage;Trumbeak;24487
+733;Bazoucan;normal,vol;80;120;75;60;75;75;Regard Vif,Multi-Coups,Sans Limite;Toucannon;53140
+734;Manglouton;normal;48;70;30;45;30;30;Filature,Prognathe,Adaptabilité;Yungoos;35207
+735;Argouste;normal;88;110;60;45;55;60;Filature,Prognathe,Adaptabilité;Gumshoos;42061
+736;Larvibule;insecte;47;62;45;46;55;45;Essaim;Grubbin;02287
+737;Chrysapile;insecte,electrik;57;82;95;36;55;75;Batterie;Charjabug;85262
+738;Lucanon;insecte,electrik;77;70;90;43;145;75;Lévitation;Vikavolt;52113
+739;Crabagarre;combat;47;82;57;63;42;47;Hyper Cutter,Poing de Fer,Colérique;Crabrawler;40291
+740;Crabominable;combat,glace;97;132;77;43;62;67;Hyper Cutter,Poing de Fer,Colérique;Crabominable;76122
+742;Bombydou;insecte,fee;40;45;40;84;55;40;Cherche Miel,Écran Poudre,Gluco-Voile;Cutiefly;71159
+743;Rubombelle;insecte,fee;60;55;60;124;95;70;Cherche Miel,Écran Poudre,Gluco-Voile;Ribombee;24306
+744;Rocabot;roche;45;65;40;60;30;40;Regard Vif,Esprit Vital,Impassible;Rockruff;76398
+747;Vorastérie;poison,eau;50;53;62;45;43;52;Cruauté,Échauffement,Régé-Force;Mareanie;66106
+748;Prédastérie;poison,eau;50;63;152;35;53;142;Cruauté,Échauffement,Régé-Force;Toxapex;57707
+749;Tiboudet;sol;70;100;70;45;45;55;Tempo Perso,Endurance,Attention;Mudbray;14696
+750;Bourrinos;sol;100;125;100;35;55;85;Tempo Perso,Endurance,Attention;Mudsdale;25369
+751;Araqua;eau,insecte;38;40;52;27;40;72;Aquabulle,Absorb Eau;Dewpider;24516
+752;Tarenbulle;eau,insecte;68;70;92;42;50;132;Aquabulle,Absorb Eau;Araquanid;38554
+753;Mimantis;plante;40;55;35;35;50;35;Feuille Garde,Contestation;Fomantis;54497
+754;Floramantis;plante;70;105;90;45;80;90;Feuille Garde,Contestation;Lurantis;27359
+755;Spododo;plante,fee;40;35;55;15;65;75;Lumiattirance,Pose Spore,Cuvette;Morelull;03252
+756;Lampignon;plante,fee;60;45;80;30;90;100;Lumiattirance,Pose Spore,Cuvette;Shiinotic;60224
+757;Tritox;poison,feu;48;44;40;77;71;40;Corrosion,Benêt;Salandit;70103
+758;Malamandre;poison,feu;68;64;60;117;111;60;Corrosion,Benêt;Salazzle;60263
+759;Nounourson;normal,combat;70;75;50;50;45;50;Boule de Poils,Maladresse,Joli Sourire;Stufful;62613
+760;Chelours;normal,combat;120;125;80;60;55;60;Boule de Poils,Maladresse,Tension;Bewear;61510
+761;Croquine;plante;42;30;38;32;30;38;Feuille Garde,Benêt,Gluco-Voile;Bounsweet;81029
+762;Candine;plante;52;40;48;62;40;48;Feuille Garde,Benêt,Gluco-Voile;Steenee;12138
+763;Sucreine;plante;72;120;98;72;50;98;Feuille Garde,Prestance Royale,Gluco-Voile;Tsareena;77505
+764;Guérilande;fee;51;52;90;100;82;110;Feuille Garde,Prioguérison,Médic Nature;Comfey;71085
+765;Gouroutan;normal,psy;90;60;80;60;90;110;Attention,Télépathe,Symbiose;Oranguru;77301
+766;Quartermac;combat;100;120;90;80;40;60;Receveur,Acharné;Passimian;65460
+767;Sovkipou;insecte,eau;25;35;40;80;20;30;Escampette;Wimpod;71064
+768;Sarmurai;insecte,eau;75;125;140;40;60;90;Repli Tactique;Golisopod;56219
+769;Bacabouh;spectre,sol;55;55;80;15;70;45;Sable Humide,Voile Sable;Sandygast;64484
+770;Trépassable;spectre,sol;85;75;110;35;100;75;Sable Humide,Voile Sable;Palossand;62131
+771;Concombaffe;eau;55;60;130;5;30;130;Expuls'Organes,Inconscient;Pyukumuku;24011
+772;Type:0;normal;95;95;95;59;95;95;Armurbaston;Type:Null;88045
+773;Silvallié;normal;95;95;95;95;95;95;Système Alpha;Silvally;2A090
+775;Dodoala;normal;65;115;65;65;75;95;Hypersommeil;Komala;84147
+776;Boumata;feu,dragon;60;78;135;36;91;85;Armurbaston;Turtonator;56148
+777;Togedemaru;electrik,acier;65;98;63;96;40;73;Épine de Fer,Paratonnerre,Fermeté;Togedemaru;40076
+778;Mimiqui;spectre,fee;55;90;80;96;50;106;Fantômasque;Mimikyu;21334
+779;Denticrisse;eau,psy;68;105;70;92;70;70;Corps Coloré,Prognathe,Peau Miracle;Bruxish;17443
+780;Draïeul;normal,dragon;78;60;85;36;135;91;Dracolère,Herbivore,Ciel Gris;Drampa;28197
+781;Sinistrail;spectre,plante;70;131;100;40;86;90;Expert Acier;Dhelmise;73090
+782;Bébécaille;dragon,combat;45;55;65;45;45;45;Pare-Balles,Anti-Bruit,Envelocape;Jangmo-o;80456
+783;Écaïd;dragon,combat;55;75;90;65;65;70;Pare-Balles,Anti-Bruit,Envelocape;Hakamo-o;47187
+784;Ékaïser;dragon,combat;75;110;125;85;100;105;Pare-Balles,Anti-Bruit,Envelocape;Kommo-o;51095
+785;Tokorico;electrik,fee;70;115;85;130;95;75;Créa-Élec,Télépathe;Tapu Koko;03217
+786;Tokopiyon;psy,fee;70;85;75;95;130;115;Créa-Psy,Télépathe;Tapu Lele;23141
+787;Tokotoro;plante,fee;70;130;115;75;85;95;Créa-Herbe,Télépathe;Tapu Bulu;43029
+788;Tokopisco;eau,fee;70;75;115;85;95;130;Créa-Brume,Télépathe;Tapu Fini;16142
+789;Cosmog;psy;43;29;31;37;29;31;Inconscient;Cosmog;29214
+790;Cosmovum;psy;43;29;131;37;29;131;Fermeté;Cosmoem;17241
+791;Solgaleo;psy,acier;137;137;107;97;113;89;Métallo-Garde;Solgaleo;46080
+792;Lunala;psy,spectre;137;113;89;97;137;107;Spectro-Bouclier;Lunala;80142
+793;Zéroïd;roche,poison;109;53;47;103;127;131;Boost Chimère;Nihilego;02277
+794;Mouscoto;insecte,combat;107;139;139;79;53;53;Boost Chimère;Buzzwole;66205
+795;Cancrelove;insecte,combat;71;137;37;151;137;37;Boost Chimère;Pheromosa;43119
+796;Cablifère;electrik;83;89;71;83;173;71;Boost Chimère;Xurkitree;49178
+797;Bamboiselle;acier,vol;97;101;103;61;107;101;Boost Chimère;Celesteela;07067
+798;Katagami;plante,acier;59;181;131;109;59;31;Boost Chimère;Kartana;57336
+799;Engloutyran;tenebres,dragon;223;101;53;43;97;53;Boost Chimère;Guzzlord;42038
+800;Necrozma;psy;97;107;101;79;127;89;Prisme-Armure;Necrozma;87147
+801;Magearna;acier,fee;80;95;115;65;130;115;Animacœur;Magearna;60679
+802;Marshadow;combat,spectre;90;125;80;125;90;90;Technicien;Marshadow;72381
+803;Vémini;poison;67;73;67;73;73;67;Boost Chimère;Poipole;62013
+804;Mandrillon;poison,dragon;73;73;73;121;127;73;Boost Chimère;Naganadel;61395
+805;Ama-Ama;roche,acier;61;131;211;13;53;101;Boost Chimère;Stakataka;71591
+806;Pierroteknik;feu,spectre;53;127;51;107;151;79;Boost Chimère;Blacephalon;10051
+807;Zeraora;electrik;88;112;75;143;102;80;Absorb Volt;Zeraora;03022

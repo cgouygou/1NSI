@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="510px"
+   height="295px"
+   viewBox="0 0 510 295"
+   enable-background="new 0 0 510 295"
+   xml:space="preserve"
+   sodipodi:docname="Von_Neumann_Architecture.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata249"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs247">
+	
+	
+	
+	
+
+		
+		
+	
+			
+			
+		<filter
+   inkscape:collect="always"
+   style="color-interpolation-filters:sRGB"
+   id="filter1222"><feBlend
+     inkscape:collect="always"
+     mode="lighten"
+     in2="BackgroundImage"
+     id="feBlend1224" /></filter>
+		
+		
+		
+	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+		
+		
+		
+	
+			
+			
+			
+			
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+				
+				
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+				
+				
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1884"
+   inkscape:window-height="1054"
+   id="namedview245"
+   showgrid="false"
+   inkscape:zoom="2.151823"
+   inkscape:cx="256.42124"
+   inkscape:cy="187.82246"
+   inkscape:window-x="36"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+
+
+<g
+   id="g1295"><path
+     stroke-miterlimit="10"
+     d="M 142,147.063"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10" /><rect
+     style="fill:#65a8a1;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+     id="rect4"
+     height="293"
+     width="220"
+     stroke-miterlimit="10"
+     y="1.5"
+     x="145" /><rect
+     x="160"
+     y="16.5"
+     stroke-miterlimit="10"
+     width="190"
+     height="165"
+     id="rect6"
+     style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:10" /><rect
+     style="fill:#f99dcb;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+     id="rect52"
+     height="42"
+     width="160"
+     stroke-miterlimit="10"
+     y="62.5"
+     x="176" /><rect
+     style="fill:#f99dcb;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+     id="rect80"
+     height="42"
+     width="160"
+     stroke-miterlimit="10"
+     y="122.5"
+     x="175" /><rect
+     x="160"
+     y="233.5"
+     stroke-miterlimit="10"
+     width="190"
+     height="45"
+     id="rect128"
+     style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:10" /><g
+     id="g166">
+			<g
+   id="g158">
+				<line
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="line154"
+   y2="224.5"
+   x2="244"
+   y1="182.5"
+   x1="244"
+   stroke-miterlimit="10" />
+				<polygon
+   style="stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="polygon156"
+   points="239,224.5 244,224.5 249,224.5 244,230.5 "
+   stroke-miterlimit="10" />
+			</g>
+			<g
+   id="g164">
+				<line
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="line160"
+   y2="190.5"
+   x2="266"
+   y1="232.5"
+   x1="266"
+   stroke-miterlimit="10" />
+				<polygon
+   style="stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="polygon162"
+   points="270.999,190.5 265.998,190.5 260.998,190.5 265.998,184.5 "
+   stroke-miterlimit="10" />
+			</g>
+		</g><g
+     id="g174">
+			<line
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="line170"
+   y2="146.5"
+   x2="136"
+   y1="146.5"
+   x1="86"
+   stroke-miterlimit="10" />
+			<polygon
+   style="stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="polygon172"
+   points="142,146.5 136,151.5 136,146.5 136,141.5 "
+   stroke-miterlimit="10" />
+		</g><rect
+     x="1"
+     y="114.5"
+     stroke-miterlimit="10"
+     width="85"
+     height="65"
+     id="rect200"
+     style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:10" /><g
+     id="g210">
+			<line
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="line206"
+   y2="145.5"
+   x2="415"
+   y1="145.5"
+   x1="365"
+   stroke-miterlimit="10" />
+			<polygon
+   style="stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   id="polygon208"
+   points="415,150.5 415,145.5 415,140.5 421,145.5 "
+   stroke-miterlimit="10" />
+		</g><rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+     id="rect238"
+     height="65"
+     width="85"
+     stroke-miterlimit="10"
+     y="113.5"
+     x="424" /><text
+     id="text1208"
+     y="150.31"
+     x="24.212999"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="185.70062"
+       x="24.212999"
+       id="tspan1206"
+       sodipodi:role="line" /></text>
+<text
+     id="text945"
+     y="151.63319"
+     x="9.0620842"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="151.63319"
+       x="9.0620842"
+       id="tspan943"
+       sodipodi:role="line">Entrées</tspan></text>
+<text
+     id="text945-0"
+     y="150.25043"
+     x="434.00632"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="150.25043"
+       x="434.00632"
+       id="tspan943-7"
+       sodipodi:role="line">Sorties</tspan></text>
+<text
+     id="text945-8"
+     y="45.687923"
+     x="200.71574"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="45.687923"
+       x="200.71574"
+       id="tspan943-70"
+       sodipodi:role="line">Processeur</tspan></text>
+<text
+     inkscape:transform-center-y="14.871112"
+     inkscape:transform-center-x="-2.3236112"
+     id="text945-4"
+     y="87.836533"
+     x="186.30936"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="87.836533"
+       x="186.30936"
+       id="tspan943-8"
+       sodipodi:role="line">Unité de contrôle</tspan></text>
+<text
+     inkscape:transform-center-y="14.871112"
+     inkscape:transform-center-x="-2.3236112"
+     id="text945-4-5"
+     y="149.2029"
+     x="197.05049"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="149.2029"
+       x="197.05049"
+       id="tspan943-8-0"
+       sodipodi:role="line">Unité de calcul</tspan></text>
+<text
+     inkscape:transform-center-y="14.871112"
+     inkscape:transform-center-x="-2.3236112"
+     id="text945-4-4"
+     y="263.05984"
+     x="219.97993"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="263.05984"
+       x="219.97993"
+       id="tspan943-8-3"
+       sodipodi:role="line">Mémoire</tspan></text>
+</g></svg>

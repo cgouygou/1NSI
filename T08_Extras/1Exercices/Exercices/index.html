@@ -1,0 +1,3856 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://cgouygou.github.io/1NSI/T08_Extras/1Exercices/Exercices/">
+      
+      
+        <link rel="prev" href="../../accueil/">
+      
+      
+        <link rel="next" href="../../2Projets/Projet1/">
+      
+      
+      <link rel="icon" href="../../../xtra/favicon_bleu.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.13">
+    
+    
+      
+        <title>Exercices supplémentaires - Cours de Première NSI - M. Gouygou</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M471.6%2021.7c-21.9-21.9-57.3-21.9-79.2%200l-30.1%2030%2097.9%2097.9%2030.1-30.1c21.9-21.9%2021.9-57.3%200-79.2zm-299.2%20220c-6.1%206.1-10.8%2013.6-13.5%2021.9l-29.6%2088.8c-2.9%208.6-.6%2018.1%205.8%2024.6s15.9%208.7%2024.6%205.8l88.8-29.6c8.2-2.7%2015.7-7.4%2021.9-13.5l167.3-167.4-98-98zM96%2064c-53%200-96%2043-96%2096v256c0%2053%2043%2096%2096%2096h256c53%200%2096-43%2096-96v-96c0-17.7-14.3-32-32-32s-32%2014.3-32%2032v96c0%2017.7-14.3%2032-32%2032H96c-17.7%200-32-14.3-32-32V160c0-17.7%2014.3-32%2032-32h96c17.7%200%2032-14.3%2032-32s-14.3-32-32-32z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+    
+      
+    
+    <script src="../../../xtra/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../../../xtra/gifplayer/gif-player.es6.js" defer async></script>
+    <!-- Load CDNs : Pyodide (Python in WASM), Ace (Editor) and JQuery (Terminal) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.asm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/js/jquery.terminal.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/css/jquery.terminal.min.css" rel="stylesheet">
+
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../xtra/stylesheets/pyoditeur.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#exercices-supplementaires" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../.." title="Cours de Première NSI - M. Gouygou" class="md-header__button md-logo" aria-label="Cours de Première NSI - M. Gouygou" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 96c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256h-64V96H128v256H64zM0 403.2C0 392.6 8.6 384 19.2 384h601.6c10.6 0 19.2 8.6 19.2 19.2 0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2M281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zm112-34 48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cours de Première NSI - M. Gouygou
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Exercices supplémentaires
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cgouygou/1NSI" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cgouygou/1NSI
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T01_TypesBase/accueil/" class="md-tabs__link">
+          
+  
+  
+  T1 Types de base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T02_TypesConstruits/accueil/" class="md-tabs__link">
+          
+  
+  
+  T2 Types construits
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T03_TraitementDonnees/accueil/" class="md-tabs__link">
+          
+  
+  
+  T3 Trait. données
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T04_IHMWeb/accueil/" class="md-tabs__link">
+          
+  
+  
+  T4 Web
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T05_Architectures/accueil/" class="md-tabs__link">
+          
+  
+  
+  T5 Architectures
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T06_Python/accueil/" class="md-tabs__link">
+          
+  
+  
+  T6 Programmation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T07_Algorithmes/accueil/" class="md-tabs__link">
+          
+  
+  
+  T7 Algorithmique
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../accueil/" class="md-tabs__link">
+          
+  
+  
+  Extras
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T09_Evaluations/accueil/" class="md-tabs__link">
+          
+  
+  
+  Évaluations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T10Club/accueil/" class="md-tabs__link">
+          
+  
+  
+  Club
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cours de Première NSI - M. Gouygou" class="md-nav__button md-logo" aria-label="Cours de Première NSI - M. Gouygou" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 96c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256h-64V96H128v256H64zM0 403.2C0 392.6 8.6 384 19.2 384h601.6c10.6 0 19.2 8.6 19.2 19.2 0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2M281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zm112-34 48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+
+    </a>
+    Cours de Première NSI - M. Gouygou
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cgouygou/1NSI" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cgouygou/1NSI
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T1 Types de base
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            T1 Types de base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Types de base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.1_Bases/T1.1_Bases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.1 Écriture d'un entier dans une base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.2_Booleens/T1.2_Booleens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.2 Valeurs booléennes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.3_Relatifs/T1.3_Relatifs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.3 Représentation des entiers relatifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.4_Flottants/T1.4_Flottants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.4 Flottants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T2 Types construits
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            T2 Types construits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Types construits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Listes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            T2.1 Listes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/T2.1_Listes1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Tableaux et listes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/T2.1_Listes2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Tableaux à plusieurs dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/T2.1_Listes3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Compléments sur les listes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/TP_image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TP Image numérique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.2_Tuples/T2.2_Tuples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.2 Tuples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.3_Dictionnaires/T2.3_Dictionnaires/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.3 Dictionnaires
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T3 Trait. données
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            T3 Trait. données
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Traitement de données en tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.1_Manipulation/T3.1_Manipulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T3.1 Tables de données
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.2_TriTable/T3.2_TriTable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T3.2 Opérations sur les tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.3_FusionTable/T3.3_FusionTable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T3.3 Fusion (par jointure) de tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.4_TP/T3.4_TP_Pokedex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TP Pokedex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T4 Web
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            T4 Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interactions entre l'homme et la machine sur le Web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.1_HTML_CSS/T4.1_HTML_CSS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.1 HTML &amp; CSS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.2_Interactions/T4.2_Js/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.2 Interaction dans une page web - Utilisation de Javascript
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.3_HTTP/T4.3_HTTP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.3 Protocole HTTP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.4_RequetesFormulaire/T4.4_Get_post/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.4 Formulaires, méthodes GET et POST
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T5 Architectures
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            T5 Architectures
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T05_Architectures/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architectures matérielles et systèmes d'exploitation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T05_Architectures/T5.1_VonNeumann/T5.1_VonNeumann/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.1 Architecture de Von Neumann
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T5.2 UNIX
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            T5.2 UNIX
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T05_Architectures/T5.2_UNIX/T5.2_Commandes_UNIX/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.2 Commandes UNIX
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T05_Architectures/T5.2_UNIX/TPnote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TP noté
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T05_Architectures/T5.3_Reseaux/T5.3_Architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.3 Architecture d'un réseau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T05_Architectures/T5.4_Protocole/T5.4_Protocole/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.4 Protocoles de communication dans un réseau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T6 Programmation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            T6 Programmation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Langages et programmation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T6.1 Python
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            T6.1 Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_0_Python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.0 Prise en main de Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_1_Variables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.1 Les variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_2_For/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.2 La boucle for
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_3_If/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.3 L'instruction conditionnelle if
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_4_While/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.4 La boucle while
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_5_Fonctions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.5 Les fonctions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2_7" id="__nav_7_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    TP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            TP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/TP/Convertisseur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Convertisseur binaire ⟷ décimal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/TP/Cryptographie_I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FKLIIUH#GH#FHVDU
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/TP/Syracuse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    La conjecture de Syracuse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.2_Bibliotheques/T6.2_Bibliotheques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T6.2 Utilisation de bibliothèques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.3_Tests/T6.3_Tests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T6.3 Tester une fonction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.4_Specification/T6.4_Specification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T6.4 Spécification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T7 Algorithmique
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            T7 Algorithmique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Algorithmique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.1_Dichotomie/T7.1_Dichotomie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.1 Recherche par dichotomie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.2_Tri_selection/T7.2_Tri_selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.2 Tri par sélection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.3_Tri_insertion/T7.3_Tri_insertion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.3 Tri par insertion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.4_Algos_gloutons/T7.4_Gloutons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.4 Algorithmes gloutons
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.5_KNN/T7.5_KNN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.5 Algorithme des k plus proches voisins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Extras
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Extras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exercices supplémentaires
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2Projets/Projet1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projet n°1 - Jeu de tableau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pygame
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            Pygame
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3Pygame/01-Pygame_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction à Pygame
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3Pygame/02-Pygame_image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Animation simple (sans événements)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3Pygame/03-Pygame_events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestion des événements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3Pygame/04-Pygame_extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Texte, dessins, fenêtres
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Divers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5">
+            <span class="md-nav__icon md-icon"></span>
+            Divers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4Divers/1Habitudes/Travail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bonnes habitudes de travail
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4Divers/2Jupyter/Jupyter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jupyter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4Divers/3Clavier/Clavier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage du clavier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4Divers/4Chaines/Strings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manipulation de chaînes de caractères
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4Divers/5Trucs/Trucs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trucs et astuces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4Divers/6c0d1ngUP/CodingUP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Préparation à c0d1ng UP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pyxel
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pyxel
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5Pyxel/Pyxel01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation et prise en main de Pyxel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5Pyxel/Pyxel02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quelques techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5Pyxel/Pyxel03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestion des images / Pyxel Studio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5Pyxel/Pyxel04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Terminale : utilisation de classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Évaluations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Évaluations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Évaluations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    DL
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            DL
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DL/DL1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DL0001
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DL/DL2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DL0010
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DL/DL3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DL0011
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DS/DS2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DS0010 (Corrigé)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Club
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Club
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Club
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/CTF/accueil_CTF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CTF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3" id="__nav_11_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    PROG
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3">
+            <span class="md-nav__icon md-icon"></span>
+            PROG
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/accueil_prog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PROG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/parsing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parsing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/requete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Défi par requête web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/son/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Audio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+    
+                  
+
+
+  
+  
+
+
+<h1 id="exercices-supplementaires">Exercices supplémentaires<a class="headerlink" href="#exercices-supplementaires" title="Permanent link">⚓︎</a></h1>
+<div class="admonition capytale">
+<p class="admonition-title">Fiches d'exercices sur Capytale</p>
+<ul>
+<li>
+<p><a href="https://capytale2.ac-paris.fr/web/c/b154-1046119" target="_blank">Fiche d'exercices 1</a> ou code de partage : <code>b154-1046119</code>.</p>
+</li>
+<li>
+<p><a href="https://capytale2.ac-paris.fr/web/c/5d12-1084132" target="_blank">Fiche d'exercices 2</a> ou code de partage : <code>5d12-1084132</code>.</p>
+</li>
+<li>
+<p><a href="https://capytale2.ac-paris.fr/web/c/a8b4-1629612" target="_blank">Fiche d'exercices 3</a> ou code de partage : <code>a8b4-1629612</code>.</p>
+</li>
+</ul>
+</div>
+<!-- ??? check "Correction fiche n°2"
+        === "Exercice 1"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1">#1. parcours par indice</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">somme</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tab</span><span class="p">)):</span>
+        <span class="n">s</span> <span class="o">+=</span> <span class="n">tab</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="c1">#1. parcours par élément</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">somme</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">elt</span> <span class="ow">in</span> <span class="n">tab</span><span class="p">:</span>
+        <span class="n">s</span> <span class="o">+=</span> <span class="n">elt</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="c1">#2. parcours par indice</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">somme_carres</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tab</span><span class="p">)):</span>
+        <span class="n">s</span> <span class="o">+=</span> <span class="n">tab</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="c1">#2. parcours par élément</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">somme_carres</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">elt</span> <span class="ow">in</span> <span class="n">tab</span><span class="p">:</span>
+        <span class="n">s</span> <span class="o">+=</span> <span class="n">elt</span><span class="o">**</span><span class="mi">2</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="c1">#3. parcours par indice obligatoire!</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">somme_indices_pairs</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tab</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">k</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">+=</span> <span class="n">tab</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="c1">#4. parcours par élément</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">somme_elements_pairs</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">tab</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">element</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">+=</span> <span class="n">element</span>
+    <span class="k">return</span> <span class="n">s</span>
+</code></pre></div></td></tr></table></div>
+        === "Exercice 2"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># En utilisant la division euclidienne par 10 et en ajoutant des listes à gauche</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">chiffres_math</span><span class="p">(</span><span class="n">n</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">while</span> <span class="n">n</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="o">%</span><span class="mi">10</span><span class="p">]</span> <span class="o">+</span> <span class="n">c</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">//</span> <span class="mi">10</span>
+    <span class="k">return</span> <span class="n">c</span>
+
+<span class="c1"># En utilisant des conversions int ⟷ str</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">chiffres_str</span><span class="p">(</span><span class="n">n</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">car</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">car</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">c</span>
+</code></pre></div></td></tr></table></div>
+
+        === "Exercice 3"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">marvel</span> 
+
+<span class="n">c</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">nom</span> <span class="ow">in</span> <span class="n">marvel</span><span class="o">.</span><span class="n">persos_marvel</span><span class="p">:</span>
+    <span class="k">if</span> <span class="s1">&#39;black&#39;</span> <span class="ow">in</span> <span class="n">nom</span> <span class="ow">or</span> <span class="s1">&#39;Black&#39;</span> <span class="ow">in</span> <span class="n">nom</span><span class="p">:</span>
+        <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+
+<span class="c1"># ou, en utilisant la méthode lower():</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">marvel</span> 
+
+<span class="n">c</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">nom</span> <span class="ow">in</span> <span class="n">marvel</span><span class="o">.</span><span class="n">persos_marvel</span><span class="p">:</span>
+    <span class="k">if</span> <span class="s1">&#39;black&#39;</span> <span class="ow">in</span> <span class="n">nom</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+        <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+    ??? check "Correction fiche n°3"
+        === "Exercice 1"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">maximum</span><span class="p">(</span><span class="n">lst</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Renvoie l&#39;entier le plus grand dans une liste lst d&#39;entiers positifs.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">maxi</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">nombre</span> <span class="o">&gt;</span> <span class="n">maxi</span><span class="p">:</span>
+            <span class="n">maxi</span> <span class="o">=</span> <span class="n">nombre</span>
+    <span class="k">return</span> <span class="n">maxi</span>
+</code></pre></div></td></tr></table></div>
+
+        === "Exercice 2"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">champ_max</span><span class="p">(</span><span class="n">table</span><span class="p">:</span><span class="nb">list</span><span class="p">,</span> <span class="n">champ</span><span class="p">:</span><span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Renvoie l&#39;enregistrement de table qui possède la valeur la plus grande dans champ.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">valeur_max</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">enregistrement</span> <span class="ow">in</span> <span class="n">table</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">enregistrement</span><span class="p">[</span><span class="n">champ</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">valeur_max</span><span class="p">:</span>
+            <span class="n">valeur_max</span> <span class="o">=</span> <span class="n">enregistrement</span><span class="p">[</span><span class="n">champ</span><span class="p">]</span>
+            <span class="n">e_max</span> <span class="o">=</span> <span class="n">enregistrement</span>
+    <span class="k">return</span> <span class="n">e_max</span>
+</code></pre></div></td></tr></table></div>
+
+        === "Exercice 3"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">separe</span><span class="p">(</span><span class="n">tab</span><span class="p">:</span><span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Prend en paramètre un tableau tab dont les éléments sont des 0 et des 1 et qui sépare les 0 des 1 en plaçant les 0 en début de tableau et les 1 à la suite.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">indice_gauche</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">indice_droite</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">tab</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">indice_gauche</span> <span class="o">&lt;</span> <span class="n">indice_droite</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">tab</span><span class="p">[</span><span class="n">indice_gauche</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+            <span class="n">indice_gauche</span> <span class="o">=</span> <span class="n">indice_gauche</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="n">tab</span><span class="p">[</span><span class="n">indice_gauche</span><span class="p">],</span> <span class="n">tab</span><span class="p">[</span><span class="n">indice_droite</span><span class="p">]</span> <span class="o">=</span> <span class="n">tab</span><span class="p">[</span><span class="n">indice_droite</span><span class="p">],</span> <span class="n">tab</span><span class="p">[</span><span class="n">indice_gauche</span><span class="p">]</span>
+            <span class="n">indice_droite</span> <span class="o">=</span> <span class="n">indice_droite</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">tab</span>
+</code></pre></div></td></tr></table></div>
+
+        === "Exercice 4"
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">ajoute_dictionnaires</span><span class="p">(</span><span class="n">d1</span><span class="p">:</span><span class="nb">dict</span><span class="p">,</span> <span class="n">d2</span><span class="p">:</span><span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">cle</span><span class="p">,</span> <span class="n">valeur</span> <span class="ow">in</span> <span class="n">d1</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">d</span><span class="p">[</span><span class="n">cle</span><span class="p">]</span> <span class="o">=</span> <span class="n">valeur</span>
+    <span class="k">for</span> <span class="n">cle</span><span class="p">,</span> <span class="n">valeur</span> <span class="ow">in</span> <span class="n">d2</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">cle</span> <span class="ow">in</span> <span class="n">d</span><span class="p">:</span>
+            <span class="n">d</span><span class="p">[</span><span class="n">cle</span><span class="p">]</span> <span class="o">+=</span> <span class="n">valeur</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">d</span><span class="p">[</span><span class="n">cle</span><span class="p">]</span> <span class="o">=</span> <span class="n">valeur</span>
+    <span class="k">return</span> <span class="n">d</span>
+</code></pre></div></td></tr></table></div>
+-->
+
+<p>La majorité des exercices proposés sont issus du site <a href="https://pydefis.callicode.fr/" target="_blank">https://pydefis.callicode.fr</a> qui recense tous les défis des différentes éditions du concours <a href="https://codingup.fr" target="_blank"><code>c0d1ng UP</code></a>.</p>
+<p><a class="glightbox" href="../../images/c0d1ngUP_affiche_2023.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/c0d1ngUP_affiche_2023.png" width="480" /></a> </p>
+<p>L'<a href="../../images/affiche_2023.pdf" target="_blank">affiche au format PDF</a> , plus pratique pour déchiffrer <a href="https://capytale2.ac-paris.fr/web/c/36c3-873002" target="_blank">le message caché</a> ...</p>
+<p>Vous pouvez vous y créer un compte, pour valider les défis et progresser au Hall of Fame... mais ce n'est absolument pas obligé.</p>
+<div class="admonition pydefi">
+<p class="admonition-title">Désamorçage d'un explosif (I)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label><label for="__tabbed_1_2">Indication</label><label for="__tabbed_1_3">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/Desamorcage01/txt" target="_blank">https://pydefis.callicode.fr/defis/Desamorcage01/txt</a> </p>
+</div>
+<div class="tabbed-block">
+<p>Le découpage de nombres selon un certain nombre de chiffres est quelque chose de courant en programmation.</p>
+<p>Pour cela, l'astuce réside en l'utilisation de la division euclidienne, par la bonne puissance de 10.</p>
+<p>Par exemple, si on veut récupérer le chiffre des unités d'un nombre, il suffit de prendre le reste de la division euclidienne (opérateur <code>%</code> en Python) du nombre par 10. Les autres chiffres seront donnés par le quotient (opérateur <code>//</code> en Python).</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">3748</span> <span class="o">%</span> <span class="mi">10</span>
+<span class="mi">8</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">3748</span> <span class="o">//</span> <span class="mi">10</span>
+<span class="mi">374</span>
+</code></pre></div>
+<p>Pour les deux derniers chiffres, on effectuera une division euclidienne par 100, pour les trois derniers par 1000, etc.</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">entree</span> <span class="o">=</span> <span class="mi">317010</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entree</span> <span class="o">%</span> <span class="mi">1000</span>
+<span class="mi">10</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">entree</span> <span class="o">//</span> <span class="mi">1000</span>
+<span class="mi">317</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block"></div>
+</div>
+</div>
+</div>
+<div class="admonition pydefi">
+<p class="admonition-title">SW IV : Il a mis son mot de passe sur un post-it !</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label><label for="__tabbed_2_2">Indication</label><label for="__tabbed_2_3">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/LunetteAstro/txt" target="_blank">https://pydefis.callicode.fr/defis/LunetteAstro/txt</a> </p>
+</div>
+<div class="tabbed-block">
+<p>Encore la division euclidienne...</p>
+</div>
+<div class="tabbed-block"></div>
+</div>
+</div>
+</div>
+<div class="admonition pydefi">
+<p class="admonition-title">Toc Boum</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:4"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Indication</label><label for="__tabbed_3_3">Correction : version basique</label><label for="__tabbed_3_4">Correction : version évoluée</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/TocBoum/txt" target="_blank">https://pydefis.callicode.fr/defis/TocBoum/txt</a> </p>
+</div>
+<div class="tabbed-block">
+<p>Utiliser la «brute-force» (il s'agit de tester, une à une, toutes les combinaisons possibles...) !</p>
+</div>
+<div class="tabbed-block">
+<p>Où l'on affiche tous les couples possibles, et on trouve le bon en les passant en revue «à la main».</p>
+</div>
+<div class="tabbed-block">
+<p>On va mémoriser le meilleur couple, c'est-à-dire celui dont la différence est la plus petite. J'appelle <code>best_a</code> et <code>best_b</code> ces deux valeurs, que j'initialise à des valeurs volontairement éloignées.</p>
+<p>Puis à chaque couple trouvé (comme dans la version basique), je compare la différence des deux nombres à celle des meilleurs. Si elle est plus petite, je remplace par les nouvelles valeurs de <code>a</code> et de <code>b</code></p>
+<p>Pour faire la différence entre deux valeurs, peu importe le signe: on utilisera la valeur absolue, <code>abs</code> en Python.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition pydefi">
+<p class="admonition-title">Le message pour Queulorior</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label><label for="__tabbed_4_2">Indications</label><label for="__tabbed_4_3">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/Queulorior/txt" target="_blank">https://pydefis.callicode.fr/defis/Queulorior/txt</a> </p>
+<p>En utilisant <code>pygame</code>.</p>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Rappel du code minimal pour Pygame</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pygame</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pygame.locals</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">pygame</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
+
+<span class="n">fenetre</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">set_mode</span><span class="p">((</span><span class="mi">640</span><span class="p">,</span> <span class="mi">480</span><span class="p">))</span> <span class="c1"># taille de la fenêtre à éventuellement modifier...</span>
+<span class="n">fenetre</span><span class="o">.</span><span class="n">fill</span><span class="p">([</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">])</span> <span class="c1"># on peut choisir une autre couleur de fond que du blanc...</span>
+
+<span class="c1"># Début des instructions</span>
+<span class="n">message</span> <span class="o">=</span> <span class="s1">&#39;&#39;&#39;NNEESOOESEENNEEOOSEOSEEENNESENSSENNEESSOOEEENNEEOOSEOSEEENEENOOEESOOSEEEEEEENONSESENNSSENNEESSOOEEENNSSEENNSSEEENOONEEOOSEESEEEENNEESSOOEEENNEESOOEESENNESENSSEEENOONEEOOSEESEEEENNSSEEENNEESOOEESEEEENNEEOOSEOSEEENNEESSOOEEENNEESOOESEENNEEOOSEOSEEEENNOEEOSSEEEEENNEESOOEESOOEEENNEESOOESEENNSSEENNSSENNESNESSENNEEOOSEOSEEENNSSEENNSSEEENOONEEOOSEESENNEEOOSEOSEEEEEENNEESSOOEEENNEEOOSEOSEEENNESNESSENNEESOOEESENNSSENNESENSS&#39;&#39;&#39;</span>
+
+
+
+
+<span class="c1"># Fin des instructions</span>
+
+<span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">flip</span><span class="p">()</span>
+
+<span class="c1"># Boucle des événements</span>
+<span class="n">continuer</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="k">while</span> <span class="n">continuer</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">evenement</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>    <span class="c1">#Attente des événements</span>
+        <span class="k">if</span> <span class="n">evenement</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">QUIT</span><span class="p">:</span>
+            <span class="n">continuer</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="c1"># Sortie</span>
+<span class="n">pygame</span><span class="o">.</span><span class="n">quit</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+<p>Pour résoudre ce pydéfi, il va valloir tracer un segment pour chaque pas en direction de N, S, O, E. Commençons par choisir une taille pour chaque pas, par exemple 10 pixels:
+<div class="highlight"><pre><span></span><code><span class="n">pas</span> <span class="o">=</span> <span class="mi">10</span>
+</code></pre></div></p>
+<p>Ensuite il faut savoir <a href="https://cgouygou.github.io/1NSI/T08_Extras/3Pygame/04-Pygame_extras/#2-dessiner-avec-pygame" target="_blank">tracer un segment</a> </p>
+<div class="highlight"><pre><span></span><code><span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">fenetre</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div>
+<p>L'instruction précédente trace un segment (<em>a line</em>) d'épaisseur <code>2</code> pixels, en noir (<code class="highlight"><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span></code>) entre les points de coordonnées <code class="highlight"><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span></code> et <code class="highlight"><span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">30</span><span class="p">]</span></code>.</p>
+<p>Enfin il faut modéliser correctement le problème, c'est-à-dire identifier les grandeurs dont on va avoir besoin et avec quels types de variables on va les représenter...</p>
+<p>On a besoin à chaque étape:</p>
+<ul>
+<li>d'un point de départ et d'un point d'arrivée (se rappeler de l'exercice 2.2 de la série 3 avec pygame <a href="https://cgouygou.github.io/1NSI/T06_Python/T6.1_Python/T6.1_2_For/#serie-3-avec-pygame" target="_blank">ici</a>) dont il faut calculer les coordonnées en fonction de la lettre lue (N, S, E, O);</li>
+<li>d'un déplacement entre les deux, c'est-à-dire tracer une ligne.</li>
+</ul>
+</div>
+<div class="tabbed-block"></div>
+</div>
+</div>
+</div>
+<div class="admonition pydefi">
+<p class="admonition-title">Cerbère</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:3"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Indication</label><label for="__tabbed_5_3">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/Herculito12Cerbere/txt" target="_blank">https://pydefis.callicode.fr/defis/Herculito12Cerbere/txt</a> </p>
+</div>
+<div class="tabbed-block">
+<p>Brute-forcez: tester toutes les longueurs entières possibles...</p>
+</div>
+<div class="tabbed-block"></div>
+</div>
+</div>
+</div>
+<div class="admonition pydefi">
+<p class="admonition-title">SW I: à l'assaut de Gunray</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:3"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Énoncé</label><label for="__tabbed_6_2">Indication</label><label for="__tabbed_6_3">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/PorteBlindeeSabre/txt" target="_blank">https://pydefis.callicode.fr/defis/PorteBlindeeSabre/txt</a> </p>
+</div>
+<div class="tabbed-block">
+<p>Utilisez des accumulateurs.</p>
+</div>
+<div class="tabbed-block"></div>
+</div>
+</div>
+</div>
+<div class="admonition pydefi">
+<p class="admonition-title">Les pouvoirs psychiques de Psystigri </p>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Énoncé</label><label for="__tabbed_7_2">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://pydefis.callicode.fr/defis/PsystigriPsy/txt" target="_blank">https://pydefis.callicode.fr/defis/PsystigriPsy/txt</a> </p>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">objets</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">98</span><span class="p">,</span> <span class="o">-</span><span class="mi">66</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="o">-</span><span class="mi">85</span><span class="p">,</span> <span class="mi">97</span><span class="p">,</span> <span class="mi">38</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="o">-</span><span class="mi">14</span><span class="p">,</span> <span class="mi">29</span><span class="p">,</span> <span class="o">-</span><span class="mi">58</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">73</span><span class="p">,</span> <span class="o">-</span><span class="mi">13</span><span class="p">,</span> <span class="o">-</span><span class="mi">99</span><span class="p">,</span> <span class="mi">86</span><span class="p">,</span> <span class="o">-</span><span class="mi">71</span><span class="p">,</span> <span class="o">-</span><span class="mi">86</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">78</span><span class="p">,</span> <span class="mi">89</span><span class="p">,</span> <span class="o">-</span><span class="mi">41</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="o">-</span><span class="mi">59</span><span class="p">,</span> <span class="o">-</span><span class="mi">57</span><span class="p">,</span> <span class="mi">49</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="o">-</span><span class="mi">80</span><span class="p">,</span> <span class="o">-</span><span class="mi">17</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="o">-</span><span class="mi">73</span><span class="p">,</span> <span class="o">-</span><span class="mi">81</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="o">-</span><span class="mi">77</span><span class="p">,</span> <span class="o">-</span><span class="mi">85</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="o">-</span><span class="mi">77</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="o">-</span><span class="mi">54</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="mi">27</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="o">-</span><span class="mi">43</span><span class="p">,</span> <span class="mi">59</span><span class="p">,</span> <span class="mi">94</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="o">-</span><span class="mi">17</span><span class="p">,</span> <span class="o">-</span><span class="mi">88</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">77</span><span class="p">,</span> <span class="mi">86</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="o">-</span><span class="mi">67</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">79</span><span class="p">,</span> <span class="o">-</span><span class="mi">58</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">21</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="o">-</span><span class="mi">26</span><span class="p">,</span> <span class="o">-</span><span class="mi">91</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">79</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="o">-</span><span class="mi">95</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="o">-</span><span class="mi">89</span><span class="p">,</span> <span class="o">-</span><span class="mi">76</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">69</span><span class="p">,</span> <span class="o">-</span><span class="mi">21</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">85</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">70</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">72</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="o">-</span><span class="mi">86</span><span class="p">,</span> <span class="mi">57</span><span class="p">,</span> <span class="o">-</span><span class="mi">22</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">64</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="o">-</span><span class="mi">71</span><span class="p">,</span> <span class="o">-</span><span class="mi">67</span><span class="p">,</span> <span class="o">-</span><span class="mi">94</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">80</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">99</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="o">-</span><span class="mi">48</span><span class="p">,</span> <span class="mi">46</span><span class="p">,</span> <span class="o">-</span><span class="mi">56</span><span class="p">,</span> <span class="o">-</span><span class="mi">64</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">38</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="mi">79</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="o">-</span><span class="mi">89</span><span class="p">,</span> <span class="o">-</span><span class="mi">90</span><span class="p">,</span> <span class="o">-</span><span class="mi">19</span><span class="p">,</span> <span class="o">-</span><span class="mi">26</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">97</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">62</span><span class="p">,</span> <span class="mi">83</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="o">-</span><span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">72</span><span class="p">,</span> <span class="o">-</span><span class="mi">37</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="o">-</span><span class="mi">49</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="o">-</span><span class="mi">11</span><span class="p">,</span> <span class="o">-</span><span class="mi">40</span><span class="p">,</span> <span class="mi">61</span><span class="p">,</span> <span class="o">-</span><span class="mi">67</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">32</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="o">-</span><span class="mi">81</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">72</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">16</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="o">-</span><span class="mi">47</span><span class="p">,</span> <span class="o">-</span><span class="mi">91</span><span class="p">,</span> <span class="mi">68</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="o">-</span><span class="mi">67</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">68</span><span class="p">,</span> <span class="o">-</span><span class="mi">92</span><span class="p">,</span> <span class="o">-</span><span class="mi">97</span><span class="p">,</span> <span class="o">-</span><span class="mi">18</span><span class="p">,</span> <span class="o">-</span><span class="mi">6</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="o">-</span><span class="mi">37</span><span class="p">,</span> <span class="o">-</span><span class="mi">47</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="o">-</span><span class="mi">17</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">51</span><span class="p">,</span> <span class="o">-</span><span class="mi">46</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">81</span><span class="p">,</span> <span class="mi">46</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="mi">82</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="o">-</span><span class="mi">21</span><span class="p">,</span> <span class="o">-</span><span class="mi">41</span><span class="p">,</span> <span class="o">-</span><span class="mi">87</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="o">-</span><span class="mi">68</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">75</span><span class="p">,</span> <span class="mi">57</span><span class="p">,</span> <span class="o">-</span><span class="mi">94</span><span class="p">,</span> <span class="o">-</span><span class="mi">16</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">28</span><span class="p">,</span> <span class="mi">67</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">81</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="o">-</span><span class="mi">47</span><span class="p">,</span> <span class="mi">93</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">52</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="o">-</span><span class="mi">82</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="o">-</span><span class="mi">48</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="mi">52</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">27</span><span class="p">,</span> <span class="o">-</span><span class="mi">89</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="o">-</span><span class="mi">29</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">22</span><span class="p">,</span> <span class="o">-</span><span class="mi">42</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">29</span><span class="p">,</span> <span class="o">-</span><span class="mi">85</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="o">-</span><span class="mi">93</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="o">-</span><span class="mi">37</span><span class="p">,</span> <span class="o">-</span><span class="mi">28</span><span class="p">,</span> <span class="o">-</span><span class="mi">94</span><span class="p">,</span> <span class="o">-</span><span class="mi">61</span><span class="p">,</span> <span class="o">-</span><span class="mi">32</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="o">-</span><span class="mi">97</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="o">-</span><span class="mi">88</span><span class="p">,</span> <span class="o">-</span><span class="mi">44</span><span class="p">,</span> <span class="mi">68</span><span class="p">,</span> <span class="mi">29</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">62</span><span class="p">,</span> <span class="o">-</span><span class="mi">81</span><span class="p">,</span> <span class="o">-</span><span class="mi">89</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="o">-</span><span class="mi">13</span><span class="p">,</span> <span class="o">-</span><span class="mi">90</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">45</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">81</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">94</span><span class="p">,</span> <span class="o">-</span><span class="mi">91</span><span class="p">,</span> <span class="o">-</span><span class="mi">62</span><span class="p">,</span> <span class="o">-</span><span class="mi">60</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="o">-</span><span class="mi">63</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="o">-</span><span class="mi">36</span><span class="p">,</span> <span class="o">-</span><span class="mi">90</span><span class="p">,</span> <span class="mi">58</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="o">-</span><span class="mi">76</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">76</span><span class="p">,</span> <span class="o">-</span><span class="mi">51</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">80</span><span class="p">,</span> <span class="o">-</span><span class="mi">52</span><span class="p">,</span> <span class="o">-</span><span class="mi">33</span><span class="p">,</span> <span class="mi">39</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="o">-</span><span class="mi">60</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="o">-</span><span class="mi">83</span><span class="p">,</span> <span class="o">-</span><span class="mi">62</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">43</span><span class="p">,</span> <span class="o">-</span><span class="mi">61</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="o">-</span><span class="mi">96</span><span class="p">,</span> <span class="o">-</span><span class="mi">63</span><span class="p">,</span> <span class="o">-</span><span class="mi">60</span><span class="p">,</span> <span class="mi">92</span><span class="p">,</span> <span class="mi">68</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="o">-</span><span class="mi">53</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">39</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="o">-</span><span class="mi">23</span><span class="p">,</span> <span class="mi">86</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">38</span><span class="p">,</span> <span class="o">-</span><span class="mi">51</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="o">-</span><span class="mi">51</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="o">-</span><span class="mi">94</span><span class="p">,</span> <span class="o">-</span><span class="mi">17</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="o">-</span><span class="mi">47</span><span class="p">,</span> <span class="mi">93</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">61</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="o">-</span><span class="mi">54</span><span class="p">,</span> <span class="o">-</span><span class="mi">54</span><span class="p">,</span> <span class="o">-</span><span class="mi">88</span><span class="p">,</span> <span class="o">-</span><span class="mi">75</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">53</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">78</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="o">-</span><span class="mi">78</span><span class="p">,</span> <span class="o">-</span><span class="mi">31</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">85</span><span class="p">,</span> <span class="mi">41</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="o">-</span><span class="mi">93</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">31</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="o">-</span><span class="mi">62</span><span class="p">,</span> <span class="o">-</span><span class="mi">54</span><span class="p">,</span> <span class="o">-</span><span class="mi">35</span><span class="p">,</span> <span class="o">-</span><span class="mi">66</span><span class="p">,</span> <span class="o">-</span><span class="mi">70</span><span class="p">,</span> <span class="o">-</span><span class="mi">98</span><span class="p">,</span> <span class="o">-</span><span class="mi">13</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="o">-</span><span class="mi">87</span><span class="p">,</span> <span class="o">-</span><span class="mi">79</span><span class="p">,</span> <span class="o">-</span><span class="mi">67</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">89</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="o">-</span><span class="mi">49</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">94</span><span class="p">,</span> <span class="mi">74</span><span class="p">,</span> <span class="mi">46</span><span class="p">,</span> <span class="mi">82</span><span class="p">,</span> <span class="o">-</span><span class="mi">34</span><span class="p">,</span> <span class="mi">73</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">26</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">68</span><span class="p">,</span> <span class="o">-</span><span class="mi">48</span><span class="p">,</span> <span class="o">-</span><span class="mi">63</span><span class="p">,</span> <span class="o">-</span><span class="mi">86</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="o">-</span><span class="mi">32</span><span class="p">,</span> <span class="o">-</span><span class="mi">98</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="o">-</span><span class="mi">68</span><span class="p">,</span> <span class="o">-</span><span class="mi">88</span><span class="p">,</span> <span class="o">-</span><span class="mi">21</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">93</span><span class="p">,</span> <span class="mi">99</span><span class="p">,</span> <span class="o">-</span><span class="mi">58</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">14</span><span class="p">]</span>
+<span class="n">energie</span> <span class="o">=</span> <span class="mi">78</span>
+<span class="n">indice_zero</span> <span class="o">=</span> <span class="mi">0</span>
+
+
+<span class="c1">## Sol 1</span>
+
+<span class="k">for</span> <span class="n">objet</span> <span class="ow">in</span> <span class="n">objets</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">energie</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">indice_zero</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">energie</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">objet</span><span class="p">):</span>
+        <span class="n">energie</span> <span class="o">-=</span> <span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">indice_zero</span><span class="p">)</span>
+
+<span class="c1">## Sol 2</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">objets</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">energie</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">objets</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span>
+        <span class="n">energie</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">energie</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">indice_zero</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">indice_zero</span><span class="p">)</span>
+
+<span class="c1">## Sol 3</span>
+
+<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">energie</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">energie</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">objets</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span>
+        <span class="n">energie</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+
+<span class="c1">## SOl 4</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">indice_zero</span><span class="p">(</span><span class="n">tab</span><span class="p">,</span> <span class="n">e</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">tab</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">e</span> <span class="o">&gt;=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">tab</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span>
+            <span class="n">e</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">e</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">indice_zero</span><span class="p">(</span><span class="n">objets</span><span class="p">,</span> <span class="n">energie</span><span class="p">))</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+    <script src="../../../js/ide.js"></script> 
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CC BY-SA / C. Gouygou
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:cedric.gouygou@ac-poitiers.fr" target="_blank" rel="noopener" title="Écrire à l&#39;auteur" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/cgouygou/1NSI" target="_blank" rel="noopener" title="Dépôt git" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://lyceevalois.com" target="_blank" rel="noopener" title="Lycée Marguerite de Valois - Angoulême (16)" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M337.8 5.4c-10.8-7.2-24.8-7.2-35.6 0L166.3 96H48c-26.5 0-48 21.5-48 48v320c0 26.5 21.5 48 48 48h208v-96c0-35.3 28.7-64 64-64s64 28.7 64 64v96h208c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16m400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16m400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16zM232 176a88 88 0 1 1 176 0 88 88 0 1 1-176 0m88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-16v-16c0-8.8-7.2-16-16-16"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "header.autohide", "content.code.annotate", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

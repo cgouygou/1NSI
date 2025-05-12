@@ -1,0 +1,3625 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://cgouygou.github.io/1NSI/T05_Architectures/T5.4_Protocole/T5.4_Protocole/">
+      
+      
+        <link rel="prev" href="../../T5.3_Reseaux/T5.3_Architecture/">
+      
+      
+        <link rel="next" href="../../../T06_Python/accueil/">
+      
+      
+      <link rel="icon" href="../../../xtra/favicon_bleu.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.13">
+    
+    
+      
+        <title>T5.4 Protocoles de communication dans un réseau - Cours de Première NSI - M. Gouygou</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M471.6%2021.7c-21.9-21.9-57.3-21.9-79.2%200l-30.1%2030%2097.9%2097.9%2030.1-30.1c21.9-21.9%2021.9-57.3%200-79.2zm-299.2%20220c-6.1%206.1-10.8%2013.6-13.5%2021.9l-29.6%2088.8c-2.9%208.6-.6%2018.1%205.8%2024.6s15.9%208.7%2024.6%205.8l88.8-29.6c8.2-2.7%2015.7-7.4%2021.9-13.5l167.3-167.4-98-98zM96%2064c-53%200-96%2043-96%2096v256c0%2053%2043%2096%2096%2096h256c53%200%2096-43%2096-96v-96c0-17.7-14.3-32-32-32s-32%2014.3-32%2032v96c0%2017.7-14.3%2032-32%2032H96c-17.7%200-32-14.3-32-32V160c0-17.7%2014.3-32%2032-32h96c17.7%200%2032-14.3%2032-32s-14.3-32-32-32z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+    
+      
+    
+    <script src="../../../xtra/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../../../xtra/gifplayer/gif-player.es6.js" defer async></script>
+    <!-- Load CDNs : Pyodide (Python in WASM), Ace (Editor) and JQuery (Terminal) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.asm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/js/jquery.terminal.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/css/jquery.terminal.min.css" rel="stylesheet">
+
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../xtra/stylesheets/pyoditeur.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#t54-protocoles-de-communication-dans-un-reseau" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../.." title="Cours de Première NSI - M. Gouygou" class="md-header__button md-logo" aria-label="Cours de Première NSI - M. Gouygou" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 96c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256h-64V96H128v256H64zM0 403.2C0 392.6 8.6 384 19.2 384h601.6c10.6 0 19.2 8.6 19.2 19.2 0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2M281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zm112-34 48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cours de Première NSI - M. Gouygou
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              T5.4 Protocoles de communication dans un réseau
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cgouygou/1NSI" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cgouygou/1NSI
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T01_TypesBase/accueil/" class="md-tabs__link">
+          
+  
+  
+  T1 Types de base
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T02_TypesConstruits/accueil/" class="md-tabs__link">
+          
+  
+  
+  T2 Types construits
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T03_TraitementDonnees/accueil/" class="md-tabs__link">
+          
+  
+  
+  T3 Trait. données
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T04_IHMWeb/accueil/" class="md-tabs__link">
+          
+  
+  
+  T4 Web
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../accueil/" class="md-tabs__link">
+          
+  
+  
+  T5 Architectures
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T06_Python/accueil/" class="md-tabs__link">
+          
+  
+  
+  T6 Programmation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T07_Algorithmes/accueil/" class="md-tabs__link">
+          
+  
+  
+  T7 Algorithmique
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T08_Extras/accueil/" class="md-tabs__link">
+          
+  
+  
+  Extras
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T09_Evaluations/accueil/" class="md-tabs__link">
+          
+  
+  
+  Évaluations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../T10Club/accueil/" class="md-tabs__link">
+          
+  
+  
+  Club
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Cours de Première NSI - M. Gouygou" class="md-nav__button md-logo" aria-label="Cours de Première NSI - M. Gouygou" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 96c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256h-64V96H128v256H64zM0 403.2C0 392.6 8.6 384 19.2 384h601.6c10.6 0 19.2 8.6 19.2 19.2 0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2M281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zm112-34 48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+
+    </a>
+    Cours de Première NSI - M. Gouygou
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cgouygou/1NSI" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cgouygou/1NSI
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T1 Types de base
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            T1 Types de base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Types de base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.1_Bases/T1.1_Bases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.1 Écriture d'un entier dans une base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.2_Booleens/T1.2_Booleens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.2 Valeurs booléennes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.3_Relatifs/T1.3_Relatifs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.3 Représentation des entiers relatifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T01_TypesBase/T1.4_Flottants/T1.4_Flottants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T1.4 Flottants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T2 Types construits
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            T2 Types construits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Types construits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Listes
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            T2.1 Listes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/T2.1_Listes1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Tableaux et listes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/T2.1_Listes2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Tableaux à plusieurs dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/T2.1_Listes3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.1 Compléments sur les listes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.1_Listes/TP_image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TP Image numérique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.2_Tuples/T2.2_Tuples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.2 Tuples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T02_TypesConstruits/T2.3_Dictionnaires/T2.3_Dictionnaires/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T2.3 Dictionnaires
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T3 Trait. données
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            T3 Trait. données
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Traitement de données en tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.1_Manipulation/T3.1_Manipulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T3.1 Tables de données
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.2_TriTable/T3.2_TriTable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T3.2 Opérations sur les tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.3_FusionTable/T3.3_FusionTable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T3.3 Fusion (par jointure) de tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T03_TraitementDonnees/T3.4_TP/T3.4_TP_Pokedex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TP Pokedex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T4 Web
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            T4 Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interactions entre l'homme et la machine sur le Web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.1_HTML_CSS/T4.1_HTML_CSS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.1 HTML &amp; CSS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.2_Interactions/T4.2_Js/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.2 Interaction dans une page web - Utilisation de Javascript
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.3_HTTP/T4.3_HTTP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.3 Protocole HTTP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T04_IHMWeb/T4.4_RequetesFormulaire/T4.4_Get_post/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T4.4 Formulaires, méthodes GET et POST
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    T5 Architectures
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            T5 Architectures
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architectures matérielles et systèmes d'exploitation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T5.1_VonNeumann/T5.1_VonNeumann/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.1 Architecture de Von Neumann
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T5.2 UNIX
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            T5.2 UNIX
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T5.2_UNIX/T5.2_Commandes_UNIX/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.2 Commandes UNIX
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T5.2_UNIX/TPnote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TP noté
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../T5.3_Reseaux/T5.3_Architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.3 Architecture d'un réseau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    T5.4 Protocoles de communication dans un réseau
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    T5.4 Protocoles de communication dans un réseau
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#541-modele-osi-modele-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4.1 Modèle OSI, modèle Internet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#542-tp-observation-avec-filius" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4.2 TP: Observation avec Filius
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#543-protocole-du-bit-alterne" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4.3 Protocole du bit alterné
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T6 Programmation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            T6 Programmation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Langages et programmation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T6.1 Python
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            T6.1 Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_0_Python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.0 Prise en main de Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_1_Variables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.1 Les variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_2_For/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.2 La boucle for
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_3_If/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.3 L'instruction conditionnelle if
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_4_While/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.4 La boucle while
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/T6.1_5_Fonctions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1.5 Les fonctions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2_7" id="__nav_7_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    TP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            TP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/TP/Convertisseur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Convertisseur binaire ⟷ décimal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/TP/Cryptographie_I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FKLIIUH#GH#FHVDU
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.1_Python/TP/Syracuse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    La conjecture de Syracuse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.2_Bibliotheques/T6.2_Bibliotheques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T6.2 Utilisation de bibliothèques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.3_Tests/T6.3_Tests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T6.3 Tester une fonction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T06_Python/T6.4_Specification/T6.4_Specification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T6.4 Spécification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    T7 Algorithmique
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            T7 Algorithmique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Algorithmique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.1_Dichotomie/T7.1_Dichotomie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.1 Recherche par dichotomie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.2_Tri_selection/T7.2_Tri_selection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.2 Tri par sélection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.3_Tri_insertion/T7.3_Tri_insertion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.3 Tri par insertion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.4_Algos_gloutons/T7.4_Gloutons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.4 Algorithmes gloutons
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T07_Algorithmes/T7.5_KNN/T7.5_KNN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    T7.5 Algorithme des k plus proches voisins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Extras
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Extras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/1Exercices/Exercices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exercices supplémentaires
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/2Projets/Projet1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projet n°1 - Jeu de tableau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pygame
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            Pygame
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/3Pygame/01-Pygame_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction à Pygame
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/3Pygame/02-Pygame_image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Animation simple (sans événements)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/3Pygame/03-Pygame_events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestion des événements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/3Pygame/04-Pygame_extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Texte, dessins, fenêtres
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Divers
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5">
+            <span class="md-nav__icon md-icon"></span>
+            Divers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/4Divers/1Habitudes/Travail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bonnes habitudes de travail
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/4Divers/2Jupyter/Jupyter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jupyter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/4Divers/3Clavier/Clavier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage du clavier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/4Divers/4Chaines/Strings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manipulation de chaînes de caractères
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/4Divers/5Trucs/Trucs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trucs et astuces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/4Divers/6c0d1ngUP/CodingUP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Préparation à c0d1ng UP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pyxel
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pyxel
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/5Pyxel/Pyxel01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation et prise en main de Pyxel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/5Pyxel/Pyxel02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quelques techniques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/5Pyxel/Pyxel03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestion des images / Pyxel Studio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T08_Extras/5Pyxel/Pyxel04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Terminale : utilisation de classes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Évaluations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Évaluations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Évaluations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    DL
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            DL
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DL/DL1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DL0001
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DL/DL2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DL0010
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DL/DL3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DL0011
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T09_Evaluations/DS/DS2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DS0010 (Corrigé)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Club
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Club
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/accueil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Club
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/CTF/accueil_CTF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CTF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3" id="__nav_11_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    PROG
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3">
+            <span class="md-nav__icon md-icon"></span>
+            PROG
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/accueil_prog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PROG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/parsing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parsing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/requete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Défi par requête web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../T10Club/PROG/son/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Audio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+    
+                  
+
+
+  
+  
+
+
+<h1 id="t54-protocoles-de-communication-dans-un-reseau">T5.4 Protocoles de communication dans un réseau<a class="headerlink" href="#t54-protocoles-de-communication-dans-un-reseau" title="Permanent link">⚓︎</a></h1>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aX3z3JoVEdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<h2 id="541-modele-osi-modele-internet">5.4.1 Modèle OSI, modèle Internet<a class="headerlink" href="#541-modele-osi-modele-internet" title="Permanent link">⚓︎</a></h2>
+<p>Les bits transmis d'un ordinateur à un autre contiennent, en plus des données <em>utiles</em> (le mot «bonjour» dans un email), une multitude de données (tout aussi utiles) qui vont aider à l'acheminement de ces bits au bon endroit, puis au bon ordinateur, puis au bon logiciel. 
+Les différents protocoles qui régissent cette transmission sont regroupés dans ce qui est appelé un <strong>modèle</strong>.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Deux modèles et plusieurs protocoles...</p>
+<p>Deux modèles synthétisent ces protocoles :</p>
+<ul>
+<li>le <strong>modèle OSI</strong> (Open Systems Interconnection, 1984), organisé en <strong>7</strong> couches : physique, liaison, réseau, transport, session, présentation,application. C'est un modèle théorique qui sert de référence pour inspirer d'autres architectures pour l'interconnexion de réseaux.</li>
+<li>le <strong>modèle Internet</strong> (ou modèle <strong>TCP/IP</strong>, 1974), organisé en <strong>4</strong> couches : liaison, réseau, transport, application.</li>
+</ul>
+<p>Ils respectent tous deux les mêmes principes:</p>
+<ul>
+<li>Chaque couche ne peut communiquer qu’avec une couche adjacente</li>
+<li>Chaque couche est indépendante:<ul>
+<li>les informations d’une couche ne peuvent être utilisées dans une autre;</li>
+<li>cela permet l’évolution des communications dans le temps : IPv4 va devenir IPv6 sans qu’on doive tout réécrire.</li>
+</ul>
+</li>
+</ul>
+<p>Ces deux modèles coïncident suivant le schéma ci-dessous. Ce sont des modèles d'une certaine rigidité. Leur utilisation dans la pratique est parfois plus floue, avec des protocoles à cheval sur plusieurs couches.<br />
+Dans la suite de ce cours, nous évoquerons principalement le modèle Internet (TCP/IP).</p>
+<p><a class="glightbox" href="../../images/OSI_cg.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/OSI_cg.svg" /></a></p>
+<p>Lors de son émission, un message va subir successivement toutes les transformations effectuées par chaque couche, depuis sa création (couche 7) jusqu'à sa transmission physique (couche 1).  </p>
+<p>Lorsque ce même message sera réceptionné, les transformations seront effectuées dans l'ordre inverse, jusqu'à la présentation du message au destinataire.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Couche 4  — couche application</label><label for="__tabbed_1_2">Couche 3 — couche transport</label><label for="__tabbed_1_3">Couche 2 — couche réseau</label><label for="__tabbed_1_4">Couche 1 — couche liaison/physique</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Cette couche regroupe les protocoles nécessaires à la bonne mise en forme d'un message (au sens large: compression, cryptage, ...) avant sa transmission. </p>
+<p>Ces protocoles peuvent être de nature très différente : protocole HTTP pour la transmisson de pages web, protocole FTP pour le transfert de fichiers, protocoles POP ou IMAP pour le courrier électronique...</p>
+<p><a class="glightbox" href="../../images/caps1.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/caps1.svg" /></a> </p>
+</div>
+<div class="tabbed-block">
+<p>Le protocole majeur de cette couche est le protocole TCP :</p>
+<ul>
+<li>il s'assure par SYN-ACK que l'émetteur et le récepteur sont prêts à échanger des messages. </li>
+<li>il découpe en segments numérotés le message à transmettre (côté émetteur) ou bien recompose le message total en remettant les segments dans l'ordre (côté récepteur).    </li>
+</ul>
+<p>Les éléments échangés avec la couche inférieure sont des <strong>segments</strong>.</p>
+<p><a class="glightbox" href="../../images/caps2.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/caps2.svg" /></a> </p>
+<div class="admonition note">
+<p class="admonition-title">Ports</p>
+<p>Une machine peut établir plusieurs connexions TCP en même temps. Afin de les distinguer on ajoute une information supplémentaire, le port réseau.</p>
+<p>TCP n’est pas le seul protocole à utiliser ces ports.</p>
+<p>Les ports sont des nombres sur 16 bits, généralement notés en décimal, entre 0 et <span class="arithmatex">\(2^{16} = 65536\)</span></p>
+<p>Ils sont généralement ajoutés à la fin de l’adresse IP après le symbole : (deux points)      <code>192.168.1.2:80</code></p>
+<p>Chaque fois que vous ouvrez deux onglets dans le navigateur, celui-ci établi une connexion avec une machine différente et se voit attribuer un port de réception différent.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>C'est la couche où chaque segment numéroté est encapsulé dans un paquet qui, suivant le protocole IP, va contenir son adresse source et son adresse de destination. C'est à ce niveau que se décide si le message doit rester dans le réseau local ou être envoyé sur un autre réseau via la passerelle du routeur.<br />
+Les éléments échangés avec la couche inférieure sont des <strong>paquets</strong>.</p>
+<p><a class="glightbox" href="../../images/caps3.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/caps3.svg" /></a> </p>
+</div>
+<div class="tabbed-block">
+<p>C'est l'encapsulation finale du message, pour transmettre des <strong>trames</strong> à travers le réseau physique, en <strong>bits</strong>. Elle dépend donc du matériel.</p>
+<p>On y trouve donc:</p>
+<ul>
+<li>la résolution d'adresses : suivant le protocole Ethernet, les informations sont transmises d'une carte réseau à une autre, grâce à leur adresse MAC (Media Access Controler).  Il s'agit donc d'associer une <em>adresse physique (MAC)</em> à une <em>adresse IP</em> : c'est le rôle du protocole ARP.</li>
+<li>des routines d'accès au réseau : selon le medium de communication, par signal lumineux (fibre optique), par ondes (wifi), par courant électrique (Ethernet)...</li>
+</ul>
+<p><a class="glightbox" href="../../images/caps4.svg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/caps4.svg" /></a> </p>
+</div>
+</div>
+</div>
+</div>
+<p>Lors de son parcours, une trame peut être partiellement décapsulée et remonter à la couche 3, avant de redescendre et de continuer son chemin. C'est le cas notamment lors du passage dans un routeur. Mais jamais, lors de son acheminement, le contenu réel du message n'est ouvert : les paquets transmis sont acheminés de manière identique, qu'ils contiennent les éléments constitutifs d'une vidéo YouTube ou d'un email à votre cousin.  </p>
+<p>Ce principe fondateur, actuellement menacé par certains acteurs politiques et industriels, est connu sous l'expression <a href="https://fr.wikipedia.org/wiki/Neutralit%C3%A9_du_r%C3%A9seau" target="_blank"><strong>«la neutralité du net»</strong>.</a> </p>
+<p><a class="glightbox" href="../../images/meme_net_neutrality.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/meme_net_neutrality.jpg" width="480" /></a> </p>
+<h2 id="542-tp-observation-avec-filius">5.4.2 TP: Observation avec Filius<a class="headerlink" href="#542-tp-observation-avec-filius" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Partie 1: avant la communication</p>
+<ol>
+<li>Télécharger et ouvrir le fichier <a href="../../data/ping_switch.fls">ping_switch.fls</a> avec Filius: deux machines sont reliés par un switch.</li>
+<li>Lancer la simulation et cliquer sur le switch pour consulter sa table SAT. Que constate-t-on?</li>
+<li>Sur la machine <code>192.168.0.10</code>, taper dans le terminal la commande <code>arp -a</code> pour obtenir sa table de correspondance IP ⮀ MAC. À quoi correspond la seule ligne de cette table?</li>
+</ol>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Partie 2: communication</p>
+<ol>
+<li>Sur la machine <code>192.168.0.10</code>, lancer un <code>ping</code> vers la machine <code>192.168.0.11</code>, puis contrôler la table SAT du switch ainsi que la table de correspondance IP ⮀ MAC de <code>192.168.0.10</code>.</li>
+<li>Observer les échanges de données (clic droit sur la machine <code>192.168.0.10</code>). Cliquer sur chaque ligne pour en voir le détail.</li>
+</ol>
+</div>
+<details class="info">
+<summary>Analyse des messages</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Message 1: « Qui possède l'IP <code>192.168.0.11</code> ? »</label><label for="__tabbed_2_2">Message 2 : « Moi ! »</label><label for="__tabbed_2_3">Message 3 : le ping est envoyé</label><label for="__tabbed_2_4">Message 4 : le pong est retourné</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Cette première ligne est une requête <strong>ARP</strong>. ARP est un protocole qui s'interface entre la couche <em>réseau</em> (appelée <em>Internet</em> sur Filius) et la couche <em>liaison</em> (appelée <em>Réseau</em> sur Filius). Comme indiqué dans le commentaire, elle consiste à un appel à tout le réseau : "Est-ce que quelqu'un ici possède l'IP <code>192.168.0.11</code> ?</p>
+<p><a class="glightbox" href="../../images/K4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K4.png" /></a> </p>
+<p>Il faut comprendre à cette étape que l'adresse IP est totalement inutile pour répérer un ordinateur dans un sous-réseau. Ce sont les adresses MAC qui permettent de se repérer dans un sous-réseau. Les adresses IP, elles, permettront éventuellement d'acheminer le message jusqu'au bon sous-réseau (elles n'intéressent donc que les routeurs).</p>
+<p>La commande <code>arp -a</code> effectuée dans un terminal de la machine <code>192.168.0.10</code> nous permet de voir qu'elle ne connaît encore personne dans son sous-réseau. La table de correspondance IP ⮀ MAC ne contient que l'adresse de broadcast <code>255.255.255.255</code>, qui permet d'envoyer un message <strong>à tout le réseau</strong>.  </p>
+<p><a class="glightbox" href="../../images/K5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K5.png" /></a> </p>
+<p>Constatant qu'elle ne sait pas quelle est l'adresse MAC de <code>192.168.0.11</code>, la machine <code>192.168.0.10</code> commence donc par envoyer un message à tout le sous-réseau, par l'adresse MAC de broadcast <code>FF:FF:FF:FF:FF:FF</code>. Le switch va lui aussi lui aussi relayer ce message à tous les équipements qui lui sont connectés (dans notre cas, un seul ordinateur).</p>
+</div>
+<div class="tabbed-block">
+<p>La machine <code>192.168.0.11</code> s'est reconnu dans le message de broadcast de la machine <code>192.168.0.10</code>. Elle lui répond pour lui donner son adresse MAC.  </p>
+<p><a class="glightbox" href="../../images/K6.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K6.png" /></a> </p>
+<p>À partir de ce moment, la machine <code>192.168.0.10</code> sait comment communiquer avec <code>192.168.0.11</code>. Elle l'écrit dans sa table <code>arp</code>, afin de ne plus avoir à émettre le message n°1 :  </p>
+<p><a class="glightbox" href="../../images/K7.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K7.png" /></a> </p>
+<p>Le switch, qui a vu passer sur ses ports 0 et 1 des messages venant des cartes MAC <code>BC:81:81:42:9C:31</code>  et <code>2A:AB:AC:27:D6:A7</code>, peut mettre à jour sa table SAT :  </p>
+<p><a class="glightbox" href="../../images/K9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K9.png" /></a> </p>
+<p>Par la suite, il saura sur quel port rediriger les messages destinés à ces deux adresses MAC. Un switch est un équipement de réseau de la couche 2 du modèle OSI, il ne sait pas lire les adresses IP : il ne travaille qu'avec les adresses MAC.</p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/K8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K8.png" /></a> </p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/K10.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K10.png" /></a> </p>
+</div>
+</div>
+</div>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Partie 3: communication à travers un routeur</p>
+<p>L'objectif est maintenant d'observer les différentes étapes lors d'un ping entre des machines de sous-réseaux différents:</p>
+<p><a class="glightbox" href="../../images/schema_routeur.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/schema_routeur.png" /></a> </p>
+<ol>
+<li>Télécharger et ouvrir le fichier <a href="../../data/ping_routeur.fls">ping_routeur.fls</a> avec Filius.</li>
+<li>Noter la configuration des machines <code>192.168.0.1 / 24</code> et <code>192.168.1.1 / 24</code> (adresses MAC) et du routeur (adresses IP et MAC sur chaque sous-réseau).</li>
+<li>Effectuer un <code>ping</code> entre les machines indiquées sur le schéma ci-dessus et analyser les messages émis/reçus (sur les deux machines et le routeur).</li>
+</ol>
+</div>
+<details class="info">
+<summary>Analyse des messages</summary>
+<p><strong>Configuration:</strong></p>
+<ul>
+<li>la machine <code>192.168.0.1 / 24</code> : adresse MAC <code>F9:E1:D6:0B:29:03</code> </li>
+<li>la machine <code>192.168.1.1 / 24</code> : adresse MAC <code>D3:79:96:B8:5C:A4</code> </li>
+</ul>
+<p>Le routeur est configuré ainsi :</p>
+<ul>
+<li>interface sur le réseau A :<ul>
+<li>IP : <code>192.168.0.254</code> </li>
+<li>MAC : <code>77:C2:22:C9:5C:E7</code> </li>
+</ul>
+</li>
+<li>interface sur le réseau B :<ul>
+<li>IP : <code>192.168.1.254</code> </li>
+<li>MAC : <code>66:E5:4E:7D:0B:B0</code> </li>
+</ul>
+</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Étape 0 : le routeur signale sa présence</label><label for="__tabbed_3_2">Étape 1 : de <code>192.168.0.1</code> vers le routeur</label><label for="__tabbed_3_3">Étape 2 : le routeur décapsule la trame</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Lors de l'observation des messages reçus ou émis par la machine <code>192.168.0.1</code>, on peut être intrigué par ce tout premier message reçu, émis par le routeur : </p>
+<p><a class="glightbox" href="../../images/K11.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K11.png" /></a> </p>
+<p>On peut y distinguer les 4 couches du modèle Internet. Le routeur, par ce message distribué à tous les éléments du sous-réseau A (il envoie un message équivalent sur son sous-réseau B), déclare sa présence, et le fait qu'il possède deux interfaces, une pour chaque réseau. 
+Il se positionne ainsi comme une passerelle : «c'est par moi qu'il faudra passer si vous voulez sortir de votre sous-réseau». 
+Dans cette trame envoyée figure son adresse MAC, de sorte que tous les membres de son sous-réseau pourront donc communiquer avec lui.</p>
+</div>
+<div class="tabbed-block">
+<p>La machine <code>192.168.0.1 / 24</code> calcule que la machine <code>192.168.1.1 / 24</code> avec laquelle elle veut communiquer n'est <strong>pas</strong> dans son sous-réseau.
+Elle va donc envoyer son message à sa passerelle, qui est l'adresse du routeur dans son sous-réseau. </p>
+<p>Cette première trame est :</p>
+<p><a class="glightbox" href="../../images/trame3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/trame3.png" /></a> </p>
+</div>
+<div class="tabbed-block">
+<p>Le routeur est un équipement de réseau de couche 3 (couche réseau). Il doit observer le contenu du paquet IP (sans remonter jusqu'au contenu du message) pour savoir, suivant le procédé de <strong>routage</strong> (voir cours de Terminale), où acheminer ce paquet.</p>
+<p>Dans notre cas, l'adresse IP <code>192.168.1.1</code>de destination lui est accessible : elle fait partie de son sous-réseau B.</p>
+<p>Le routeur va modifier la valeur du TTL (Time To Live), en la décrémentant de 1. Si, après de multiples routages, cette valeur devenait égale à 0, ce paquet serait détruit. Ceci a pour but d'éviter l'encombrement des réseaux avec des paquets ne trouvant pas leur destination.</p>
+<details class="note">
+<summary>NAT : translation d'adresse</summary>
+<p>Dans notre cas, le routeur va laisser intacte l'adresse IP Source. Ce n'est pas toujours le cas. Dans le cas classique de la box qui relie votre domicile à internet, le routeur contenu dans celle-ci va remplacer l'adresse locale de votre ordinateur ou smartphone (ex <code>192.168.0.26</code>) par son IP publique (celle apparaissant sur <a href="http://whatsmyip.com">whatsmyip.com</a>, par exemple). Elle effectue ce qu'on appelle une translation d'adresse (NAT). 
+Pourquoi ? Parce que sinon la réponse du serveur distant que vous interrogez serait envoyée sur une adresse locale (votre adresse <code>192.168.0.26</code>), qui est introuvable depuis un réseau extérieur. Il faut donc remplacer toutes les adresses locales par l'IP publique de votre box.
+Pour éviter que la réponse du serveur web que vous avez interrogé ne soit affichée sur l'ordinateur de vos parents, le routeur affecte des ports différents à chaque machine de son sous-réseau. Ce port est inclus dans le message transmis au serveur, et il l'est aussi dans sa réponse : le routeur peut donc rediriger le trafic vers la bonne machine du sous-réseau.</p>
+</details>
+<p>Le routeur va ré-encapsuler le paquet IP modifié, et créer une nouvelle trame Ethernet en modifiant :</p>
+<ul>
+<li>l'adresse MAC source : il va mettre l'adresse MAC de son interface dans le sous-réseau B.</li>
+<li>l'adresse MAC de destination : il va mettre l'adresse MAC de <code>192.168.1.1</code> (qu'il aura peut-être récupérée au préalable par le protocole ARP)</li>
+</ul>
+<p>Cette deuxième trame est donc :</p>
+<p><a class="glightbox" href="../../images/trame4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/trame4.png" /></a> </p>
+<p>On peut observer dans Filius cette trame, en se positionnant sur l'interface <code>192.168.1.254</code> du routeur, ou sur <code>192.168.1.1</code> :</p>
+<p><a class="glightbox" href="../../images/K12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/K12.png" /></a> </p>
+<p>En suivant le même principe, la machine <code>192.168.1.1</code> pourra envoyer son <em>pong</em>.</p>
+</div>
+</div>
+</div>
+</details>
+<h2 id="543-protocole-du-bit-alterne">5.4.3 Protocole du bit alterné<a class="headerlink" href="#543-protocole-du-bit-alterne" title="Permanent link">⚓︎</a></h2>
+<p>Ce protocole est un exemple de fiabilisation du transfert de données.  Simple et léger, il a longtemps été utilisé mais il peut toutefois être facilement mis en défaut, ce qui explique qu'il ait été remplacé par des protocoles plus performants.</p>
+<p><strong>Contexte</strong></p>
+<ul>
+<li>Alice veut envoyer à Bob un message M, qu'elle a prédécoupé en sous-messages M0, M1, M2,...</li>
+<li>Alice envoie ses sous-messages à une cadence Δt fixée (en pratique, les sous-messages partent quand leur acquittement a été reçu ou qu'on a attendu celui-ci trop longtemps : on parle alors de <em>timeout</em>).</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:5"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><input id="__tabbed_4_4" name="__tabbed_4" type="radio" /><input id="__tabbed_4_5" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">1. Situation idéale</label><label for="__tabbed_4_2">2. Situation réelle</label><label for="__tabbed_4_3">3. Solution naïve...</label><label for="__tabbed_4_4">4. Mais peu efficace...</label><label for="__tabbed_4_5">5. Bob prend le contrôle</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/ideale.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/ideale.png" /></a> </p>
+<p>Dans cette situation, les sous-messages arrivent tous à destination dans le bon ordre. La transmission est correcte.</p>
+</div>
+<div class="tabbed-block">
+<p>Mais parfois, les choses ne se passent pas toujours aussi bien. Car si on maîtrise parfaitement le timing de l'envoi des sous-messages d'Alice, on ne sait pas combien de temps vont mettre ces sous-messages pour arriver, ni même (attention je vais passer dans un tunnel) s'ils ne vont pas être détruits en route.</p>
+<p><a class="glightbox" href="../../images/realite.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/realite.png" /></a> </p>
+<p>Le sous-message M0 est arrivé après le M1, le message M2 n'est jamais arrivé...</p>
+<p>Que faire ?</p>
+<p>Écartons l'idée de numéroter les sous-messages, afin que Bob puisse remettre dans l'ordre les messages arrivés, ou même redemander spécifiquement des sous-messages perdus. C'est ce que réalise le protocole TCP (couche 3 — transport), c'est très efficace, mais cher en ressources. Essayons de trouver une solution plus basique.</p>
+</div>
+<div class="tabbed-block">
+<p>Pourquoi ne pas demander à Bob d'envoyer un signal pour dire à Alice qu'il vient bien de recevoir son sous-message ?
+Nous appelerons ce signal ACK (comme <em>acknowledgement</em>, traduisible par «accusé de réception»).
+Ce signal ACK permettra à Alice de renvoyer un message qu'elle considérera comme perdu :</p>
+<p><a class="glightbox" href="../../images/naive.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/naive.png" /></a> </p>
+<p>N'ayant pas reçu le ACK consécutif à son message M1, Alice suppose (avec raison) que ce message n'est pas parvenu jusqu'à Bob, et donc renvoie le message M1.</p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/naivebad.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/naivebad.png" /></a> </p>
+<p>Le deuxième ACK de Bob a mis trop de temps pour arriver (ou s'est perdu en route) et donc Alice a supposé que son sous-message M1 n'était pas arrivé. Elle l'a donc renvoyé, et Bob se retrouve avec deux fois le sous-message M1. La transmission est incorrecte. 
+En faisant transiter un message entre Bob et Alice, nous multiplions par 2 la probabilité que des problèmes techniques de transmission interviennent. Et pour l'instant rien ne nous permet de les détecter.</p>
+</div>
+<div class="tabbed-block">
+<p>Bob va maintenant intégrer une méthode de validation du sous-message reçu. Il pourra décider de le garder ou de l'écarter. Le but est d'éviter les doublons.</p>
+<p>Pour réaliser ceci, Alice va rajouter à chacun de ses sous-messages un bit de contrôle, que nous appelerons FLAG (drapeau). Au départ, ce FLAG vaut 0. 
+Quand Bob reçoit un FLAG, il renvoie un ACK <strong>égal au FLAG reçu</strong>.</p>
+<p>Alice va attendre ce ACK contenant le même bit que son dernier FLAG envoyé :</p>
+<ul>
+<li>tant qu'elle ne l'aura pas reçu, elle continuera à envoyer <strong>le même sous-message, avec le même FLAG</strong>.</li>
+<li>dès qu'elle l'a reçu, elle peut envoyer un nouveau sous-message en <strong>inversant</strong> («alternant») <strong>le bit de son dernier FLAG</strong> (d'où le nom de ce protocole).</li>
+</ul>
+<p>Bob, de son côté, va contrôler la validité de ce qu'il reçoit : il ne gardera que <strong>les sous-messages dont le FLAG est égal à l'inverse de son dernier ACK</strong>. C'est cette méthode qui lui permettra d'écarter les doublons.</p>
+<p>Observons ce protocole dans plusieurs cas :</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:3"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">5.1 Cas où le sous-message est perdu</label><label for="__tabbed_5_2">5.2 Cas où le ACK  est perdu</label><label for="__tabbed_5_3">5.3 Cas où un sous-message est en retard</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/alt2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/alt2.png" /></a> </p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/alt1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/alt1.png" /></a> </p>
+<p>Le protocole a bien détecté le doublon du sous-message M1.</p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../../images/alt3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" class="center" src="../../images/alt3.png" /></a> </p>
+<p>Le protocole a bien détecté le doublon du sous-message M1... mais que se passerait-il si notre premier sous-message M1 était <em>encore plus</em> en retard ?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+    <script src="../../../js/ide.js"></script> 
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CC BY-SA / C. Gouygou
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:cedric.gouygou@ac-poitiers.fr" target="_blank" rel="noopener" title="Écrire à l&#39;auteur" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/cgouygou/1NSI" target="_blank" rel="noopener" title="Dépôt git" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://lyceevalois.com" target="_blank" rel="noopener" title="Lycée Marguerite de Valois - Angoulême (16)" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M337.8 5.4c-10.8-7.2-24.8-7.2-35.6 0L166.3 96H48c-26.5 0-48 21.5-48 48v320c0 26.5 21.5 48 48 48h208v-96c0-35.3 28.7-64 64-64s64 28.7 64 64v96h208c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16m400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16v-64c0-8.8 7.2-16 16-16m400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16zM232 176a88 88 0 1 1 176 0 88 88 0 1 1-176 0m88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16h-16v-16c0-8.8-7.2-16-16-16"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "header.autohide", "content.code.annotate", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
